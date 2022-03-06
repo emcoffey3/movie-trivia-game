@@ -48,7 +48,7 @@ function selectAnswer(e) {
 		button.disabled = true;
 	});
 
-	setTimeout(getNextTriviaQuestion, 1500);
+	setTimeout(getNextTriviaQuestion, 1200);
 }
 
 function gameOver() {
@@ -58,7 +58,6 @@ function gameOver() {
 	const button = document.createElement('button');
 	button.textContent = 'Play Again';
 	button.addEventListener('click', resetGame);
-	button.classList.add('reset-button');
 	answersContainer.appendChild(button);
 }
 

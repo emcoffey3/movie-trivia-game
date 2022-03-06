@@ -12,11 +12,14 @@
 	padding: 0;
 }
 
+body {
+	background-color: var(--background-color);
+}
+
 .game-container {
 	height: 100vh;
 	font-family: 'Roboto', sans-serif;
 	color: var(--text-color);
-	background-color: var(--background-color);
 }
 
 .score-container {
@@ -30,7 +33,7 @@
 }
 
 .answers-container {
-	padding: 2rem 4rem;
+	padding: 2rem;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 1rem;
@@ -68,6 +71,8 @@ button.incorrect:hover {
 	color: var(--text-color);
 }
 
-.reset-button {
-	grid-column: span 2;
+@media screen and (max-width: 768px) {
+	.answers-container {
+		grid-template-columns: 1fr;
+	}
 }
