@@ -1,0 +1,73 @@
+
+:root {
+	--background-color: #444;
+	--text-color: #fff;
+	--correct-color: #92ff92;
+	--incorrect-color: #ff4141;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.game-container {
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+
+.score-container {
+	padding: 1rem 2rem;
+	font-size: 1.5rem;
+}
+
+.question-container {
+	padding: 1rem 2rem;
+	font-size: 2rem;
+}
+
+.answers-container {
+	padding: 2rem 4rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+}
+
+button,
+button[disabled],
+button[disabled]:hover {
+	padding: 1rem;
+	border-radius: 5px;
+	background-color: var(--text-color);
+	color: var(--background-color);
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+button[disabled]:hover {
+	cursor: default;
+}
+
+button:hover {
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
+button.correct,
+button.correct:hover {
+	background-color: var(--correct-color);
+	color: var(--background-color);
+}
+
+button.incorrect,
+button.incorrect:hover {
+	background-color: var(--incorrect-color);
+	color: var(--text-color);
+}
+
+.reset-button {
+	grid-column: span 2;
+}
