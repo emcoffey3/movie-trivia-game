@@ -71,6 +71,10 @@ button.incorrect:hover {
 	color: var(--text-color);
 }
 
+.reset-button {
+	grid-column: span 2;
+}
+
 @media screen and (max-width: 768px) {
 	.answers-container {
 		grid-template-columns: 1fr;

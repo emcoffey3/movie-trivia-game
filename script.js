@@ -58,6 +58,7 @@ function gameOver() {
 	const button = document.createElement('button');
 	button.textContent = 'Play Again';
 	button.addEventListener('click', resetGame);
+	button.classList.add('reset-button');
 	answersContainer.appendChild(button);
 }
 
