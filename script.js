@@ -37,10 +37,10 @@ function displayQuestion(triviaQuestion) {
 	});
 }
 function selectAnswer(e) {
-	questionCountSpan.innerText = ++questionsCount;
+	questionCountSpan.innerText = (++questionsCount).toString();
 	if (e.target.dataset.correct) {
 		e.target.classList.add('correct');
-		currentScoreSpan.innerText = ++score;
+		currentScoreSpan.innerText = (++score).toString();
 	} else {
 		e.target.classList.add('incorrect');
 	}
@@ -66,7 +66,7 @@ function resetGame() {
 	triviaQuestions = [...allTriviaQuestions];
 	score = 0;
 	questionsCount = 0;
-	questionCountSpan.innerText = 0;
-	currentScoreSpan.innerText = 0;
+	questionCountSpan.innerText = '0';
+	currentScoreSpan.innerText = '0';
 	getNextTriviaQuestion();
 }
