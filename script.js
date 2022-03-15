@@ -5,7 +5,8 @@ const currentScoreSpan = document.querySelector('#current-score');
 const currentQuestion = document.querySelector('#current-question');
 const answersContainer = document.querySelector('.answers-container');
 
-const GAME_QUESTION_COUNT = 5;
+const GAME_QUESTION_COUNT = 10;
+const PAUSE_TIME_IN_MS = 500;
 let triviaQuestions = [...allTriviaQuestions];
 let score = 0;
 let questionsCount = 0;
@@ -48,7 +49,7 @@ function selectAnswer(e) {
 		button.disabled = true;
 	});
 
-	setTimeout(getNextTriviaQuestion, 1200);
+	setTimeout(getNextTriviaQuestion, PAUSE_TIME_IN_MS);
 }
 
 function gameOver() {

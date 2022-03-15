@@ -39,24 +39,27 @@ body {
 	gap: 1rem;
 }
 
-button,
-button[disabled],
-button[disabled]:hover {
+button {
 	padding: 1rem;
-	border-radius: 5px;
-	background-color: var(--text-color);
-	color: var(--background-color);
+	border-radius: 0.5rem;
 	font-size: 1.5rem;
 	cursor: pointer;
 }
 
+button,
+button[disabled],
 button[disabled]:hover {
-	cursor: default;
+	background-color: var(--text-color);
+	color: var(--background-color);
 }
 
 button:hover {
 	background-color: var(--background-color);
 	color: var(--text-color);
+}
+
+button[disabled]:hover {
+	cursor: default;
 }
 
 button.correct,
@@ -71,12 +74,26 @@ button.incorrect:hover {
 	color: var(--text-color);
 }
 
-.reset-button {
+button.reset-button {
 	grid-column: span 2;
 }
 
 @media screen and (max-width: 768px) {
 	.answers-container {
 		grid-template-columns: 1fr;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.score-container {
+		font-size: 1.25rem;
+	}
+
+	.question-container {
+		font-size: 1.4rem;
+	}
+
+	button {
+		font-size: 1.25rem;
 	}
 }
