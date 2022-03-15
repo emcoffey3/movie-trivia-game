@@ -262,7 +262,7 @@ export default [
 		]
 	},
 	{
-		question: `In what movie does actor Denzel Washington say the line "King Kong ain't got shit on me!" Philadelphia, Training Day`,
+		question: `In what movie does actor Denzel Washington say the line "King Kong ain't got shit on me!"?`,
 		answers: [
 			{ text: `Philadelphia`, correct: false },
 			{ text: `American Gangster`, correct: false },
