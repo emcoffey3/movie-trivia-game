@@ -1,13 +1,15 @@
 import allTriviaQuestions from './trivia-questions.js';
 
 const questionCountSpan = document.querySelector('#question-count');
+const highScoreSpan = document.querySelector('#high-score');
 const currentScoreSpan = document.querySelector('#current-score');
 const timerSpan = document.querySelector('#timer');
 const currentQuestion = document.querySelector('#current-question');
 const answersContainer = document.querySelector('.answers-container');
 
 const GAME_QUESTION_COUNT = 10;
-const WAIT_TIME_IN_MS = 500;
+const WAIT_TIME_IN_MS_CORRECT = 750;
+const WAIT_TIME_IN_MS_INCORRECT = 1000;
 const TIME_TO_ANSWER_IN_SECONDS = 15;
 const POINT_DURATION = 5;
 const MAXIMUM_SCORE = GAME_QUESTION_COUNT * (TIME_TO_ANSWER_IN_SECONDS / POINT_DURATION);
@@ -17,6 +19,7 @@ let triviaQuestions, score, questionsCount, timer, timerInterval;
 startGame();
 
 function startGame() {
+	highScoreSpan.innerText = getHighScore();
 	triviaQuestions = [...allTriviaQuestions];
 	score = 0;
 	questionsCount = 0;
@@ -73,17 +76,26 @@ function selectAnswer(e) {
 		currentScoreSpan.innerText = score.toString();
 	} else {
 		e.target.classList.add('incorrect');
+		answersContainer.querySelectorAll('button[data-correct=true]').forEach(button => {
+			button.classList.add('correct');
+		});
 	}
 
 	answersContainer.querySelectorAll('button').forEach(button => {
 		button.disabled = true;
 	});
 
-	setTimeout(getNextTriviaQuestion, WAIT_TIME_IN_MS);
+	setTimeout(
+		getNextTriviaQuestion,
+		(e.target.dataset.correct ? WAIT_TIME_IN_MS_CORRECT : WAIT_TIME_IN_MS_INCORRECT)
+	);
 }
 
 function gameOver() {
-	let msg = `GAME OVER!\nYou scored ${score} out of a possible ${MAXIMUM_SCORE} points!`;
+	let msg = `GAME OVER\nYou scored ${score} out of a possible ${MAXIMUM_SCORE} points!`;
+	if(setHighScore(score)) {
+		msg += " That's a new high score!";
+	}
 	if (score == MAXIMUM_SCORE) {
 		msg += '\nCongratulations!!!';
 	} else {
@@ -98,4 +110,17 @@ function gameOver() {
 	button.addEventListener('click', startGame);
 	button.classList.add('reset-button');
 	answersContainer.appendChild(button);
+}
+
+function setHighScore(score) {
+	if(score > getHighScore()) {
+		localStorage.setItem('high-score', score);
+		highScoreSpan.innerText = score.toString();
+		return true;
+	}
+	return false;
+}
+
+function getHighScore() {
+	return localStorage.getItem('high-score') ?? 0;
 }

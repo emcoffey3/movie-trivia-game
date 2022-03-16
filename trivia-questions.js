@@ -84,7 +84,7 @@ export default [
 	{
 		question: `This 1997 film features Keanu Reeves as a young lawyer at a law firm with a dark secret?`,
 		answers: [
-			{ text: `Angel Heart,`, correct: false },
+			{ text: `Angel Heart`, correct: false },
 			{ text: `The Prophecy`, correct: false},
 			{ text: `The Devil's Advocate`, correct: true },
 			{ text: `Constantine`, correct: false },
@@ -93,7 +93,7 @@ export default [
 	{
 		question: `What 1990 film stars Tim Robbins as a Vietnam War vet and ends with a horrifying twist?`,
 		answers: [
-			{ text: `The Hudsucker Proxy,`, correct: false },
+			{ text: `The Hudsucker Proxy`, correct: false },
 			{ text: `Jacob's Ladder`, correct: true },
 			{ text: `Mystic River`, correct: false},
 			{ text: `Howard the Duck`, correct: false },
@@ -102,7 +102,7 @@ export default [
 	{
 		question: `What film series is based on the case files of real-life paranormal investigators Ed and Lorraine Warren?`,
 		answers: [
-			{ text: `The Exorcist,`, correct: false },
+			{ text: `The Exorcist`, correct: false },
 			{ text: `The Conjuring`, correct: true },
 			{ text: `Insidious`, correct: false},
 			{ text: `Poltergeist`, correct: false },
@@ -626,7 +626,7 @@ export default [
 		answers: [
 			{ text: `Public Enemy`, correct: false },
 			{ text: `N.W.A`, correct: true },
-			{ text: `Three-Six Mafia`, correct: true },
+			{ text: `Three-Six Mafia`, correct: false },
 			{ text: `The Beastie Boys`, correct: false },
 		]
 	},
