@@ -27,6 +27,7 @@ function getNextTriviaQuestion() {
 function displayQuestion(triviaQuestion) {
 	currentQuestion.textContent = triviaQuestion.question;
 	answersContainer.innerHTML = '';
+	triviaQuestion.answers.sort(() => Math.random() - 0.5);
 	triviaQuestion.answers.forEach(answer => {
 		const button = document.createElement('button');
 		button.textContent = answer.text;

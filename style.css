@@ -14,10 +14,6 @@
 
 body {
 	background-color: var(--background-color);
-}
-
-.game-container {
-	height: 100vh;
 	font-family: 'Roboto', sans-serif;
 	color: var(--text-color);
 }

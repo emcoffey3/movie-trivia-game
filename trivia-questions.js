@@ -85,9 +85,9 @@ export default [
 		question: `In the 1997 movie Men in Black, what actor plays Agent K?`,
 		answers: [
 			{ text: `Will Smith`, correct: false },
+			{ text: `Jamie Foxx`, correct: false },
 			{ text: `Tommy Lee Jones`, correct: true },
 			{ text: `Tony Shalhoub`, correct: false },
-			{ text: `Ernie Hudson`, correct: false },
 		]
 	},
 	{
