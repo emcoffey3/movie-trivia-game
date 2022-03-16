@@ -55,12 +55,39 @@ export default [
 		]
 	},
 	{
+		question: `In the MCU, what type of shape-shifting aliens are introduced in Captain Marvel and later seen in Spider-Man: Far From Home?`,
+		answers: [
+			{ text: `Kree`, correct: false },
+			{ text: `Skrulls`, correct: true },
+			{ text: `Chitauri`, correct: false},
+			{ text: `Celestials`, correct: false },
+		]
+	},
+	{
+		question: `Actor Willem Dafoe portrays what villain in both the 2002 film Spider-Man and the 2021 film Spider-Man: No Way Home?`,
+		answers: [
+			{ text: `Doctor Octopus`, correct: false },
+			{ text: `Green Goblin`, correct: true },
+			{ text: `Hobgoblin`, correct: false},
+			{ text: `Venom`, correct: false },
+		]
+	},
+	{
 		question: `What is the name of the first movie that Sylvester Stallone appeared in as the character John Rambo?`,
 		answers: [
 			{ text: `Delta Force`, correct: false },
 			{ text: `Under Siege`, correct: false},
 			{ text: `First Blood`, correct: true },
 			{ text: `Rambo`, correct: false },
+		]
+	},
+	{
+		question: `What 1986 3D sci-fi film starring Michael Jackson was formerly shown in Disney theme parks?`,
+		answers: [
+			{ text: `The Dark Crystal`, correct: false },
+			{ text: `Moonwalker`, correct: false},
+			{ text: `Captain EO`, correct: true },
+			{ text: `Starchaser: The Legend of Orin`, correct: false },
 		]
 	},
 	{
@@ -181,6 +208,15 @@ export default [
 		]
 	},
 	{
+		question: `The 1996 movie written by and starring comedy troupe The Kids in the Hall is sub-titled what?`,
+		answers: [
+			{ text: `Chicken Lady vs. Cabbage Head`, correct: false },
+			{ text: `30 Helens Agree`, correct: false },
+			{ text: `The Buddy Cole Story`, correct: false },
+			{ text: `Brain Candy`, correct: true },
+		]
+	},
+	{
 		question: `In the 1980 film The Blues Brothers, the mystery woman hellbent on killing Jake Blues is played by what actress?`,
 		answers: [
 			{ text: `Diane Keaton`, correct: false },
@@ -253,6 +289,15 @@ export default [
 		]
 	},
 	{
+		question: `In the 2001 film The Lord of the Rings: The Fellowship of the Ring, who says "One does not simply walk into Mordor."?`,
+		answers: [
+			{ text: `Gandalf (Ian McKellan)`, correct: false },
+			{ text: `Aragorn (Viggo Mortensen)`, correct: false },
+			{ text: `Legolas (Orlando Bloom)`, correct: false },
+			{ text: `Boromir (Sean Bean)`, correct: true },
+		]
+	},
+	{
 		question: `The 1994 movie Speed starring Keanu Reeves features passengers trapped on what type of vehicle?`,
 		answers: [
 			{ text: `a plane`, correct: false },
@@ -298,6 +343,15 @@ export default [
 		]
 	},
 	{
+		question: `The 1984 movie Romancing the Stone stars what actor opposite Kathleen Turner as smuggler Jack T. Colton?`,
+		answers: [
+			{ text: `Burt Reynolds`, correct: false },
+			{ text: `Michael Douglas`, correct: true },
+			{ text: `Richard Gere`, correct: false },
+			{ text: `Harrison Ford`, correct: false },
+		]
+	},
+	{
 		question: `In the 1997 movie Batman & Robin, what character does Arnold Schwarzenegger portray?`,
 		answers: [
 			{ text: `Batman`, correct: false },
@@ -307,12 +361,57 @@ export default [
 		]
 	},
 	{
+		question: `In the 2005 film Batman Begins, Rachel Dawes is portrayed by actress Katie Holmes.  Who portrays this character in 2008 sequel The Dark Knight?`,
+		answers: [
+			{ text: `Anne Hathaway`, correct: false },
+			{ text: `Scarlett Johansson`, correct: false },
+			{ text: `Maggie Gyllenhaal`, correct: true },
+			{ text: `Katie Holmes`, correct: false },
+		]
+	},
+	{
+		question: `Actor David Dastmalchian has appeared as minor characters in such comic book films as The Dark Knight and the Ant-Man series, but most recently appeared in 2021's The Suicide Squad as what character?`,
+		answers: [
+			{ text: `Polka-Dot Man`, correct: true },
+			{ text: `Kite Man`, correct: false },
+			{ text: `Calendar Man`, correct: false },
+			{ text: `Captain Boomerang`, correct: false },
+		]
+	},
+	{
+		question: `What 2009 Zack Snyder film is based on an award-winning graphic novel by Alan Moore and takes place in an alternate 1985?`,
+		answers: [
+			{ text: `Sin City`, correct: false },
+			{ text: `300`, correct: false },
+			{ text: `V for Vendetta`, correct: false },
+			{ text: `Watchmen`, correct: true },
+		]
+	},
+	{
+		question: `Which film in the Mad Max series does not feature Mel Gibson in the title role?`,
+		answers: [
+			{ text: `Mad Max`, correct: false },
+			{ text: `Mad Max 2: The Road Warrior`, correct: false },
+			{ text: `Mad Max: Beyond Thunderdome`, correct: false },
+			{ text: `Mad Max: Fury Road`, correct: true },
+		]
+	},
+	{
 		question: `In the 2014 film Whiplash, main character Andrew plays what musical instrument?`,
 		answers: [
 			{ text: `piano`, correct: false },
 			{ text: `trumpet`, correct: false },
 			{ text: `drum kit`, correct: true },
 			{ text: `violin`, correct: false },
+		]
+	},
+	{
+		question: `With a production budget of $98 million and earning just $10 million at the box-office, what 1995 adventure film starring Geena Davis is one of the biggest bombs of all-time?`,
+		answers: [
+			{ text: `Waterworld`, correct: false },
+			{ text: `Cutthroat Island`, correct: true },
+			{ text: `The Mask of Zorro`, correct: false },
+			{ text: `The Three Musketeers`, correct: false },
 		]
 	},
 	{
@@ -628,6 +727,33 @@ export default [
 			{ text: `N.W.A`, correct: true },
 			{ text: `Three-Six Mafia`, correct: false },
 			{ text: `The Beastie Boys`, correct: false },
+		]
+	},
+	{
+		question: `What 2002 Stephen Spielberg movie is based on the life of conman Frank Abagnale Jr.?`,
+		answers: [
+			{ text: `Confidence`, correct: false },
+			{ text: `Matchstick Men`, correct: false },
+			{ text: `Catch Me If You Can`, correct: true },
+			{ text: `The Grifters`, correct: false },
+		]
+	},
+	{
+		question: `What 2013 Martin Scorsese film is based on the life of corrupt stockbroker Jordan Belfort?`,
+		answers: [
+			{ text: `Boiler Room`, correct: false },
+			{ text: `American Hustle`, correct: false },
+			{ text: `The Wolf of Wall Street`, correct: true },
+			{ text: `The Big Short`, correct: false },
+		]
+	},
+	{
+		question: `Who directed the 1995 film Se7en starring Brad Pitt and Morgan Freeman?`,
+		answers: [
+			{ text: `David Lynch`, correct: false },
+			{ text: `David Fincher`, correct: true },
+			{ text: `Brian De Palma`, correct: false },
+			{ text: `Bryan Singer`, correct: false },
 		]
 	},
 	{
