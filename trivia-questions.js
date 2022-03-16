@@ -28,6 +28,33 @@ export default [
 		]
 	},
 	{
+		question: `In the Marvel Cinematic Universe, the character Loki is originally from where?`,
+		answers: [
+			{ text: `Asgard`, correct: false },
+			{ text: `Midgard`, correct: false},
+			{ text: `Jotunheim`, correct: true },
+			{ text: `Anaheim`, correct: false },
+		]
+	},
+	{
+		question: `In the Marvel Cinematic Universe, who portrays General Thaddeus "Thunderbolt" Ross?`,
+		answers: [
+			{ text: `Don Cheadle`, correct: false },
+			{ text: `Samuel L. Jackson`, correct: false},
+			{ text: `William Hurt`, correct: true },
+			{ text: `John Hurt`, correct: false },
+		]
+	},
+	{
+		question: `What is the name of the first movie that Sylvester Stallone appeared in as the character John Rambo?`,
+		answers: [
+			{ text: `Delta Force`, correct: false },
+			{ text: `Under Siege`, correct: false},
+			{ text: `First Blood`, correct: true },
+			{ text: `Rambo`, correct: false },
+		]
+	},
+	{
 		question: `Actor Michael Keaton has appeared on-screen as Batman, Birdman, and what other winged comic book character?`,
 		answers: [
 			{ text: `The Falcon`, correct: false },
@@ -60,6 +87,15 @@ export default [
 			{ text: `Army`, correct: false },
 			{ text: `Navy`, correct: true },
 			{ text: `Marines`, correct: false },
+			{ text: `Space Force`, correct: false },
+		]
+	},
+	{
+		question: `In the movie A Few Good Men, Jack Nicholson's character Col. Nathan R. Jessup is a member of which armed service branch?`,
+		answers: [
+			{ text: `Army`, correct: false },
+			{ text: `Navy`, correct: false },
+			{ text: `Marines`, correct: true },
 			{ text: `Space Force`, correct: false },
 		]
 	},
@@ -235,12 +271,48 @@ export default [
 		]
 	},
 	{
+		question: `In the 1997 film Boogie Nights, the character Little Bill kills his wife and another man before committing suicide, all during a New Year's Eve party.  What actor plays Little Bill?`,
+		answers: [
+			{ text: `Philip Seymour Hoffman`, correct: false },
+			{ text: `Philip Baker Hall`, correct: false },
+			{ text: `William H. Macy`, correct: true },
+			{ text: `Don Cheadle`, correct: false },
+		]
+	},
+	{
 		question: `Carrie Fisher's semi-autobiographical novel Postcards from the Edge was adapted into the 1990 movie of the same name.  What actress plays main character Suzanne Vale, who is loosely based on Fisher?`,
 		answers: [
 			{ text: `Susan Sarandon`, correct: false },
 			{ text: `Geena Davis`, correct: false },
 			{ text: `Meryl Streep`, correct: true },
 			{ text: `Julia Roberts`, correct: false },
+		]
+	},
+	{
+		question: `What 1988 film, which is supposedly based on a true story, stars Jean-Claude Van Damme as Frank Dux competing in a martial arts tournament known as the Kumite?`,
+		answers: [
+			{ text: `Street Fighter`, correct: false },
+			{ text: `Mortal Kombat`, correct: false },
+			{ text: `Bloodsport`, correct: true },
+			{ text: `Enter the Dragon`, correct: false },
+		]
+	},
+	{
+		question: `What 1996 movie written by Quentin Tarantino and directed by Robert Rodriguez features characters fighting their way out of a vampire-infested strip club?`,
+		answers: [
+			{ text: `Bordello of Blood`, correct: false },
+			{ text: `Queen of the Damned`, correct: false },
+			{ text: `From Dusk Till Dawn`, correct: true },
+			{ text: `Let the Right One In`, correct: false },
+		]
+	},
+	{
+		question: `The 1995 film Demon Knight starring Billy Zane and Jada Pinkett Smith is part of what long-running comedy/horror anthology series?`,
+		answers: [
+			{ text: `Creepshow`, correct: false },
+			{ text: `Tales from the Crypt`, correct: true },
+			{ text: `Tales from the Dark Side`, correct: false },
+			{ text: `Are You Afraid of the Dark?`, correct: false },
 		]
 	},
 	{
@@ -262,6 +334,150 @@ export default [
 		]
 	},
 	{
+		question: `In the Terminator film series, what is the name of the company that creates Skynet?`,
+		answers: [
+			{ text: `Weyland-Yutani Corp`, correct: false },
+			{ text: `The Tyrell Corporation`, correct: false },
+			{ text: `Cyberdyne Systems`, correct: true },
+			{ text: `Omni Consumer Products`, correct: false },
+		]
+	},
+	{
+		question: `The 1987 movie RoboCop is set in what major US city?`,
+		answers: [
+			{ text: `New York`, correct: false },
+			{ text: `Chicago`, correct: false },
+			{ text: `Detroit`, correct: true },
+			{ text: `St. Louis`, correct: false },
+		]
+	},
+	{
+		question: `The 1982 movie Blade Runner takes place in Los Angeles in what year?`,
+		answers: [
+			{ text: `1999`, correct: false },
+			{ text: `2001`, correct: false },
+			{ text: `2019`, correct: true },
+			{ text: `2049`, correct: false },
+		]
+	},
+	{
+		question: `In the 1979 movie Alien, what is Ash?`,
+		answers: [
+			{ text: `a human`, correct: false },
+			{ text: `an android`, correct: true },
+			{ text: `a xenomorph`, correct: false },
+			{ text: `a cat`, correct: false },
+		]
+	},
+	{
+		question: `In the 1979 movie Alien, what is Jones?`,
+		answers: [
+			{ text: `a human`, correct: false },
+			{ text: `an android`, correct: false },
+			{ text: `a xenomorph`, correct: false },
+			{ text: `a cat`, correct: true },
+		]
+	},
+	{
+		question: `In the 1982 movie John Carpenter's The Thing, where are the characters located?`,
+		answers: [
+			{ text: `Greenland`, correct: false },
+			{ text: `Antarctica`, correct: true },
+			{ text: `Hoth`, correct: false },
+			{ text: `a computer simulation`, correct: false },
+		]
+	},
+	{
+		question: `In the 2000 film Pitch Black and its sequels, the character Riddick is played by what actor?`,
+		answers: [
+			{ text: `Dwayne "The Rock" Johnson`, correct: false },
+			{ text: `Vin Diesel`, correct: true },
+			{ text: `Dave Bautista`, correct: false },
+			{ text: `John Cena`, correct: false },
+		]
+	},
+	{
+		question: `In the 1995 film Twelve Monkeys, who portrays time traveler James Cole?`,
+		answers: [
+			{ text: `Brad Pitt`, correct: false },
+			{ text: `Bruce Willis`, correct: true },
+			{ text: `Johnny Depp`, correct: false },
+			{ text: `Denzel Washington`, correct: false },
+		]
+	},
+	{
+		question: `How many movies in the Star Trek franchise were directed by Leonard Nimoy?`,
+		answers: [
+			{ text: `0`, correct: false },
+			{ text: `1`, correct: false },
+			{ text: `2`, correct: true },
+			{ text: `3`, correct: false },
+		]
+	},
+	{
+		question: `What actor has portrayed horror film character Freddy Krueger more than any other actor?`,
+		answers: [
+			{ text: `Michael Berryman`, correct: false },
+			{ text: `Robert Englund`, correct: true },
+			{ text: `Jackie Earle Haley`, correct: false },
+			{ text: `Tony Todd`, correct: false },
+		]
+	},
+	{
+		question: `This 1988 film stars Gene Hackman and Willem Dafoe as FBI agents investigating the murders of three college students by the KKK.  What is the film's title?`,
+		answers: [
+			{ text: `Ghosts of Mississippi`, correct: false },
+			{ text: `Mississippi Burning`, correct: true },
+			{ text: `Night Moves`, correct: false },
+			{ text: `Under Suspicion`, correct: false },
+		]
+	},
+	{
+		question: `In the 1976 film Taxi Driver, what is the name of the character played by Robert De Niro?`,
+		answers: [
+			{ text: `Neil McCauley`, correct: false },
+			{ text: `Tyler Durden`, correct: false },
+			{ text: `Travis Bickle`, correct: true },
+			{ text: `Jake LaMotta`, correct: false },
+		]
+	},
+	{
+		question: `In the 1976 movie All the President's Men, the main characters work for what prominent newspaper?`,
+		answers: [
+			{ text: `The New York Times`, correct: false },
+			{ text: `The Washington Post`, correct: true },
+			{ text: `The Boston Globe`, correct: false },
+			{ text: `MAD Magazine`, correct: false },
+		]
+	},
+	{
+		question: `This prolific actor had a career spanning over six decades, including supporting roles in Cool Hand Luke, The Godfather Part II, Alien, The Green Mile, and even Marvel's The Avengers.  What was his name?`,
+		answers: [
+			{ text: `John Hurt`, correct: false },
+			{ text: `William Hurt`, correct: false },
+			{ text: `Ian Holm`, correct: false },
+			{ text: `Harry Dean Stanton`, correct: true },
+		]
+	},
+	{
+		question: `In the 1991 film JFK, New Orleans district attorney Jim Garrison was portrayed by what actor?`,
+		answers: [
+			{ text: `Kevin Bacon`, correct: false },
+			{ text: `Kevin Costner`, correct: true },
+			{ text: `Gary Oldman`, correct: false },
+			{ text: `Tommy Lee Jones`, correct: false },
+		]
+	},
+	{
+		question: `In the 2012 movie Argo starring Ben Affleck, what was Argo?`,
+		answers: [
+			{ text: `a plane`, correct: false },
+			{ text: `a movie`, correct: true },
+			{ text: `a bomb`, correct: false },
+			{ text: `a cat`, correct: false },
+		]
+	},
+	{
 		question: `In what movie does actor Denzel Washington say the line "King Kong ain't got shit on me!"?`,
 		answers: [
 			{ text: `Philadelphia`, correct: false },
@@ -270,5 +486,112 @@ export default [
 			{ text: `Kong: Skull Island`, correct: false },
 		]
 	},
-
+	{
+		question: `Complete this line from the 2014 movie What We Do in the Shadows: "We're werewolves, not ____."`,
+		answers: [
+			{ text: `vampires`, correct: false },
+			{ text: `swearwolves`, correct: true },
+			{ text: `doctors`, correct: false },
+			{ text: `assholes`, correct: false },
+		]
+	},
+	{
+		question: `Complete this line from the 1972 movie The Godfather: "Luca Brasi sleeps with the ____."`,
+		answers: [
+			{ text: `worms`, correct: false },
+			{ text: `dogs`, correct: false },
+			{ text: `fishes`, correct: true },
+			{ text: `angels`, correct: false },
+		]
+	},
+	{
+		question: `The 2015 movie Straight Outta Compton chronicles the rise and fall of what famous hip-hop group?`,
+		answers: [
+			{ text: `Public Enemy`, correct: false },
+			{ text: `N.W.A`, correct: true },
+			{ text: `Three-Six Mafia`, correct: true },
+			{ text: `The Beastie Boys`, correct: false },
+		]
+	},
+	{
+		question: `In the 1984 movie Ghostbusters, what actor portrays Winston Zeddemore?`,
+		answers: [
+			{ text: `Morgan Freeman`, correct: false },
+			{ text: `Danny Glover`, correct: false },
+			{ text: `Charles Robinson`, correct: false },
+			{ text: `Ernie Hudson`, correct: true },
+		]
+	},
+	{
+		question: `In the 1993 film Wayne's World 2, what is the name of the music festival that Wayne and Garth try to organize?`,
+		answers: [
+			{ text: `Waynefest`, correct: false },
+			{ text: `Waynestock`, correct: true },
+			{ text: `Wayne's Worldapalooza`, correct: false },
+			{ text: `Aurora City Limits`, correct: false },
+		]
+	},
+	{
+		question: `In the 1994 movie Clerks, Kevin Smith portrays what character?`,
+		answers: [
+			{ text: `Dante Hicks`, correct: false },
+			{ text: `Randal Graves`, correct: false },
+			{ text: `Jay`, correct: false },
+			{ text: `Silent Bob`, correct: true },
+		]
+	},
+	{
+		question: `In the 2008 film Semi-Pro starring Will Ferrell as Jackie Moon, what is the name of the basketball team that Jackie owns?`,
+		answers: [
+			{ text: `Los Angeles Knights`, correct: false },
+			{ text: `Washington Sentinels`, correct: false },
+			{ text: `Detroit Gears`, correct: false },
+			{ text: `Flint Tropics`, correct: true },
+		]
+	},
+	{
+		question: `In what 1996 comedy film does a character played by Adam Sandler get into a fistfight with former game show host Bob Barker?`,
+		answers: [
+			{ text: `Billy Madison`, correct: false },
+			{ text: `Tommy Boy`, correct: false },
+			{ text: `The Wedding Singer`, correct: false },
+			{ text: `Happy Gilmore`, correct: true },
+		]
+	},
+	{
+		question: `In the 1983 film National Lampoon's Vacation, what is the Griswold family's eventual destination?`,
+		answers: [
+			{ text: `Disney World`, correct: false },
+			{ text: `Magic Mountain`, correct: false },
+			{ text: `Action Park`, correct: false },
+			{ text: `Wally World`, correct: true },
+		]
+	},
+	{
+		question: `In the 2006 comedy Idiocracy, how long are Joe and Rita stuck in suspended animation?`,
+		answers: [
+			{ text: `6 months`, correct: false },
+			{ text: `20 years`, correct: false },
+			{ text: `100 years`, correct: false },
+			{ text: `500 years`, correct: true },
+		]
+	},
+	{
+		question: `In the 2006 film Idiocracy, Brawndo has what plants crave, which is what?`,
+		answers: [
+			{ text: `water`, correct: false },
+			{ text: `sunlight`, correct: false },
+			{ text: `heroin`, correct: false },
+			{ text: `electrolytes`, correct: true },
+		]
+	},
+	{
+		question: `In the 2006 film Idiocracy, Dwayne Elizondo Mountain Dew Herbert Camacho is what?`,
+		answers: [
+			{ text: `5-time Ultimate Smackdown Champion`, correct: true },
+			{ text: `Porn Superstar`, correct: true },
+			{ text: `President of the USA`, correct: true },
+			{ text: `All of These`, correct: true },
+		]
+	},
 ];
