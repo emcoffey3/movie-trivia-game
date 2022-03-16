@@ -300,10 +300,10 @@ export default [
 	{
 		question: `In the 2001 film <em>The Lord of the Rings: The Fellowship of the Ring</em>, who says "One does not simply walk into Mordor."?`,
 		answers: [
-			{ text: `Gandalf (Ian McKellan)`, correct: false },
-			{ text: `Aragorn (Viggo Mortensen)`, correct: false },
-			{ text: `Legolas (Orlando Bloom)`, correct: false },
-			{ text: `Boromir (Sean Bean)`, correct: true },
+			{ text: `Gandalf`, correct: false },
+			{ text: `Aragorn`, correct: false },
+			{ text: `Legolas`, correct: false },
+			{ text: `Boromir`, correct: true },
 		]
 	},
 	{
@@ -483,6 +483,24 @@ export default [
 			{ text: `Bordello of Blood`, correct: false },
 			{ text: `Queen of the Damned`, correct: false },
 			{ text: `From Dusk Till Dawn`, correct: true },
+			{ text: `Let the Right One In`, correct: false },
+		]
+	},
+	{
+		question: `Kathryn Bigelow is perhaps best known as the first woman to win the Academy Award for Best Director for <em>The Hurt Locker</em>.  What 1987 vampire film featuring actor Bill Paxton did she also direct?`,
+		answers: [
+			{ text: `The Hunger`, correct: false },
+			{ text: `The Lost Boys`, correct: false },
+			{ text: `Near Dark`, correct: true },
+			{ text: `Vampire's Kiss`, correct: false },
+		]
+	},
+	{
+		question: `During the production of this 1973 horror movie, director William Friedkin carried a gun on set and would fire it at random to get startled reactions from the actors.  What is the title of this movie?`,
+		answers: [
+			{ text: `The Omen`, correct: false },
+			{ text: `The Exorcist`, correct: true },
+			{ text: `Rosemary's Baby`, correct: false },
 			{ text: `Let the Right One In`, correct: false },
 		]
 	},
