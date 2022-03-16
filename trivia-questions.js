@@ -217,6 +217,24 @@ export default [
 		]
 	},
 	{
+		question: `Jack Nicholson not only starred in but also directed the 1990 movie <em>The Two Jakes</em>, which was a sequel to what movie from 1974?`,
+		answers: [
+			{ text: `Chinatown`, correct: true },
+			{ text: `Five Easy Pieces`, correct: false },
+			{ text: `Easy Rider`, correct: false },
+			{ text: `One Flew Over the Cuckoo’s Nest`, correct: false },
+		]
+	},
+	{
+		question: `What 1995 technology-driven film features characters named "Acid Burn" and "Crash Override" and co-starred a young Angelina Jolie?`,
+		answers: [
+			{ text: `The Lawnmower Man`, correct: false },
+			{ text: `The Net`, correct: false },
+			{ text: `Sneakers`, correct: false },
+			{ text: `Hackers`, correct: true },
+		]
+	},
+	{
 		question: `The 1996 movie written by and starring comedy troupe The Kids in the Hall is sub-titled what?`,
 		answers: [
 			{ text: `Chicken Lady vs. Cabbage Head`, correct: false },
