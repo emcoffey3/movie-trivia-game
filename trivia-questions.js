@@ -28,6 +28,15 @@ export default [
 		]
 	},
 	{
+		question: `What 1986 movie was the first theatrically released feature film based on a Marvel comic book character?`,
+		answers: [
+			{ text: `Captain America`, correct: false },
+			{ text: `The Punisher`, correct: false},
+			{ text: `The Incredible Hulk`, correct: false },
+			{ text: `Howard the Duck`, correct: true },
+		]
+	},
+	{
 		question: `In the Marvel Cinematic Universe, the character Loki is originally from where?`,
 		answers: [
 			{ text: `Asgard`, correct: false },
@@ -70,6 +79,33 @@ export default [
 			{ text: `switchblade`, correct: true },
 			{ text: `hammer`, correct: false},
 			{ text: `chainsaw`, correct: false },
+		]
+	},
+	{
+		question: `This 1997 film features Keanu Reeves as a young lawyer at a law firm with a dark secret?`,
+		answers: [
+			{ text: `Angel Heart,`, correct: false },
+			{ text: `The Prophecy`, correct: false},
+			{ text: `The Devil's Advocate`, correct: true },
+			{ text: `Constantine`, correct: false },
+		]
+	},
+	{
+		question: `What 1990 film stars Tim Robbins as a Vietnam War vet and ends with a horrifying twist?`,
+		answers: [
+			{ text: `The Hudsucker Proxy,`, correct: false },
+			{ text: `Jacob's Ladder`, correct: true },
+			{ text: `Mystic River`, correct: false},
+			{ text: `Howard the Duck`, correct: false },
+		]
+	},
+	{
+		question: `What film series is based on the case files of real-life paranormal investigators Ed and Lorraine Warren?`,
+		answers: [
+			{ text: `The Exorcist,`, correct: false },
+			{ text: `The Conjuring`, correct: true },
+			{ text: `Insidious`, correct: false},
+			{ text: `Poltergeist`, correct: false },
 		]
 	},
 	{
@@ -190,6 +226,15 @@ export default [
 		]
 	},
 	{
+		question: `In the X-Men movie franchise, actress Jennifer Lawrence plays what mutant character?`,
+		answers: [
+			{ text: `Storm`, correct: false },
+			{ text: `Rogue`, correct: false },
+			{ text: `Mystique`, correct: true },
+			{ text: `Kitty Pryde`, correct: false },
+		]
+	},
+	{
 		question: `In the opening scene of the 1993 film Jurassic Park, a park employee is killed by what type of dinosaur?`,
 		answers: [
 			{ text: `Velociraptor`, correct: true },
@@ -199,12 +244,39 @@ export default [
 		]
 	},
 	{
+		question: `The 1997 sequel to Jurassic Park shares its title with what 1912 Sir Arthur Conan Doyle novel?`,
+		answers: [
+			{ text: `The Lost World`, correct: true },
+			{ text: `The Land of Mist`, correct: false },
+			{ text: `Fallen Kingdom`, correct: false },
+			{ text: `Dominion`, correct: false },
+		]
+	},
+	{
+		question: `The 1994 movie Speed starring Keanu Reeves features passengers trapped on what type of vehicle?`,
+		answers: [
+			{ text: `a plane`, correct: false },
+			{ text: `a train`, correct: false },
+			{ text: `a bus`, correct: true },
+			{ text: `a boat`, correct: false },
+		]
+	},
+	{
 		question: `In the 1985 movie Back to the Future, what does Marty McFly's father George McFly aspire to be and eventually become?`,
 		answers: [
 			{ text: `rock musician`, correct: false },
 			{ text: `sci-fi author`, correct: true },
 			{ text: `inventor`, correct: false },
 			{ text: `time traveller`, correct: false },
+		]
+	},
+	{
+		question: `In the 1989 movie Bill & Ted's Excellent Adventure, Bill and Ted travel through time in what object?`,
+		answers: [
+			{ text: `DeLorean`, correct: false },
+			{ text: `Winnebago`, correct: false },
+			{ text: `Hot Tub`, correct: false },
+			{ text: `Phone Booth`, correct: true },
 		]
 	},
 	{
@@ -379,6 +451,24 @@ export default [
 		]
 	},
 	{
+		question: `In the 1987 movie Predator, who says the line "I ain't got time to bleed"?`,
+		answers: [
+			{ text: `Arnold Schwarzenegger (Dutch)`, correct: false },
+			{ text: `Carl Weathers (Dillon)`, correct: false },
+			{ text: `Jesse Ventura (Blain)`, correct: true },
+			{ text: `Kevin Peter Hall (Predator)`, correct: false },
+		]
+	},
+	{
+		question: `In the 1990 film Predator 2, what actor portrays lead character Lt. Mike Harrigan?`,
+		answers: [
+			{ text: `Arnold Schwarzenegger`, correct: false },
+			{ text: `Samuel L. Jackson`, correct: false },
+			{ text: `Mel Gibson`, correct: false },
+			{ text: `Danny Glover`, correct: true },
+		]
+	},
+	{
 		question: `In the 1982 movie John Carpenter's The Thing, where are the characters located?`,
 		answers: [
 			{ text: `Greenland`, correct: false },
@@ -478,6 +568,15 @@ export default [
 		]
 	},
 	{
+		question: `In the 2001 film Ocean's Eleven, who plays Danny Ocean?`,
+		answers: [
+			{ text: `Brad Pitt`, correct: false },
+			{ text: `Matt Damon`, correct: false },
+			{ text: `George Clooney`, correct: true },
+			{ text: `Don Cheadle`, correct: false },
+		]
+	},
+	{
 		question: `In what movie does actor Denzel Washington say the line "King Kong ain't got shit on me!"?`,
 		answers: [
 			{ text: `Philadelphia`, correct: false },
@@ -502,6 +601,24 @@ export default [
 			{ text: `dogs`, correct: false },
 			{ text: `fishes`, correct: true },
 			{ text: `angels`, correct: false },
+		]
+	},
+	{
+		question: `In the 1974 movie The Godfather Part II, who orders the execution of Fredo Corleone?`,
+		answers: [
+			{ text: `Vito Corleone`, correct: false },
+			{ text: `Michael Corleone`, correct: true },
+			{ text: `Hyman Roth`, correct: false },
+			{ text: `The CIA`, correct: false },
+		]
+	},
+	{
+		question: `In the 1982 film Pink Floyd: The Wall, what is the name of the main character?`,
+		answers: [
+			{ text: `Syd`, correct: false },
+			{ text: `Roger`, correct: false },
+			{ text: `Pink`, correct: true },
+			{ text: `Floyd`, correct: false },
 		]
 	},
 	{
@@ -565,6 +682,60 @@ export default [
 			{ text: `Magic Mountain`, correct: false },
 			{ text: `Action Park`, correct: false },
 			{ text: `Wally World`, correct: true },
+		]
+	},
+	{
+		question: `What professional ice hockey team was originally named after a 1992 movie starring Emilio Estevez?`,
+		answers: [
+			{ text: `San Jose Sharks`, correct: false },
+			{ text: `Arizona Coyotes`, correct: false },
+			{ text: `Nashville Predators`, correct: false },
+			{ text: `Anaheim Ducks`, correct: true },
+		]
+	},
+	{
+		question: `In the 1992 film Wayne's World, Wayne falls in love with rock singer Cassandra Wong, played by what actress?`,
+		answers: [
+			{ text: `Lauren Tom`, correct: false },
+			{ text: `Lucy Liu`, correct: false },
+			{ text: `Olivia Munn`, correct: false },
+			{ text: `Tia Carrerre`, correct: true },
+		]
+	},
+	{
+		question: `Actors Johnny Knoxville, Steve-O and Jason "Wee Man" Acuña are best known for appearing in what comedy stunt movie series?`,
+		answers: [
+			{ text: `Borat`, correct: false },
+			{ text: `Jackass`, correct: true },
+			{ text: `The Jerky Boys`, correct: false },
+			{ text: `Impractical Jokers`, correct: false },
+		]
+	},
+	{
+		question: `Who portrays King Arthur (and the voice of God) in the film Monty Python and the Holy Grail?`,
+		answers: [
+			{ text: `John Cleese`, correct: false },
+			{ text: `Terry Gilliam`, correct: false },
+			{ text: `Eric Idle`, correct: false },
+			{ text: `Graham Chapman`, correct: true },
+		]
+	},
+	{
+		question: `In the 2004 comedy Shaun of the Dead, what song from rock band Queen gets played on the jukebox while the protagonists are battling zombies?`,
+		answers: [
+			{ text: `Another One Bites the Dust`, correct: false },
+			{ text: `We Will Rock You`, correct: false },
+			{ text: `Bohemian Rhapsody`, correct: false },
+			{ text: `Don't Stop Me Now`, correct: true },
+		]
+	},
+	{
+		question: `In the 1999 film Office Space, waitress Joanna, played by Jennifer Aniston, is ridiculed by her boss for not having enough what?`,
+		answers: [
+			{ text: `confidence`, correct: false },
+			{ text: `positivity`, correct: false },
+			{ text: `cleavage`, correct: false },
+			{ text: `pieces of "flair"`, correct: true },
 		]
 	},
 	{
