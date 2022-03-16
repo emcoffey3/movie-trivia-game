@@ -6,12 +6,20 @@ const currentQuestion = document.querySelector('#current-question');
 const answersContainer = document.querySelector('.answers-container');
 
 const GAME_QUESTION_COUNT = 10;
-const PAUSE_TIME_IN_MS = 500;
-let triviaQuestions = [...allTriviaQuestions];
-let score = 0;
-let questionsCount = 0;
+const WAIT_TIME_IN_MS = 500;
 
-getNextTriviaQuestion();
+let triviaQuestions, score, questionsCount;
+
+startGame();
+
+function startGame() {
+	triviaQuestions = [...allTriviaQuestions];
+	score = 0;
+	questionsCount = 0;
+	questionCountSpan.innerText = '0';
+	currentScoreSpan.innerText = '0';
+	getNextTriviaQuestion();
+}
 
 function getNextTriviaQuestion() {
 	if(questionsCount >= GAME_QUESTION_COUNT || triviaQuestions.length == 0) {
@@ -38,6 +46,7 @@ function displayQuestion(triviaQuestion) {
 		answersContainer.appendChild(button);
 	});
 }
+
 function selectAnswer(e) {
 	questionCountSpan.innerText = (++questionsCount).toString();
 	if (e.target.dataset.correct) {
@@ -50,7 +59,7 @@ function selectAnswer(e) {
 		button.disabled = true;
 	});
 
-	setTimeout(getNextTriviaQuestion, PAUSE_TIME_IN_MS);
+	setTimeout(getNextTriviaQuestion, WAIT_TIME_IN_MS);
 }
 
 function gameOver() {
@@ -59,16 +68,7 @@ function gameOver() {
 	answersContainer.innerHTML = '';
 	const button = document.createElement('button');
 	button.textContent = 'Play Again';
-	button.addEventListener('click', resetGame);
+	button.addEventListener('click', startGame);
 	button.classList.add('reset-button');
 	answersContainer.appendChild(button);
-}
-
-function resetGame() {
-	triviaQuestions = [...allTriviaQuestions];
-	score = 0;
-	questionsCount = 0;
-	questionCountSpan.innerText = '0';
-	currentScoreSpan.innerText = '0';
-	getNextTriviaQuestion();
 }
