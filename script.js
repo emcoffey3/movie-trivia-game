@@ -41,7 +41,7 @@ function getNextTriviaQuestion() {
 
 function displayQuestion(triviaQuestion) {
 	questionCountSpan.innerText = (++questionsCount).toString();
-	currentQuestion.textContent = triviaQuestion.question;
+	currentQuestion.innerHTML = triviaQuestion.question;
 	answersContainer.innerHTML = '';
 
 	triviaQuestion.answers.sort(() => Math.random() - 0.5);

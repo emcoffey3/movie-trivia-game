@@ -1,7 +1,7 @@
 
 export default [
 	{
-		question: `In the 1988 movie Beetlejuice, after Barbara and Adam die they discover a book.  What is the book's title?`,
+		question: `In the 1988 movie <em>Beetlejuice</em>, after Barbara and Adam die they discover a book.  What is the book's title?`,
 		answers: [
 			{ text: `The Necronomicon`, correct: false },
 			{ text: `Tobin's Spirit Guide`, correct: false },
@@ -10,7 +10,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 2016 movie Keanu starring Keegan-Michael Key and Jordan Peele, what is Keanu?`,
+		question: `In the 2016 movie <em>Keanu</em> starring Keegan-Michael Key and Jordan Peele, what is Keanu?`,
 		answers: [
 			{ text: `a person`, correct: false },
 			{ text: `a car`, correct: false },
@@ -55,7 +55,7 @@ export default [
 		]
 	},
 	{
-		question: `In the MCU, what type of shape-shifting aliens are introduced in Captain Marvel and later seen in Spider-Man: Far From Home?`,
+		question: `In the MCU, what type of shape-shifting aliens are introduced in <em>Captain Marvel</em> and later seen in <em>Spider-Man: Far From Home</em>?`,
 		answers: [
 			{ text: `Kree`, correct: false },
 			{ text: `Skrulls`, correct: true },
@@ -64,7 +64,7 @@ export default [
 		]
 	},
 	{
-		question: `Actor Willem Dafoe portrays what villain in both the 2002 film Spider-Man and the 2021 film Spider-Man: No Way Home?`,
+		question: `Actor Willem Dafoe portrays what villain in both the 2002 film <em>Spider-Man</em> and the 2021 film <em>Spider-Man: No Way Home</em>?`,
 		answers: [
 			{ text: `Doctor Octopus`, correct: false },
 			{ text: `Green Goblin`, correct: true },
@@ -100,7 +100,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1957 film 12 Angry Men, what is the murder weapon?`,
+		question: `In the 1957 film <em>12 Angry Men</em>, what is the murder weapon?`,
 		answers: [
 			{ text: `revolver`, correct: false },
 			{ text: `switchblade`, correct: true },
@@ -145,7 +145,16 @@ export default [
 		]
 	},
 	{
-		question: `In the movie A Few Good Men, Tom Cruise's character Lt. Daniel Kafee is a member of which armed service branch?`,
+		question: `In the 1980 film <em>The Empire Strikes Back</em> who does Darth Vader kill just before the Battle of Hoth for his incompetence?`,
+		answers: [
+			{ text: `General Veers`, correct: false },
+			{ text: `Admiral Ozzel`, correct: true },
+			{ text: `Captain Piett`, correct: false },
+			{ text: `Jar Jar Binks`, correct: false },
+		]
+	},
+	{
+		question: `In the movie <em>A Few Good Men</em>, Tom Cruise's character Lt. Daniel Kafee is a member of which armed service branch?`,
 		answers: [
 			{ text: `Army`, correct: false },
 			{ text: `Navy`, correct: true },
@@ -154,7 +163,7 @@ export default [
 		]
 	},
 	{
-		question: `In the movie A Few Good Men, Jack Nicholson's character Col. Nathan R. Jessup is a member of which armed service branch?`,
+		question: `In the movie <em>A Few Good Men</em>, Jack Nicholson's character Col. Nathan R. Jessup is a member of which armed service branch?`,
 		answers: [
 			{ text: `Army`, correct: false },
 			{ text: `Navy`, correct: false },
@@ -172,7 +181,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1988 John Carpenter movie They Live starring Roddy Piper and Keith David, who are "they"?`,
+		question: `In the 1988 John Carpenter movie <em>They Live</em> starring Roddy Piper and Keith David, who are "they"?`,
 		answers: [
 			{ text: `Vampires`, correct: false },
 			{ text: `Aliens`, correct: true },
@@ -181,7 +190,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1997 movie Men in Black, what actor plays Agent K?`,
+		question: `In the 1997 movie <em>Men in Black</em>, what actor plays Agent K?`,
 		answers: [
 			{ text: `Will Smith`, correct: false },
 			{ text: `Jamie Foxx`, correct: false },
@@ -190,7 +199,7 @@ export default [
 		]
 	},
 	{
-		question: `The 1994 film Airheads stars Brendan Fraser, Steve Buscemi, and Adam Sandler as members of a rock band.  What is the name of their band?`,
+		question: `The 1994 film <em>Airheads</em> stars Brendan Fraser, Steve Buscemi, and Adam Sandler as members of a rock band.  What is the name of their band?`,
 		answers: [
 			{ text: `Wyld Stallyns`, correct: false },
 			{ text: `The Lone Rangers`, correct: true },
@@ -199,7 +208,7 @@ export default [
 		]
 	},
 	{
-		question: `What 1990's spoof comedies starring Charlie Sheen parodied hit action films such as Top Gun and the Rambo series?`,
+		question: `What 1990's spoof comedies starring Charlie Sheen parodied hit action films such as <em>Top Gun</em> and the <em>Rambo</em> series?`,
 		answers: [
 			{ text: `The Naked Gun`, correct: false },
 			{ text: `Police Academy`, correct: false },
@@ -217,7 +226,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1980 film The Blues Brothers, the mystery woman hellbent on killing Jake Blues is played by what actress?`,
+		question: `In the 1980 film <em>The Blues Brothers</em>, the mystery woman hellbent on killing Jake Blues is played by what actress?`,
 		answers: [
 			{ text: `Diane Keaton`, correct: false },
 			{ text: `Carrie Fisher`, correct: true },
@@ -226,7 +235,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1987 film Planes, Trains & Automobiles, the character played by actor John Candy sells what product?`,
+		question: `In the 1987 film <em>Planes, Trains & Automobiles</em>, the character played by actor John Candy sells what product?`,
 		answers: [
 			{ text: `shoelaces`, correct: false },
 			{ text: `novelty keychains`, correct: false },
@@ -235,7 +244,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1988 film Who Framed Roger Rabbit, who framed Roger Rabbit?`,
+		question: `In the 1988 film <em>Who Framed Roger Rabbit</em>, who framed Roger Rabbit?`,
 		answers: [
 			{ text: `Jessica Rabbit`, correct: false },
 			{ text: `R.K. Maroon`, correct: false },
@@ -244,7 +253,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1989 movie Heathers, what is the first name of Winona Ryder's character?`,
+		question: `In the 1989 movie <em>Heathers</em>, what is the first name of Winona Ryder's character?`,
 		answers: [
 			{ text: `Heather`, correct: false },
 			{ text: `Sarah`, correct: false },
@@ -253,7 +262,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 2018 film Avengers: Infinity War, the character Thor is given a new weapon to replace his broken hammer.  What is this weapon's name?`,
+		question: `In the 2018 film <em>Avengers: Infinity War</em>, the character Thor is given a new weapon to replace his broken hammer.  What is this weapon's name?`,
 		answers: [
 			{ text: `Kingslayer`, correct: false },
 			{ text: `Stormbreaker`, correct: true },
@@ -271,7 +280,7 @@ export default [
 		]
 	},
 	{
-		question: `In the opening scene of the 1993 film Jurassic Park, a park employee is killed by what type of dinosaur?`,
+		question: `In the opening scene of the 1993 film <em>Jurassic Park</em>, a park employee is killed by what type of dinosaur?`,
 		answers: [
 			{ text: `Velociraptor`, correct: true },
 			{ text: `Dilophosaurus`, correct: false },
@@ -280,7 +289,7 @@ export default [
 		]
 	},
 	{
-		question: `The 1997 sequel to Jurassic Park shares its title with what 1912 Sir Arthur Conan Doyle novel?`,
+		question: `The 1997 sequel to <em>Jurassic Park</em> shares its title with what 1912 Sir Arthur Conan Doyle novel?`,
 		answers: [
 			{ text: `The Lost World`, correct: true },
 			{ text: `The Land of Mist`, correct: false },
@@ -289,7 +298,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 2001 film The Lord of the Rings: The Fellowship of the Ring, who says "One does not simply walk into Mordor."?`,
+		question: `In the 2001 film <em>The Lord of the Rings: The Fellowship of the Ring</em>, who says "One does not simply walk into Mordor."?`,
 		answers: [
 			{ text: `Gandalf (Ian McKellan)`, correct: false },
 			{ text: `Aragorn (Viggo Mortensen)`, correct: false },
@@ -298,7 +307,7 @@ export default [
 		]
 	},
 	{
-		question: `The 1994 movie Speed starring Keanu Reeves features passengers trapped on what type of vehicle?`,
+		question: `The 1994 movie <em>Speed</em> starring Keanu Reeves features passengers trapped on what type of vehicle?`,
 		answers: [
 			{ text: `a plane`, correct: false },
 			{ text: `a train`, correct: false },
@@ -307,7 +316,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1985 movie Back to the Future, what does Marty McFly's father George McFly aspire to be and eventually become?`,
+		question: `In the 1985 movie <em>Back to the Future</em>, what does Marty McFly's father George McFly aspire to be and eventually become?`,
 		answers: [
 			{ text: `rock musician`, correct: false },
 			{ text: `sci-fi author`, correct: true },
@@ -316,7 +325,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1989 movie Bill & Ted's Excellent Adventure, Bill and Ted travel through time in what object?`,
+		question: `In the 1989 movie <em>Bill & Ted's Excellent Adventure</em>, Bill and Ted travel through time in what object?`,
 		answers: [
 			{ text: `DeLorean`, correct: false },
 			{ text: `Winnebago`, correct: false },
@@ -325,7 +334,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1991 film Robin Hood: Prince of Thieves starring Kevin Costner in the titular role, who played the Sheriff of Nottingham?`,
+		question: `In the 1991 film <em>Robin Hood: Prince of Thieves</em> starring Kevin Costner in the titular role, who played the Sheriff of Nottingham?`,
 		answers: [
 			{ text: `Gary Oldman`, correct: false },
 			{ text: `Timothy Dalton`, correct: false },
@@ -334,7 +343,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1989 film Indiana Jones and the Last Crusade, what were the main characters searching for?`,
+		question: `In the 1989 film <em>Indiana Jones and the Last Crusade</em>, what were the main characters searching for?`,
 		answers: [
 			{ text: `The Ark of the Covenant`, correct: false },
 			{ text: `The Holy Grail`, correct: true },
@@ -343,7 +352,7 @@ export default [
 		]
 	},
 	{
-		question: `The 1984 movie Romancing the Stone stars what actor opposite Kathleen Turner as smuggler Jack T. Colton?`,
+		question: `The 1984 movie <em>Romancing the Stone</em> stars what actor opposite Kathleen Turner as smuggler Jack T. Colton?`,
 		answers: [
 			{ text: `Burt Reynolds`, correct: false },
 			{ text: `Michael Douglas`, correct: true },
@@ -352,7 +361,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1997 movie Batman & Robin, what character does Arnold Schwarzenegger portray?`,
+		question: `In the 1997 movie <em>Batman & Robin</em>, what character does Arnold Schwarzenegger portray?`,
 		answers: [
 			{ text: `Batman`, correct: false },
 			{ text: `Bane`, correct: false },
@@ -361,7 +370,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 2005 film Batman Begins, Rachel Dawes is portrayed by actress Katie Holmes.  Who portrays this character in 2008 sequel The Dark Knight?`,
+		question: `In the 2005 film <em>Batman Begins</em>, Rachel Dawes is portrayed by actress Katie Holmes.  Who portrays this character in 2008 sequel <em>The Dark Knight</em>?`,
 		answers: [
 			{ text: `Anne Hathaway`, correct: false },
 			{ text: `Scarlett Johansson`, correct: false },
@@ -370,7 +379,7 @@ export default [
 		]
 	},
 	{
-		question: `Actor David Dastmalchian has appeared as minor characters in such comic book films as The Dark Knight and the Ant-Man series, but most recently appeared in 2021's The Suicide Squad as what character?`,
+		question: `Actor David Dastmalchian has appeared as minor characters in such comic book films as <em>The Dark Knight</em> and the <em>Ant-Man</em> series, but most recently appeared in 2021's <em>The Suicide Squad</em> as what character?`,
 		answers: [
 			{ text: `Polka-Dot Man`, correct: true },
 			{ text: `Kite Man`, correct: false },
@@ -388,7 +397,7 @@ export default [
 		]
 	},
 	{
-		question: `Which film in the Mad Max series does not feature Mel Gibson in the title role?`,
+		question: `Which film in the <em>Mad Max</em> series does not feature Mel Gibson in the title role?`,
 		answers: [
 			{ text: `Mad Max`, correct: false },
 			{ text: `Mad Max 2: The Road Warrior`, correct: false },
@@ -397,7 +406,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 2014 film Whiplash, main character Andrew plays what musical instrument?`,
+		question: `In the 2014 film <em>Whiplash</em>, main character Andrew plays what musical instrument?`,
 		answers: [
 			{ text: `piano`, correct: false },
 			{ text: `trumpet`, correct: false },
@@ -424,7 +433,7 @@ export default [
 		]
 	},
 	{
-		question: `The 1984 cult film Breakin' had a sequel that came out the same year.  What was the title of that film?`,
+		question: `The 1984 cult film <em>Breakin'</em> had a sequel that came out the same year.  What was the title of that film?`,
 		answers: [
 			{ text: `Breakin' 2: Flat Broke`, correct: false },
 			{ text: `Breakin' 2: Electric Boogaloo`, correct: true },
@@ -433,7 +442,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1997 film Boogie Nights, the character Scotty J has an unrequited crush on main character Dirk Diggler, who is played by Mark Wahlberg.  What actor plays Scotty J?`,
+		question: `In the 1997 film <em>Boogie Nights</em>, the character Scotty J has an unrequited crush on main character Dirk Diggler, who is played by Mark Wahlberg.  What actor plays Scotty J?`,
 		answers: [
 			{ text: `John C. Reilly`, correct: false },
 			{ text: `William H. Macy`, correct: false },
@@ -442,7 +451,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1997 film Boogie Nights, the character Little Bill kills his wife and another man before committing suicide, all during a New Year's Eve party.  What actor plays Little Bill?`,
+		question: `In the 1997 film <em>Boogie Nights</em>, the character Little Bill kills his wife and another man before committing suicide, all during a New Year's Eve party.  What actor plays Little Bill?`,
 		answers: [
 			{ text: `Philip Seymour Hoffman`, correct: false },
 			{ text: `Philip Baker Hall`, correct: false },
@@ -478,7 +487,7 @@ export default [
 		]
 	},
 	{
-		question: `The 1995 film Demon Knight starring Billy Zane and Jada Pinkett Smith is part of what long-running comedy/horror anthology series?`,
+		question: `The 1995 film <em>Demon Knight</em> starring Billy Zane and Jada Pinkett Smith is part of what long-running comedy/horror anthology series?`,
 		answers: [
 			{ text: `Creepshow`, correct: false },
 			{ text: `Tales from the Crypt`, correct: true },
@@ -487,7 +496,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1987 movie RoboCop, who plays villain Clarence Boddicker?`,
+		question: `In the 1987 movie <em>RoboCop</em>, who plays villain Clarence Boddicker?`,
 		answers: [
 			{ text: `Kurt Fuller`, correct: false },
 			{ text: `Kurtwood Smith`, correct: true },
@@ -496,7 +505,16 @@ export default [
 		]
 	},
 	{
-		question: `In the Terminator film series, Arnold Schwarzenegger plays what type or "series" of terminator?`,
+		question: `In the 1987 movie <em>RoboCop</em>, the titular hero squares off against what other robot?`,
+		answers: [
+			{ text: `Johnny 5`, correct: false },
+			{ text: `HAL 9000`, correct: false },
+			{ text: `T-1000`, correct: false },
+			{ text: `ED-209`, correct: true },
+		]
+	},
+	{
+		question: `In the <em>Terminator</em> film series, Arnold Schwarzenegger plays what type of terminator?`,
 		answers: [
 			{ text: `Nexus-6`, correct: false },
 			{ text: `Nexus-8`, correct: false },
@@ -505,7 +523,7 @@ export default [
 		]
 	},
 	{
-		question: `In the Terminator film series, what is the name of the company that creates Skynet?`,
+		question: `In the <em>Terminator</em> film series, what is the name of the company that creates Skynet?`,
 		answers: [
 			{ text: `Weyland-Yutani Corp`, correct: false },
 			{ text: `The Tyrell Corporation`, correct: false },
@@ -514,7 +532,7 @@ export default [
 		]
 	},
 	{
-		question: `The 1987 movie RoboCop is set in what major US city?`,
+		question: `The 1987 movie <em>RoboCop</em> is set in what major US city?`,
 		answers: [
 			{ text: `New York`, correct: false },
 			{ text: `Chicago`, correct: false },
@@ -523,7 +541,7 @@ export default [
 		]
 	},
 	{
-		question: `The 1982 movie Blade Runner takes place in Los Angeles in what year?`,
+		question: `The 1982 movie <em>Blade Runner</em> takes place in Los Angeles in what year?`,
 		answers: [
 			{ text: `1999`, correct: false },
 			{ text: `2001`, correct: false },
@@ -532,7 +550,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1979 movie Alien, what is Ash?`,
+		question: `In the 1979 movie <em>Alien</em>, what is Ash?`,
 		answers: [
 			{ text: `a human`, correct: false },
 			{ text: `an android`, correct: true },
@@ -541,7 +559,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1979 movie Alien, what is Jones?`,
+		question: `In the 1979 movie <em>Alien</em>, what is Jones?`,
 		answers: [
 			{ text: `a human`, correct: false },
 			{ text: `an android`, correct: false },
@@ -550,7 +568,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1987 movie Predator, who says the line "I ain't got time to bleed"?`,
+		question: `In the 1987 movie <em>Predator</em>, who says the line "I ain't got time to bleed"?`,
 		answers: [
 			{ text: `Arnold Schwarzenegger (Dutch)`, correct: false },
 			{ text: `Carl Weathers (Dillon)`, correct: false },
@@ -559,7 +577,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1990 film Predator 2, what actor portrays lead character Lt. Mike Harrigan?`,
+		question: `In the 1990 film <em>Predator 2</em>, what actor portrays lead character Lt. Mike Harrigan?`,
 		answers: [
 			{ text: `Arnold Schwarzenegger`, correct: false },
 			{ text: `Samuel L. Jackson`, correct: false },
@@ -568,7 +586,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1982 movie John Carpenter's The Thing, where are the characters located?`,
+		question: `In the 1982 movie John Carpenter's <em>The Thing</em>, where are the characters located?`,
 		answers: [
 			{ text: `Greenland`, correct: false },
 			{ text: `Antarctica`, correct: true },
@@ -577,7 +595,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 2000 film Pitch Black and its sequels, the character Riddick is played by what actor?`,
+		question: `In the 2000 film <em>Pitch Black</em> and its sequels, the character Riddick is played by what actor?`,
 		answers: [
 			{ text: `Dwayne "The Rock" Johnson`, correct: false },
 			{ text: `Vin Diesel`, correct: true },
@@ -586,7 +604,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1995 film Twelve Monkeys, who portrays time traveler James Cole?`,
+		question: `In the 1995 film <em>Twelve Monkeys</em>, who portrays time traveler James Cole?`,
 		answers: [
 			{ text: `Brad Pitt`, correct: false },
 			{ text: `Bruce Willis`, correct: true },
@@ -595,11 +613,20 @@ export default [
 		]
 	},
 	{
-		question: `How many movies in the Star Trek franchise were directed by Leonard Nimoy?`,
+		question: `How many movies in the <em>Star Trek</em> franchise were directed by Leonard Nimoy?`,
 		answers: [
 			{ text: `0`, correct: false },
 			{ text: `1`, correct: false },
 			{ text: `2`, correct: true },
+			{ text: `3`, correct: false },
+		]
+	},
+	{
+		question: `How many movies in the <em>Star Trek</em> franchise were directed by William Shatner?`,
+		answers: [
+			{ text: `0`, correct: false },
+			{ text: `1`, correct: true },
+			{ text: `2`, correct: false },
 			{ text: `3`, correct: false },
 		]
 	},
@@ -622,7 +649,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1976 film Taxi Driver, what is the name of the character played by Robert De Niro?`,
+		question: `In the 1976 film <em>Taxi Driver</em>, what is the name of the character played by Robert De Niro?`,
 		answers: [
 			{ text: `Neil McCauley`, correct: false },
 			{ text: `Tyler Durden`, correct: false },
@@ -631,7 +658,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1976 movie All the President's Men, the main characters work for what prominent newspaper?`,
+		question: `In the 1976 movie <em>All the President's Men</em>, the main characters work for what prominent newspaper?`,
 		answers: [
 			{ text: `The New York Times`, correct: false },
 			{ text: `The Washington Post`, correct: true },
@@ -640,7 +667,7 @@ export default [
 		]
 	},
 	{
-		question: `This prolific actor had a career spanning over six decades, including supporting roles in Cool Hand Luke, The Godfather Part II, Alien, The Green Mile, and even Marvel's The Avengers.  What was his name?`,
+		question: `This prolific actor had a career spanning over six decades, including supporting roles in <em>Cool Hand Luke</em>, <em>The Godfather Part II</em>, <em>Alien</em>, and even <em>Marvel's The Avengers</em>.  What was his name?`,
 		answers: [
 			{ text: `John Hurt`, correct: false },
 			{ text: `William Hurt`, correct: false },
@@ -649,7 +676,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1991 film JFK, New Orleans district attorney Jim Garrison was portrayed by what actor?`,
+		question: `In the 1991 film <em>JFK</em>, New Orleans district attorney Jim Garrison was portrayed by what actor?`,
 		answers: [
 			{ text: `Kevin Bacon`, correct: false },
 			{ text: `Kevin Costner`, correct: true },
@@ -658,7 +685,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 2012 movie Argo starring Ben Affleck, what was Argo?`,
+		question: `In the 2012 movie <em>Argo</em> starring Ben Affleck, what was Argo?`,
 		answers: [
 			{ text: `a plane`, correct: false },
 			{ text: `a movie`, correct: true },
@@ -667,7 +694,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 2001 film Ocean's Eleven, who plays Danny Ocean?`,
+		question: `In the 2001 film <em>Ocean's Eleven</em>, who plays Danny Ocean?`,
 		answers: [
 			{ text: `Brad Pitt`, correct: false },
 			{ text: `Matt Damon`, correct: false },
@@ -685,7 +712,7 @@ export default [
 		]
 	},
 	{
-		question: `Complete this line from the 2014 movie What We Do in the Shadows: "We're werewolves, not ____."`,
+		question: `Complete this line from the 2014 movie <em>What We Do in the Shadows</em>: "We're werewolves, not ____."`,
 		answers: [
 			{ text: `vampires`, correct: false },
 			{ text: `swearwolves`, correct: true },
@@ -694,7 +721,7 @@ export default [
 		]
 	},
 	{
-		question: `Complete this line from the 1972 movie The Godfather: "Luca Brasi sleeps with the ____."`,
+		question: `Complete this line from the 1972 movie <em>The Godfather</em>: "Luca Brasi sleeps with the ____."`,
 		answers: [
 			{ text: `worms`, correct: false },
 			{ text: `dogs`, correct: false },
@@ -703,7 +730,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1974 movie The Godfather Part II, who orders the execution of Fredo Corleone?`,
+		question: `In the 1974 movie <em>The Godfather Part II</em>, who orders the execution of Fredo Corleone?`,
 		answers: [
 			{ text: `Vito Corleone`, correct: false },
 			{ text: `Michael Corleone`, correct: true },
@@ -712,7 +739,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1982 film Pink Floyd: The Wall, what is the name of the main character?`,
+		question: `In the 1982 film <em>Pink Floyd: The Wall</em>, what is the name of the main character?`,
 		answers: [
 			{ text: `Syd`, correct: false },
 			{ text: `Roger`, correct: false },
@@ -721,7 +748,7 @@ export default [
 		]
 	},
 	{
-		question: `The 2015 movie Straight Outta Compton chronicles the rise and fall of what famous hip-hop group?`,
+		question: `The 2015 movie <em>Straight Outta Compton</em> chronicles the rise and fall of what famous hip-hop group?`,
 		answers: [
 			{ text: `Public Enemy`, correct: false },
 			{ text: `N.W.A`, correct: true },
@@ -748,7 +775,7 @@ export default [
 		]
 	},
 	{
-		question: `Who directed the 1995 film Se7en starring Brad Pitt and Morgan Freeman?`,
+		question: `Who directed the 1995 film <em>Se7en</em> starring Brad Pitt and Morgan Freeman?`,
 		answers: [
 			{ text: `David Lynch`, correct: false },
 			{ text: `David Fincher`, correct: true },
@@ -757,7 +784,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1984 movie Ghostbusters, what actor portrays Winston Zeddemore?`,
+		question: `In the 1984 movie <em>Ghostbusters</em>, what actor portrays Winston Zeddemore?`,
 		answers: [
 			{ text: `Morgan Freeman`, correct: false },
 			{ text: `Danny Glover`, correct: false },
@@ -766,7 +793,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1993 film Wayne's World 2, what is the name of the music festival that Wayne and Garth try to organize?`,
+		question: `In the 1993 film <em>Wayne's World 2</em>, what is the name of the music festival that Wayne and Garth try to organize?`,
 		answers: [
 			{ text: `Waynefest`, correct: false },
 			{ text: `Waynestock`, correct: true },
@@ -775,7 +802,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1994 movie Clerks, Kevin Smith portrays what character?`,
+		question: `In the 1994 movie <em>Clerks</em>, Kevin Smith portrays what character?`,
 		answers: [
 			{ text: `Dante Hicks`, correct: false },
 			{ text: `Randal Graves`, correct: false },
@@ -784,7 +811,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 2008 film Semi-Pro starring Will Ferrell as Jackie Moon, what is the name of the basketball team that Jackie owns?`,
+		question: `In the 2008 film <em>Semi-Pro</em> starring Will Ferrell as Jackie Moon, what is the name of the basketball team that Jackie owns?`,
 		answers: [
 			{ text: `Los Angeles Knights`, correct: false },
 			{ text: `Washington Sentinels`, correct: false },
@@ -802,7 +829,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1983 film National Lampoon's Vacation, what is the Griswold family's eventual destination?`,
+		question: `In the 1983 film <em>National Lampoon's Vacation</em>, what is the Griswold family's eventual destination?`,
 		answers: [
 			{ text: `Disney World`, correct: false },
 			{ text: `Magic Mountain`, correct: false },
@@ -820,7 +847,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1992 film Wayne's World, Wayne falls in love with rock singer Cassandra Wong, played by what actress?`,
+		question: `In the 1992 film <em>Wayne's World</em>, Wayne falls in love with rock singer Cassandra Wong, played by what actress?`,
 		answers: [
 			{ text: `Lauren Tom`, correct: false },
 			{ text: `Lucy Liu`, correct: false },
@@ -838,7 +865,7 @@ export default [
 		]
 	},
 	{
-		question: `Who portrays King Arthur (and the voice of God) in the film Monty Python and the Holy Grail?`,
+		question: `Who portrays King Arthur (and the voice of God) in the film <em>Monty Python and the Holy Grail</em>?`,
 		answers: [
 			{ text: `John Cleese`, correct: false },
 			{ text: `Terry Gilliam`, correct: false },
@@ -847,7 +874,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 2004 comedy Shaun of the Dead, what song from rock band Queen gets played on the jukebox while the protagonists are battling zombies?`,
+		question: `In the 2004 comedy <em>Shaun of the Dead</em>, what song from rock band Queen gets played on the jukebox while the protagonists are battling zombies?`,
 		answers: [
 			{ text: `Another One Bites the Dust`, correct: false },
 			{ text: `We Will Rock You`, correct: false },
@@ -856,7 +883,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 1999 film Office Space, waitress Joanna, played by Jennifer Aniston, is ridiculed by her boss for not having enough what?`,
+		question: `In the 1999 film <em>Office Space</em>, waitress Joanna, played by Jennifer Aniston, is ridiculed by her boss for not having enough what?`,
 		answers: [
 			{ text: `confidence`, correct: false },
 			{ text: `positivity`, correct: false },
@@ -865,7 +892,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 2006 comedy Idiocracy, how long are Joe and Rita stuck in suspended animation?`,
+		question: `In the 2006 comedy <em>Idiocracy</em>, how long are Joe and Rita stuck in suspended animation?`,
 		answers: [
 			{ text: `6 months`, correct: false },
 			{ text: `20 years`, correct: false },
@@ -874,7 +901,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 2006 film Idiocracy, Brawndo has what plants crave, which is what?`,
+		question: `In the 2006 film <em>Idiocracy</em>, Brawndo has what plants crave, which is what?`,
 		answers: [
 			{ text: `water`, correct: false },
 			{ text: `sunlight`, correct: false },
@@ -883,7 +910,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 2006 film Idiocracy, Dwayne Elizondo Mountain Dew Herbert Camacho is what?`,
+		question: `In the 2006 film <em>Idiocracy</em>, Dwayne Elizondo Mountain Dew Herbert Camacho is what?`,
 		answers: [
 			{ text: `5-time Ultimate Smackdown Champion`, correct: true },
 			{ text: `Porn Superstar`, correct: true },
