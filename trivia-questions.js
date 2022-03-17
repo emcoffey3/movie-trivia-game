@@ -1117,6 +1117,33 @@ export default [
 		]
 	},
 	{
+		question: `The 1979 movie <em>Life of Brian</em> was written by and starred what comedy troupe?`,
+		answers: [
+			{ text: `Monty Python`, correct: true },
+			{ text: `Kids in the Hall`, correct: false },
+			{ text: `The State`, correct: false },
+			{ text: `Broken Lizard`, correct: false },
+		]
+	},
+	{
+		question: `The 2001 movie <em>Wet Hot American Summer</em> was written by and starred members of what comedy troupe?`,
+		answers: [
+			{ text: `Monty Python`, correct: false },
+			{ text: `Kids in the Hall`, correct: false },
+			{ text: `The State`, correct: true },
+			{ text: `Broken Lizard`, correct: false },
+		]
+	},
+	{
+		question: `The 2001 movie <em>Super Troopers</em> was written by and starred what comedy troupe?`,
+		answers: [
+			{ text: `Monty Python`, correct: false },
+			{ text: `Kids in the Hall`, correct: false },
+			{ text: `The State`, correct: false },
+			{ text: `Broken Lizard`, correct: true },
+		]
+	},
+	{
 		question: `In the 2008 film <em>Semi-Pro</em> starring Will Ferrell as Jackie Moon, what is the name of the basketball team that Jackie owns?`,
 		answers: [
 			{ text: `Los Angeles Knights`, correct: false },
