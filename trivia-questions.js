@@ -73,6 +73,15 @@ export default [
 		]
 	},
 	{
+		question: `Actor Alfred Molina portrays what villain in both the 2004 film <em>Spider-Man 2</em> and the 2021 film <em>Spider-Man: No Way Home</em>?`,
+		answers: [
+			{ text: `Doctor Octopus`, correct: true },
+			{ text: `Green Goblin`, correct: false },
+			{ text: `Hobgoblin`, correct: false},
+			{ text: `Venom`, correct: false },
+		]
+	},
+	{
 		question: `What is the name of the first movie that Sylvester Stallone appeared in as the character John Rambo?`,
 		answers: [
 			{ text: `Delta Force`, correct: false },
@@ -325,6 +334,15 @@ export default [
 		]
 	},
 	{
+		question: `In the 2001 film <em>The Lord of the Rings: The Fellowship of the Ring</em>, who says "Fly, you fools!"?`,
+		answers: [
+			{ text: `Gandalf`, correct: true },
+			{ text: `Aragorn`, correct: false },
+			{ text: `Legolas`, correct: false },
+			{ text: `Boromir`, correct: false },
+		]
+	},
+	{
 		question: `The 1994 movie <em>Speed</em> starring Keanu Reeves features passengers trapped on what type of vehicle?`,
 		answers: [
 			{ text: `a plane`, correct: false },
@@ -559,6 +577,15 @@ export default [
 		]
 	},
 	{
+		question: `In the film <em>Terminator 2: Judgement Day</em>, Robert Patrick plays what type of terminator?`,
+		answers: [
+			{ text: `Nexus-6`, correct: false },
+			{ text: `Nexus-8`, correct: false },
+			{ text: `T-800`, correct: false },
+			{ text: `T-1000`, correct: true },
+		]
+	},
+	{
 		question: `In the <em>Terminator</em> film series, what is the name of the company that creates Skynet?`,
 		answers: [
 			{ text: `Weyland-Yutani Corp`, correct: false },
@@ -583,6 +610,15 @@ export default [
 			{ text: `2001`, correct: false },
 			{ text: `2019`, correct: true },
 			{ text: `2049`, correct: false },
+		]
+	},
+	{
+		question: `The 1982 movie <em>Blade Runner</em> is based on what novel?`,
+		answers: [
+			{ text: `Blade Runner`, correct: false },
+			{ text: `Do Androids Dream of Electric Sheep?`, correct: true },
+			{ text: `A Scanner Darkly`, correct: false },
+			{ text: `Ender's Game`, correct: false },
 		]
 	},
 	{
@@ -667,6 +703,24 @@ export default [
 		]
 	},
 	{
+		question: `How many movies in the <em>Star Wars</em> franchise were directed by George Lucas?`,
+		answers: [
+			{ text: `3`, correct: false },
+			{ text: `4`, correct: true },
+			{ text: `5`, correct: false },
+			{ text: `6`, correct: false },
+		]
+	},
+	{
+		question: `How many movies in the <em>Star Wars</em> franchise were directed by JJ Abrams?`,
+		answers: [
+			{ text: `0`, correct: false },
+			{ text: `1`, correct: false },
+			{ text: `2`, correct: true },
+			{ text: `3`, correct: false },
+		]
+	},
+	{
 		question: `What actor has portrayed horror film character Freddy Krueger more than any other actor?`,
 		answers: [
 			{ text: `Michael Berryman`, correct: false },
@@ -727,6 +781,222 @@ export default [
 			{ text: `a movie`, correct: true },
 			{ text: `a bomb`, correct: false },
 			{ text: `a cat`, correct: false },
+		]
+	},
+	{
+		question: `The 1970 film <em>MASH</em> takes place during what war?`,
+		answers: [
+			{ text: `World War I`, correct: false },
+			{ text: `World War II`, correct: false },
+			{ text: `Vietnam War`, correct: false },
+			{ text: `Korean War`, correct: true },
+		]
+	},
+	{
+		question: `The 2002 film <em>We Were Soldiers</em> takes place during what war?`,
+		answers: [
+			{ text: `World War I`, correct: false },
+			{ text: `World War II`, correct: false },
+			{ text: `Vietnam War`, correct: true },
+			{ text: `Civil War`, correct: false },
+		]
+	},
+	{
+		question: `The 1986 film <em>Platoon</em> takes place during what war?`,
+		answers: [
+			{ text: `World War I`, correct: false },
+			{ text: `World War II`, correct: false },
+			{ text: `Vietnam War`, correct: true },
+			{ text: `Korean War`, correct: false },
+		]
+	},
+	{
+		question: `The 1987 film <em>Full Metal Jacket</em> takes place during what war?`,
+		answers: [
+			{ text: `World War I`, correct: false },
+			{ text: `World War II`, correct: false },
+			{ text: `Vietnam War`, correct: true },
+			{ text: `Korean War`, correct: false },
+		]
+	},
+	{
+		question: `The 1979 film <em>Apocalypse Now</em> takes place during what war?`,
+		answers: [
+			{ text: `World War I`, correct: false },
+			{ text: `World War II`, correct: false },
+			{ text: `Vietnam War`, correct: true },
+			{ text: `Korean War`, correct: false },
+		]
+	},
+	{
+		question: `The 1998 film <em>Saving Private Ryan</em> takes place during what war?`,
+		answers: [
+			{ text: `World War I`, correct: false },
+			{ text: `World War II`, correct: true },
+			{ text: `Vietnam War`, correct: false },
+			{ text: `Korean War`, correct: false },
+		]
+	},
+	{
+		question: `The 1998 film <em>The Thin Red Line</em> takes place during what war?`,
+		answers: [
+			{ text: `World War I`, correct: false },
+			{ text: `World War II`, correct: true },
+			{ text: `Vietnam War`, correct: false },
+			{ text: `Civil War`, correct: false },
+		]
+	},
+	{
+		question: `The 2011 film <em>Captain America</em> takes place during what war?`,
+		answers: [
+			{ text: `World War I`, correct: false },
+			{ text: `World War II`, correct: true },
+			{ text: `Vietnam War`, correct: false },
+			{ text: `Revolutionary War`, correct: false },
+		]
+	},
+	{
+		question: `The 2017 film <em>Wonder Woman</em> takes place during what war?`,
+		answers: [
+			{ text: `World War I`, correct: true },
+			{ text: `World War II`, correct: false },
+			{ text: `Vietnam War`, correct: false },
+			{ text: `Civil War`, correct: false },
+		]
+	},
+	{
+		question: `The 1962 film <em>Lawrence of Arabia</em> takes place during what war?`,
+		answers: [
+			{ text: `World War I`, correct: true },
+			{ text: `World War II`, correct: false },
+			{ text: `Revolutionary War`, correct: false },
+			{ text: `Civil War`, correct: false },
+		]
+	},
+	{
+		question: `The 1957 film <em>Paths of Glory</em> takes place during what war?`,
+		answers: [
+			{ text: `World War I`, correct: true },
+			{ text: `World War II`, correct: false },
+			{ text: `Revolutionary War`, correct: false },
+			{ text: `Civil War`, correct: false },
+		]
+	},
+	{
+		question: `The 1989 film <em>Glory</em> takes place during what war?`,
+		answers: [
+			{ text: `World War I`, correct: false },
+			{ text: `World War II`, correct: false },
+			{ text: `Vietnam War`, correct: false },
+			{ text: `Civil War`, correct: true },
+		]
+	},
+	{
+		question: `The film <em>All the President's Men</em> was released in what year?`,
+		answers: [
+			{ text: `1970`, correct: false },
+			{ text: `1973`, correct: false },
+			{ text: `1976`, correct: true },
+			{ text: `1980`, correct: false },
+		]
+	},
+	{
+		question: `Stephen Spielberg's <em>The Post</em> was released in what year?`,
+		answers: [
+			{ text: `2008`, correct: false },
+			{ text: `2013`, correct: false },
+			{ text: `2017`, correct: true },
+			{ text: `2021`, correct: false },
+		]
+	},
+	{
+		question: `The film <em>Master and Commander: The Far Side of the World</em> was released in what year?`,
+		answers: [
+			{ text: `1998`, correct: false },
+			{ text: `2003`, correct: true },
+			{ text: `2007`, correct: false },
+			{ text: `2010`, correct: false },
+		]
+	},
+	{
+		question: `The film <em>2001: A Space Odyssey</em> was released in what year?`,
+		answers: [
+			{ text: `1964`, correct: false },
+			{ text: `1966`, correct: false },
+			{ text: `1968`, correct: true },
+			{ text: `1971`, correct: false },
+		]
+	},
+	{
+		question: `John Carpenter's <em>The Thing</em> was released in what year?`,
+		answers: [
+			{ text: `1980`, correct: false },
+			{ text: `1982`, correct: true },
+			{ text: `1984`, correct: false },
+			{ text: `1986`, correct: false },
+		]
+	},
+	{
+		question: `The movie <em>Star Wars</em> was released in what year?`,
+		answers: [
+			{ text: `1975`, correct: false },
+			{ text: `1977`, correct: true },
+			{ text: `1979`, correct: false },
+			{ text: `1981`, correct: false },
+		]
+	},
+	{
+		question: `The James Cameron movie <em>The Terminator</em> was released in what year?`,
+		answers: [
+			{ text: `1984`, correct: true },
+			{ text: `1986`, correct: false },
+			{ text: `1988`, correct: false },
+			{ text: `1991`, correct: false },
+		]
+	},
+	{
+		question: `The James Cameron movie <em>Terminator 2: Judgement Day</em> was released in what year?`,
+		answers: [
+			{ text: `1984`, correct: false },
+			{ text: `1986`, correct: false },
+			{ text: `1988`, correct: false },
+			{ text: `1991`, correct: true },
+		]
+	},
+	{
+		question: `Who directed the 1987 movie <em>RoboCop</em>?`,
+		answers: [
+			{ text: `James Cameron`, correct: false },
+			{ text: `John Carpenter`, correct: false },
+			{ text: `Paul Verhoeven`, correct: true },
+			{ text: `Terry Gilliam`, correct: false },
+		]
+	},
+	{
+		question: `Who directed the 1995 movie <em>Twelve Monkeys</em>?`,
+		answers: [
+			{ text: `James Cameron`, correct: false },
+			{ text: `John Carpenter`, correct: false },
+			{ text: `Paul Verhoeven`, correct: false },
+			{ text: `Terry Gilliam`, correct: true },
+		]
+	},
+	{
+		question: `Who directed the 1994 movie <em>In the Mouth of Madness</em>?`,
+		answers: [
+			{ text: `James Cameron`, correct: false },
+			{ text: `John Carpenter`, correct: true },
+			{ text: `Paul Verhoeven`, correct: false },
+			{ text: `Terry Gilliam`, correct: false },
+		]
+	},
+	{
+		question: `Who directed the 1994 movie <em>True Lies</em>?`,
+		answers: [
+			{ text: `James Cameron`, correct: true },
+			{ text: `John Carpenter`, correct: false },
+			{ text: `Paul Verhoeven`, correct: false },
+			{ text: `Terry Gilliam`, correct: false },
 		]
 	},
 	{
