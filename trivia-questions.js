@@ -55,11 +55,29 @@ export default [
 		]
 	},
 	{
+		question: `In the Marvel Cinematic Universe, who portrays Nick Fury?`,
+		answers: [
+			{ text: `Don Cheadle`, correct: false },
+			{ text: `Samuel L. Jackson`, correct: true},
+			{ text: `William Hurt`, correct: false },
+			{ text: `John Hurt`, correct: false },
+		]
+	},
+	{
 		question: `In the MCU, what type of shape-shifting aliens are introduced in <em>Captain Marvel</em> and later seen in <em>Spider-Man: Far From Home</em>?`,
 		answers: [
 			{ text: `Kree`, correct: false },
 			{ text: `Skrulls`, correct: true },
-			{ text: `Chitauri`, correct: false},
+			{ text: `Chitauri`, correct: false },
+			{ text: `Celestials`, correct: false },
+		]
+	},
+	{
+		question: `In the MCU, what type of aliens attack New York at the end of <em>The Avengers</em>?`,
+		answers: [
+			{ text: `Kree`, correct: false },
+			{ text: `Skrulls`, correct: false },
+			{ text: `Chitauri`, correct: true },
 			{ text: `Celestials`, correct: false },
 		]
 	},
@@ -415,7 +433,142 @@ export default [
 		]
 	},
 	{
-		question: `Actor David Dastmalchian has appeared as minor characters in such comic book films as <em>The Dark Knight</em> and the <em>Ant-Man</em> series, but most recently appeared in 2021's <em>The Suicide Squad</em> as what character?`,
+		question: `Who directed the 1992 movie <em>Batman Returns</em>?`,
+		answers: [
+			{ text: `Tim Burton`, correct: true },
+			{ text: `Joel Schumacher`, correct: false },
+			{ text: `Christopher Nolan`, correct: false },
+			{ text: `Zack Snyder`, correct: false },
+		]
+	},
+	{
+		question: `Who directed the 1997 movie <em>Batman & Robin</em>?`,
+		answers: [
+			{ text: `Tim Burton`, correct: false },
+			{ text: `Joel Schumacher`, correct: true },
+			{ text: `Christopher Nolan`, correct: false },
+			{ text: `Zack Snyder`, correct: false },
+		]
+	},
+	{
+		question: `Who directed the 2005 film <em>Batman Begins</em>?`,
+		answers: [
+			{ text: `Tim Burton`, correct: false },
+			{ text: `Joel Schumacher`, correct: false },
+			{ text: `Christopher Nolan`, correct: true },
+			{ text: `Zack Snyder`, correct: false },
+		]
+	},
+	{
+		question: `Who played the Joker in the 1989 film <em>Batman</em>?`,
+		answers: [
+			{ text: `Cesar Romero`, correct: false },
+			{ text: `Jack Nicholson`, correct: true },
+			{ text: `Heath Ledger`, correct: false },
+			{ text: `Mark Hammill`, correct: false },
+		]
+	},
+	{
+		question: `Who played the Joker in the 2008 film <em>The Dark Knight</em>?`,
+		answers: [
+			{ text: `Jack Nicholson`, correct: false },
+			{ text: `Heath Ledger`, correct: true },
+			{ text: `Jared Leto`, correct: false },
+			{ text: `Joaquin Phoenix`, correct: false },
+		]
+	},
+	{
+		question: `Who played the Joker in the 2019 film <em>Joker</em>?`,
+		answers: [
+			{ text: `Jack Nicholson`, correct: false },
+			{ text: `Heath Ledger`, correct: false },
+			{ text: `Jared Leto`, correct: false },
+			{ text: `Joaquin Phoenix`, correct: true },
+		]
+	},
+	{
+		question: `Who played Batman in the 1989 film <em>Batman</em>?`,
+		answers: [
+			{ text: `Adam West`, correct: false },
+			{ text: `Michael Keaton`, correct: true },
+			{ text: `Val Kilmer`, correct: false },
+			{ text: `Ben Affleck`, correct: false },
+		]
+	},
+	{
+		question: `Who played Batman in the 1995 film <em>Batman Forever</em>?`,
+		answers: [
+			{ text: `Chris O'Donnell`, correct: false },
+			{ text: `Val Kilmer`, correct: true },
+			{ text: `George Clooney`, correct: false },
+			{ text: `Christian Bale`, correct: false },
+		]
+	},
+	{
+		question: `Who played Batman in the 2008 film <em>The Dark Knight Rises</em>?`,
+		answers: [
+			{ text: `Tom Hardy`, correct: false },
+			{ text: `Christian Bale`, correct: true },
+			{ text: `Ben Affleck`, correct: false },
+			{ text: `Robert Pattinson`, correct: false },
+		]
+	},
+	{
+		question: `Who played James Bond in the 1962 film <em>Dr. No</em>?`,
+		answers: [
+			{ text: `Sean Connery`, correct: true },
+			{ text: `Roger Moore`, correct: false },
+			{ text: `George Lazenby`, correct: false },
+			{ text: `Timothy Dalton`, correct: false },
+		]
+	},
+	{
+		question: `Who played James Bond in the 1974 film <em>The Man with the Golden Gun</em>?`,
+		answers: [
+			{ text: `Sean Connery`, correct: false },
+			{ text: `Roger Moore`, correct: true },
+			{ text: `George Lazenby`, correct: false },
+			{ text: `Timothy Dalton`, correct: false },
+		]
+	},
+	{
+		question: `Who played James Bond in the 1995 film <em>GoldenEye</em>?`,
+		answers: [
+			{ text: `Sean Connery`, correct: false },
+			{ text: `Timothy Dalton`, correct: false },
+			{ text: `Pierce Brosnan`, correct: true },
+			{ text: `Daniel Craig`, correct: false },
+		]
+	},
+	{
+		question: `Who played James Bond in the 2006 film <em>Casino Royale</em>?`,
+		answers: [
+			{ text: `David Niven`, correct: false },
+			{ text: `Timothy Dalton`, correct: false },
+			{ text: `Pierce Brosnan`, correct: false },
+			{ text: `Daniel Craig`, correct: true },
+		]
+	},
+	{
+		question: `Who played Jack Ryan in the 1990 film <em>The Hunt for Red October</em>?`,
+		answers: [
+			{ text: `Alec Baldwin`, correct: true },
+			{ text: `Harrison Ford`, correct: false },
+			{ text: `Ben Affleck`, correct: false },
+			{ text: `Bruce Willis`, correct: false },
+		]
+	},
+	{
+		question: `Who played Jack Ryan in the 1994 film <em>Clear and Present Danger</em>?`,
+		answers: [
+			{ text: `Alec Baldwin`, correct: false },
+			{ text: `Harrison Ford`, correct: true },
+			{ text: `Chris Pine`, correct: false },
+			{ text: `Mel Gibson`, correct: false },
+		]
+	},
+	{
+		question: `Actor David Dastmalchian has had minor roles in comic book films such as <em>The Dark Knight</em> and the <em>Ant-Man</em> series, but most recently appeared in 2021's <em>The Suicide Squad</em> as what character?`,
 		answers: [
 			{ text: `Polka-Dot Man`, correct: true },
 			{ text: `Kite Man`, correct: false },
@@ -640,12 +793,21 @@ export default [
 		]
 	},
 	{
+		question: `In the 1987 movie <em>Predator</em>, who says the line "If it bleeds, we can kill it"?`,
+		answers: [
+			{ text: `Dutch (Arnold Schwarzenegger)`, correct: true },
+			{ text: `Dillon (Carl Weathers)`, correct: false },
+			{ text: `Blain (Jesse Ventura)`, correct: false },
+			{ text: `The Predator (Kevin Peter Hall)`, correct: false },
+		]
+	},
+	{
 		question: `In the 1987 movie <em>Predator</em>, who says the line "I ain't got time to bleed"?`,
 		answers: [
-			{ text: `Arnold Schwarzenegger (Dutch)`, correct: false },
-			{ text: `Carl Weathers (Dillon)`, correct: false },
-			{ text: `Jesse Ventura (Blain)`, correct: true },
-			{ text: `Kevin Peter Hall (Predator)`, correct: false },
+			{ text: `Dutch (Arnold Schwarzenegger)`, correct: false },
+			{ text: `Dillon (Carl Weathers)`, correct: false },
+			{ text: `Blain (Jesse Ventura)`, correct: true },
+			{ text: `The Predator (Kevin Peter Hall)`, correct: false },
 		]
 	},
 	{
@@ -655,6 +817,24 @@ export default [
 			{ text: `Samuel L. Jackson`, correct: false },
 			{ text: `Mel Gibson`, correct: false },
 			{ text: `Danny Glover`, correct: true },
+		]
+	},
+	{
+		question: `Which of these movies did actor Bill Paxton <em>not</em> appear in?`,
+		answers: [
+			{ text: `The Terminator (1984)`, correct: false },
+			{ text: `Aliens (1986)`, correct: false },
+			{ text: `RoboCop (1987)`, correct: true },
+			{ text: `Predator 2 (1990)`, correct: false },
+		]
+	},
+	{
+		question: `Which of these movies did actor Michael Biehn <em>not</em> appear in?`,
+		answers: [
+			{ text: `The Terminator (1984)`, correct: false },
+			{ text: `Aliens (1986)`, correct: false },
+			{ text: `Predator (1987)`, correct: true },
+			{ text: `Tombstone (1993)`, correct: false },
 		]
 	},
 	{
@@ -730,7 +910,7 @@ export default [
 		]
 	},
 	{
-		question: `This 1988 film stars Gene Hackman and Willem Dafoe as FBI agents investigating the murders of three college students by the KKK.  What is the film's title?`,
+		question: `What 1988 film stars Gene Hackman and Willem Dafoe as FBI agents investigating the killings of three college students by members of the KKK?`,
 		answers: [
 			{ text: `Ghosts of Mississippi`, correct: false },
 			{ text: `Mississippi Burning`, correct: true },
@@ -757,7 +937,16 @@ export default [
 		]
 	},
 	{
-		question: `This prolific actor had a career spanning over six decades, including supporting roles in <em>Cool Hand Luke</em>, <em>The Godfather Part II</em>, <em>Alien</em>, and even <em>Marvel's The Avengers</em>.  What was his name?`,
+		question: `In the 2015 movie <em>Spotlight</em>, the main characters work for what prominent newspaper?`,
+		answers: [
+			{ text: `The New York Times`, correct: false },
+			{ text: `The Washington Post`, correct: false },
+			{ text: `The Boston Globe`, correct: true },
+			{ text: `MAD Magazine`, correct: false },
+		]
+	},
+	{
+		question: `What prolific actor had supporting roles in <em>Cool Hand Luke</em>, <em>The Godfather Part II</em>, <em>Alien</em>, and even <em>Marvel's The Avengers</em>?`,
 		answers: [
 			{ text: `John Hurt`, correct: false },
 			{ text: `William Hurt`, correct: false },
@@ -1087,6 +1276,24 @@ export default [
 			{ text: `David Fincher`, correct: true },
 			{ text: `Brian De Palma`, correct: false },
 			{ text: `Bryan Singer`, correct: false },
+		]
+	},
+	{
+		question: `Who directed the 1984 film <em>Dune</em> starring Kyle MacLachlan as Paul Atreides?`,
+		answers: [
+			{ text: `David Lynch`, correct: true },
+			{ text: `David Fincher`, correct: false },
+			{ text: `Ridley Scott`, correct: false },
+			{ text: `Denis Villeneuve`, correct: false },
+		]
+	},
+	{
+		question: `Who directed the 2021 film <em>Dune</em> starring Timothy Chalamet as Paul Atreides?`,
+		answers: [
+			{ text: `David Lynch`, correct: false },
+			{ text: `David Fincher`, correct: false },
+			{ text: `Denis Villeneuve`, correct: true },
+			{ text: `Ridley Scott`, correct: false },
 		]
 	},
 	{
