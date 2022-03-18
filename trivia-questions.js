@@ -172,6 +172,33 @@ export default [
 		]
 	},
 	{
+		question: `In how many films has Anthony Hopkins portrayed Dr. Hannibal Lecter?`,
+		answers: [
+			{ text: `1`, correct: false },
+			{ text: `2`, correct: false },
+			{ text: `3`, correct: true },
+			{ text: `4`, correct: false },
+		]
+	},
+	{
+		question: `In how many films has Brian Cox portrayed Dr. Hannibal Lecktor?`,
+		answers: [
+			{ text: `0`, correct: false },
+			{ text: `1`, correct: true },
+			{ text: `2`, correct: false },
+			{ text: `3`, correct: false },
+		]
+	},
+	{
+		question: `In how many films has Mads Mikkelson portrayed Dr. Hannibal Lecter?`,
+		answers: [
+			{ text: `0`, correct: true },
+			{ text: `1`, correct: false },
+			{ text: `2`, correct: false },
+			{ text: `3`, correct: false },
+		]
+	},
+	{
 		question: `In the 1980 film <em>The Empire Strikes Back</em> who does Darth Vader kill just before the Battle of Hoth for his incompetence?`,
 		answers: [
 			{ text: `General Veers`, correct: false },
@@ -430,6 +457,33 @@ export default [
 			{ text: `The Holy Grail`, correct: true },
 			{ text: `The Spear of Destiny`, correct: false },
 			{ text: `The Millennium Falcon`, correct: false },
+		]
+	},
+	{
+		question: `In the 1981 film <em>Raiders of the Lost Ark</em>, what were the main characters searching for?`,
+		answers: [
+			{ text: `The Ark of the Covenant`, correct: true },
+			{ text: `The Holy Grail`, correct: false },
+			{ text: `Noah's Ark`, correct: false },
+			{ text: `The Spear of Destiny`, correct: false },
+		]
+	},
+	{
+		question: `In the original <em>Star Wars</em> trilogy, what color is the blade of Darth Vader's lightsaber?`,
+		answers: [
+			{ text: `red`, correct: true },
+			{ text: `green`, correct: false },
+			{ text: `blue`, correct: false },
+			{ text: `purple`, correct: false },
+		]
+	},
+	{
+		question: `In the <em>Star Wars</em> prequel trilogy, what color is the blade of Mace Windu's lightsaber?`,
+		answers: [
+			{ text: `red`, correct: false },
+			{ text: `green`, correct: false },
+			{ text: `blue`, correct: false },
+			{ text: `purple`, correct: true },
 		]
 	},
 	{
