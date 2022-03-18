@@ -217,6 +217,15 @@ export default [
 		]
 	},
 	{
+		question: `In the 2014 movie <em>What We Do in the Shadows</em> directed by Taika Watiti, who are "we"?`,
+		answers: [
+			{ text: `Vampires`, correct: true },
+			{ text: `Aliens`, correct: false },
+			{ text: `Zombies`, correct: false },
+			{ text: `Werewolves`, correct: false },
+		]
+	},
+	{
 		question: `In the 1997 movie <em>Men in Black</em>, what actor plays Agent K?`,
 		answers: [
 			{ text: `Will Smith`, correct: false },
@@ -253,12 +262,21 @@ export default [
 		]
 	},
 	{
-		question: `What 1995 technology-driven film features characters named "Acid Burn" and "Crash Override" and co-starred a young Angelina Jolie?`,
+		question: `What 1995 technology-driven film features characters named "Acid Burn" and "Crash Override"?`,
 		answers: [
 			{ text: `The Lawnmower Man`, correct: false },
 			{ text: `The Net`, correct: false },
 			{ text: `Sneakers`, correct: false },
 			{ text: `Hackers`, correct: true },
+		]
+	},
+	{
+		question: `What 1992 technology-driven film shares its title (and little else) with a short story by Stephen King?`,
+		answers: [
+			{ text: `The Lawnmower Man`, correct: true },
+			{ text: `The Net`, correct: false },
+			{ text: `Sneakers`, correct: false },
+			{ text: `Hackers`, correct: false },
 		]
 	},
 	{
