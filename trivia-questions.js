@@ -334,11 +334,20 @@ export default [
 		]
 	},
 	{
-		question: `In the X-Men movie franchise, actress Jennifer Lawrence plays what mutant character?`,
+		question: `In the <em>X-Men</em> movie franchise, actress Jennifer Lawrence plays what mutant character?`,
 		answers: [
 			{ text: `Storm`, correct: false },
 			{ text: `Rogue`, correct: false },
 			{ text: `Mystique`, correct: true },
+			{ text: `Kitty Pryde`, correct: false },
+		]
+	},
+	{
+		question: `In the <em>X-Men</em> movie franchise, actress Halle Berry plays what mutant character?`,
+		answers: [
+			{ text: `Storm`, correct: true },
+			{ text: `Rogue`, correct: false },
+			{ text: `Mystique`, correct: false },
 			{ text: `Kitty Pryde`, correct: false },
 		]
 	},
@@ -646,6 +655,15 @@ export default [
 			{ text: `Breakin' 2: Electric Boogaloo`, correct: true },
 			{ text: `Breakin' 2: Friends Forever`, correct: false },
 			{ text: `More Breakin'`, correct: false },
+		]
+	},
+	{
+		question: `In the <em>John Wick</em> film series, what is the name of the hotel where assassins always stay?`,
+		answers: [
+			{ text: `The Lexington`, correct: false },
+			{ text: `The Continental`, correct: true },
+			{ text: `The Imperial`, correct: false },
+			{ text: `The Babylon`, correct: false },
 		]
 	},
 	{
