@@ -14,17 +14,22 @@ const TIME_TO_ANSWER_IN_SECONDS = 15;
 const POINT_DURATION = 5;
 const MAXIMUM_SCORE = GAME_QUESTION_COUNT * (TIME_TO_ANSWER_IN_SECONDS / POINT_DURATION);
 
-let triviaQuestions, score, questionsCount, timer, timerInterval;
+let score, questionsCount, timer, timerInterval;
+let triviaQuestions = [...allTriviaQuestions];
 
 startGame();
 
 function startGame() {
-	highScoreSpan.innerText = getHighScore();
-	triviaQuestions = [...allTriviaQuestions];
+	if (triviaQuestions.length <= (GAME_QUESTION_COUNT * 2)) {
+		triviaQuestions = [...allTriviaQuestions];
+	}
 	score = 0;
 	questionsCount = 0;
-	questionCountSpan.innerText = '0';
+
+	highScoreSpan.innerText = getHighScore();
 	currentScoreSpan.innerText = '0';
+	questionCountSpan.innerText = '0';
+
 	getNextTriviaQuestion();
 }
 
