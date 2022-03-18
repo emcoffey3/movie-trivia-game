@@ -1252,6 +1252,33 @@ export default [
 		]
 	},
 	{
+		question: `What fruit is seen throughout <em>The Godfather</em> trilogy and is used to signify death or betrayal?`,
+		answers: [
+			{ text: `Apples`, correct: false },
+			{ text: `Oranges`, correct: true },
+			{ text: `Bananas`, correct: false },
+			{ text: `Strawberries`, correct: false },
+		]
+	},
+	{
+		question: `Who directed <em>The Godfather</em> trilogy?`,
+		answers: [
+			{ text: `Martin Scorsese`, correct: false },
+			{ text: `Francis Ford Coppola`, correct: true },
+			{ text: `Steven Spielberg`, correct: false },
+			{ text: `George Lucas`, correct: false },
+		]
+	},
+	{
+		question: `Who directed the 2010 film <em>Shutter Island</em>?`,
+		answers: [
+			{ text: `Martin Scorsese`, correct: true },
+			{ text: `Steven Spielberg`, correct: false },
+			{ text: `M. Night Shyamalan`, correct: false },
+			{ text: `David Fincher`, correct: false },
+		]
+	},
+	{
 		question: `In the 1982 film <em>Pink Floyd: The Wall</em>, what is the name of the main character?`,
 		answers: [
 			{ text: `Syd`, correct: false },
