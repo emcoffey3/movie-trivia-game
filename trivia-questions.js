@@ -217,7 +217,7 @@ export default [
 		]
 	},
 	{
-		question: `In the 2014 movie <em>What We Do in the Shadows</em> directed by Taika Watiti, who are "we"?`,
+		question: `In the 2014 movie <em>What We Do in the Shadows</em> directed by Taika Watiti, who are "We"?`,
 		answers: [
 			{ text: `Vampires`, correct: true },
 			{ text: `Aliens`, correct: false },
@@ -1474,6 +1474,15 @@ export default [
 			{ text: `Terry Gilliam`, correct: false },
 			{ text: `Eric Idle`, correct: false },
 			{ text: `Graham Chapman`, correct: true },
+		]
+	},
+	{
+		question: `In the 1992 comedy <em>Wayne's World</em>, what song from rock band Queen gets played while the characters are in Garth's car?`,
+		answers: [
+			{ text: `Another One Bites the Dust`, correct: false },
+			{ text: `We Will Rock You`, correct: false },
+			{ text: `Bohemian Rhapsody`, correct: true },
+			{ text: `Don't Stop Me Now`, correct: false },
 		]
 	},
 	{
