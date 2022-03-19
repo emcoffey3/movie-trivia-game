@@ -154,6 +154,33 @@ export default [
 		]
 	},
 	{
+		question: `Actor Djimon Hounsou has appeared in all of these comic book movies except what?`,
+		answers: [
+			{ text: `Constantine`, correct: false },
+			{ text: `Guardians of the Galaxy`, correct: false },
+			{ text: `Shazam!`, correct: false},
+			{ text: `Avengers: Endgame`, correct: true },
+		]
+	},
+	{
+		question: `Which of the following movies was <em>not</em> directed by James Gunn?`,
+		answers: [
+			{ text: `The Suicide Squad`, correct: false },
+			{ text: `Guardians of the Galaxy Vol. 2`, correct: false },
+			{ text: `Slither`, correct: false },
+			{ text: `Brightburn`, correct: true },
+		]
+	},
+	{
+		question: `The 2005 film <em>Constantine</em> starring Keanu Reeves is based on what comic book series?`,
+		answers: [
+			{ text: `Hellblazer`, correct: true },
+			{ text: `Hellboy`, correct: false },
+			{ text: `Lucifer`, correct: false },
+			{ text: `Sandman`, correct: false },
+		]
+	},
+	{
 		question: `What 1990 film stars Tim Robbins as a Vietnam War vet and ends with a horrifying twist?`,
 		answers: [
 			{ text: `The Hudsucker Proxy`, correct: false },
