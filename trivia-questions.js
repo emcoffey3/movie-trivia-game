@@ -37,6 +37,15 @@ export default [
 		]
 	},
 	{
+		question: `In the Marvel Cinematic Universe, how many Infinity Stones are there?`,
+		answers: [
+			{ text: `5`, correct: false },
+			{ text: `6`, correct: true},
+			{ text: `10`, correct: false },
+			{ text: `12`, correct: false },
+		]
+	},
+	{
 		question: `In the Marvel Cinematic Universe, the character Loki is originally from where?`,
 		answers: [
 			{ text: `Asgard`, correct: false },
@@ -592,6 +601,42 @@ export default [
 			{ text: `Christian Bale`, correct: true },
 			{ text: `Ben Affleck`, correct: false },
 			{ text: `Robert Pattinson`, correct: false },
+		]
+	},
+	{
+		question: `Which one of the actors has never portrayed Superman in a movie?`,
+		answers: [
+			{ text: `Christopher Reeve`, correct: false },
+			{ text: `Brandon Routh`, correct: false },
+			{ text: `Henry Cavill`, correct: false },
+			{ text: `Ben Affleck`, correct: true },
+		]
+	},
+	{
+		question: `Which of these characters does <em>not</em> appear in the 2017 film <em>Justice League</em>?`,
+		answers: [
+			{ text: `Superman`, correct: false },
+			{ text: `Wonder Woman`, correct: false },
+			{ text: `The Flash`, correct: false },
+			{ text: `Green Arrow`, correct: true },
+		]
+	},
+	{
+		question: `In the 2021 film <em>The Suicide Squad</em>, what actor voices Nanaue (aka King Shark)?`,
+		answers: [
+			{ text: `Arnold Schwarzenegger`, correct: false },
+			{ text: `Sylvester Stallone`, correct: true },
+			{ text: `Vin Diesel`, correct: false },
+			{ text: `John Cena`, correct: false },
+		]
+	},
+	{
+		question: `In the <em>Suicide Squad</em> film series, what is the official name of the team the main characters belong to?`,
+		answers: [
+			{ text: `Task Force X`, correct: true },
+			{ text: `X-Force`, correct: false },
+			{ text: `Project Suicide`, correct: false },
+			{ text: `The Suicide Squad`, correct: false },
 		]
 	},
 	{
