@@ -217,6 +217,33 @@ export default [
 		]
 	},
 	{
+		question: `In the 1977 film <em>Star Wars</em>, what planet is destroyed by the Death Star?`,
+		answers: [
+			{ text: `Tatooine`, correct: false },
+			{ text: `Alderaan`, correct: true },
+			{ text: `Dagobah`, correct: false },
+			{ text: `Endor`, correct: false },
+		]
+	},
+	{
+		question: `In the 1994 film <em>Forrest Gump</em>, which of these Presidents does Forrest <em>not</em> meet in person?`,
+		answers: [
+			{ text: `JFK`, correct: false },
+			{ text: `LBJ`, correct: false },
+			{ text: `Nixon`, correct: false },
+			{ text: `Reagan`, correct: true },
+		]
+	},
+	{
+		question: `In the 1994 film <em>Forrest Gump</em>, Forrest is all of these at some point except <em>what</em>?`,
+		answers: [
+			{ text: `College Football Player`, correct: false },
+			{ text: `US Army Soldier`, correct: false },
+			{ text: `Shrimp Boat Captain`, correct: false },
+			{ text: `Rock Star`, correct: true },
+		]
+	},
+	{
 		question: `In the movie <em>A Few Good Men</em>, Tom Cruise's character Lt. Daniel Kafee is a member of which armed service branch?`,
 		answers: [
 			{ text: `Army`, correct: false },
@@ -1105,6 +1132,69 @@ export default [
 			{ text: `a movie`, correct: true },
 			{ text: `a bomb`, correct: false },
 			{ text: `a cat`, correct: false },
+		]
+	},
+	{
+		question: `In the 1990 film <em>The Hunt for Red October</em>, what is Red October?`,
+		answers: [
+			{ text: `a spy`, correct: false },
+			{ text: `a virus`, correct: false },
+			{ text: `a cat`, correct: false },
+			{ text: `a submarine`, correct: true },
+		]
+	},
+	{
+		question: `What was the first film written and directed by George Lucas?`,
+		answers: [
+			{ text: `Jaws`, correct: false },
+			{ text: `American Graffiti`, correct: false },
+			{ text: `Star Wars`, correct: false },
+			{ text: `THX 1138`, correct: true },
+		]
+	},
+	{
+		question: `Author and screenwriter Michael Crichton directed what movie about killer robots?`,
+		answers: [
+			{ text: `RoboCop`, correct: false },
+			{ text: `Cyborg`, correct: false },
+			{ text: `The Terminator`, correct: false },
+			{ text: `Westworld`, correct: true },
+		]
+	},
+	{
+		question: `In the <em>RoboCop</em> series, what is RoboCop's real name?`,
+		answers: [
+			{ text: `Rick Deckard`, correct: false },
+			{ text: `Kyle Reese`, correct: false },
+			{ text: `Clarence Boddicker`, correct: false },
+			{ text: `Alex Murphy`, correct: true },
+		]
+	},
+	{
+		question: `What 1993 movie stars Sylvester Stallone, Wesley Snipes and Sandra Bullock?`,
+		answers: [
+			{ text: `Cobra`, correct: false },
+			{ text: `Cliffhanger`, correct: false },
+			{ text: `Judge Dredd`, correct: false },
+			{ text: `Demolition Man`, correct: true },
+		]
+	},
+	{
+		question: `Who played mob boss Frank Costello in <em>The Departed</em>?`,
+		answers: [
+			{ text: `Robert De Niro`, correct: false },
+			{ text: `Alec Baldwin`, correct: false },
+			{ text: `Ray Winstone`, correct: false },
+			{ text: `Jack Nicholson`, correct: true },
+		]
+	},
+	{
+		question: `Who played Private Ryan in <em>Saving Private Ryan</em>?`,
+		answers: [
+			{ text: `Tom Hanks`, correct: false },
+			{ text: `Edward Burns`, correct: false },
+			{ text: `Barry Pepper`, correct: false },
+			{ text: `Matt Damon`, correct: true },
 		]
 	},
 	{
