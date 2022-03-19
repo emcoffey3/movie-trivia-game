@@ -910,6 +910,24 @@ export default [
 		]
 	},
 	{
+		question: `In the <em>RoboCop</em> film series, what is the name of the company that creates RoboCop?`,
+		answers: [
+			{ text: `Weyland-Yutani Corp`, correct: false },
+			{ text: `The Tyrell Corporation`, correct: false },
+			{ text: `Cyberdyne Systems`, correct: false },
+			{ text: `Omni Consumer Products`, correct: true },
+		]
+	},
+	{
+		question: `In the <em>Blade Runner</em> film series, what is the name of the company that creates replicants?`,
+		answers: [
+			{ text: `Weyland-Yutani Corp`, correct: false },
+			{ text: `The Tyrell Corporation`, correct: true },
+			{ text: `Cyberdyne Systems`, correct: false },
+			{ text: `Omni Consumer Products`, correct: true },
+		]
+	},
+	{
 		question: `The 1987 movie <em>RoboCop</em> is set in what major US city?`,
 		answers: [
 			{ text: `New York`, correct: false },
