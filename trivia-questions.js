@@ -951,7 +951,7 @@ export default [
 			{ text: `Weyland-Yutani Corp`, correct: false },
 			{ text: `The Tyrell Corporation`, correct: true },
 			{ text: `Cyberdyne Systems`, correct: false },
-			{ text: `Omni Consumer Products`, correct: true },
+			{ text: `Omni Consumer Products`, correct: false },
 		]
 	},
 	{
