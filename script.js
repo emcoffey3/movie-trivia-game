@@ -20,7 +20,7 @@ let triviaQuestions = [...allTriviaQuestions];
 startGame();
 
 function startGame() {
-	if (triviaQuestions.length <= GAME_QUESTION_COUNT) {
+	if (triviaQuestions.length < GAME_QUESTION_COUNT) {
 		triviaQuestions = [...allTriviaQuestions];
 	}
 	score = 0;
