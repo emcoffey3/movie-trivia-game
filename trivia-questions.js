@@ -40,7 +40,7 @@ export default [
 		question: `In the Marvel Cinematic Universe, how many Infinity Stones are there?`,
 		answers: [
 			{ text: `5`, correct: false },
-			{ text: `6`, correct: true},
+			{ text: `6`, correct: true },
 			{ text: `10`, correct: false },
 			{ text: `12`, correct: false },
 		]
@@ -1726,6 +1726,24 @@ export default [
 			{ text: `We Will Rock You`, correct: false },
 			{ text: `Bohemian Rhapsody`, correct: false },
 			{ text: `Don't Stop Me Now`, correct: true },
+		]
+	},
+	{
+		question: `The 2017 horror comedy <em>Happy Death Day</em> can best be described as "<em>Scream</em> meets ____."`,
+		answers: [
+			{ text: `Liar Liar`, correct: false },
+			{ text: `Idiocracy`, correct: false },
+			{ text: `Freaky Friday`, correct: false },
+			{ text: `Groundhog Day`, correct: true },
+		]
+	},
+	{
+		question: `The 2017 horror comedy <em>Happy Death Day</em> spawned a 2019 sequel called what?`,
+		answers: [
+			{ text: `Happy Life Day`, correct: false },
+			{ text: `Unhappy Death Day`, correct: false },
+			{ text: `Merry Axe-Mas`, correct: false },
+			{ text: `Happy Death Day 2U`, correct: true },
 		]
 	},
 	{
