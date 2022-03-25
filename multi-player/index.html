@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Movie Trivia</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/css/style.css">
+	<script src="/js/multi-player.js" type="module" defer></script>
+</head>
+<body>
+
+	<div class="game-setup-container">
+		<form id="game-setup">
+			<div class="input-group">
+				<label for="round-count">Number of Rounds:</label>
+				<input type="number" id="round-count" min="1" max="20" value="5" required>
+			</div>
+			<div class="input-group">
+				<label for="player-count">Number of Players:</label>
+				<input type="number" id="player-count" min="2" max="20" value="2" required>
+			</div>
+			<div class="input-group">
+				<label for="player-1">Player #1:</label>
+				<input type="text" id="player-1" placeholder="Player 1 Name" autocomplete="off" required>
+			</div>
+			<div class="input-group">
+				<label for="player-2">Player #2:</label>
+				<input type="text" id="player-2" placeholder="Player 2 Name" autocomplete="off" required>
+			</div>
+			<button id="start-game" type="submit">Start Game</button>
+		</form>
+	</div>
+
+	<div class="player-scores-container hidden">
+		<table>
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Player</th>
+					<th>Correct</th>
+					<th>Incorrect</th>
+					<th>Score</th>
+				</tr>
+			</thead>
+			<tbody id="player-scores"></tbody>
+		</table>
+	</div>
+
+	<div class="question-container">
+		<p id="current-question"></p>
+	</div>
+
+	<div class="answers-container"></div>
+</body>
+</html>

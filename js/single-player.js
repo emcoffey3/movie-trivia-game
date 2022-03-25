@@ -113,7 +113,7 @@ function gameOver() {
 	const button = document.createElement('button');
 	button.textContent = 'Play Again';
 	button.addEventListener('click', startGame);
-	button.classList.add('reset-button');
+	button.classList.add('wide-button');
 	answersContainer.appendChild(button);
 }
 

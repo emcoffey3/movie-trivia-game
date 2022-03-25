@@ -532,6 +532,33 @@ export default [
 		]
 	},
 	{
+		question: `In the 1980 film <em>The Empire Strikes Back</em>, what color is the blade of Luke Skywalker's lightsaber?`,
+		answers: [
+			{ text: `red`, correct: false },
+			{ text: `green`, correct: false },
+			{ text: `blue`, correct: true },
+			{ text: `purple`, correct: false },
+		]
+	},
+	{
+		question: `In the 1983 film <em>The Return of the Jedi</em>, what color is the blade of Luke Skywalker's lightsaber?`,
+		answers: [
+			{ text: `red`, correct: false },
+			{ text: `green`, correct: true },
+			{ text: `blue`, correct: false },
+			{ text: `purple`, correct: false },
+		]
+	},
+	{
+		question: `In the original <em>Star Wars</em> trilogy, what color is the blade of Darth Vader's lightsaber?`,
+		answers: [
+			{ text: `red`, correct: true },
+			{ text: `green`, correct: false },
+			{ text: `blue`, correct: false },
+			{ text: `purple`, correct: false },
+		]
+	},
+	{
 		question: `In the original <em>Star Wars</em> trilogy, what color is the blade of Darth Vader's lightsaber?`,
 		answers: [
 			{ text: `red`, correct: true },
@@ -550,12 +577,39 @@ export default [
 		]
 	},
 	{
+		question: `In the <em>Star Wars</em> prequel trilogy, who wields a double-bladed lightsaber?`,
+		answers: [
+			{ text: `Darth Maul`, correct: true },
+			{ text: `Count Dooku`, correct: false },
+			{ text: `Obi-Wan Kenobi`, correct: false },
+			{ text: `Mace Windu`, correct: false },
+		]
+	},
+	{
 		question: `The 1984 movie <em>Romancing the Stone</em> stars what actor opposite Kathleen Turner as smuggler Jack T. Colton?`,
 		answers: [
 			{ text: `Burt Reynolds`, correct: false },
 			{ text: `Michael Douglas`, correct: true },
 			{ text: `Richard Gere`, correct: false },
 			{ text: `Harrison Ford`, correct: false },
+		]
+	},
+	{
+		question: `In the 2010 movie <em>Inception</em> who plays Cobb's wife Mal?`,
+		answers: [
+			{ text: `Marion Cotillard`, correct: true },
+			{ text: `Margot Robbie`, correct: false },
+			{ text: `Kate Winslet`, correct: false },
+			{ text: `Michelle Williams`, correct: false },
+		]
+	},
+	{
+		question: `In the 2010 movie <em>Inception</em>, what is "inception"?`,
+		answers: [
+			{ text: `planting an idea in one's subconscious`, correct: true },
+			{ text: `travelling into one's dreams`, correct: false },
+			{ text: `the opposite of deception`, correct: false },
+			{ text: `the mission's codename`, correct: false },
 		]
 	},
 	{
@@ -748,6 +802,24 @@ export default [
 		]
 	},
 	{
+		question: `In the 1992 film <em>Patriot Games</em> what organization does Jack Ryan work for?`,
+		answers: [
+			{ text: `CIA`, correct: true },
+			{ text: `NSA`, correct: false },
+			{ text: `FBI`, correct: false },
+			{ text: `DEA`, correct: false },
+		]
+	},
+	{
+		question: `What 2013 film features humans piloting giant robotic "Jaegers" against massive alien creatures?`,
+		answers: [
+			{ text: `Pacific Rim`, correct: true },
+			{ text: `Transformers: Dark of the Moon`, correct: false },
+			{ text: `Godzilla vs. Kong`, correct: false },
+			{ text: `Robot Jox`, correct: false },
+		]
+	},
+	{
 		question: `Actor David Dastmalchian has had minor roles in comic book films such as <em>The Dark Knight</em> and the <em>Ant-Man</em> series, but most recently appeared in 2021's <em>The Suicide Squad</em> as what character?`,
 		answers: [
 			{ text: `Polka-Dot Man`, correct: true },
@@ -838,12 +910,39 @@ export default [
 		]
 	},
 	{
+		question: `The Rob Reiner film <em>Misery</em> stars what actress as the deranged Annie Wilkes?`,
+		answers: [
+			{ text: `Kathy Bates`, correct: true },
+			{ text: `Sharon Stone`, correct: false },
+			{ text: `Sissy Spacek`, correct: false },
+			{ text: `Kathleen Turner`, correct: false },
+		]
+	},
+	{
+		question: `The 1976 film <em>Carrie</em> stars what actress as Carrie White?`,
+		answers: [
+			{ text: `Sissy Spacek`, correct: true },
+			{ text: `Mia Farrow`, correct: false },
+			{ text: `Piper Laurie`, correct: false },
+			{ text: `Carrie Fisher`, correct: false },
+		]
+	},
+	{
 		question: `Carrie Fisher's semi-autobiographical novel Postcards from the Edge was adapted into the 1990 movie of the same name.  What actress plays main character Suzanne Vale, who is loosely based on Fisher?`,
 		answers: [
 			{ text: `Susan Sarandon`, correct: false },
 			{ text: `Geena Davis`, correct: false },
 			{ text: `Meryl Streep`, correct: true },
 			{ text: `Julia Roberts`, correct: false },
+		]
+	},
+	{
+		question: `The 2011 film <em>The Iron Lady</em> starred Meryl Streep as what historical figure?`,
+		answers: [
+			{ text: `Queen Victoria`, correct: false },
+			{ text: `Queen Elizabeth II`, correct: false },
+			{ text: `Hillary Clinton`, correct: false },
+			{ text: `Margaret Thatcher`, correct: true },
 		]
 	},
 	{
@@ -1198,6 +1297,24 @@ export default [
 		]
 	},
 	{
+		question: `What type of fighter does Luke Skywalker fly in the 1977 movie <em>Star Wars</em>?`,
+		answers: [
+			{ text: `X-Wing`, correct: true },
+			{ text: `Y-Wing`, correct: false },
+			{ text: `TIE Fighter`, correct: false },
+			{ text: `Firespray`, correct: false },
+		]
+	},
+	{
+		question: `What is the name of Han Solo's ship in the 1977 movie <em>Star Wars</em>?`,
+		answers: [
+			{ text: `Millennium Falcon`, correct: true },
+			{ text: `X-Wing`, correct: false },
+			{ text: `Slave I`, correct: false },
+			{ text: `Death Star`, correct: false },
+		]
+	},
+	{
 		question: `Author and screenwriter Michael Crichton directed what movie about killer robots?`,
 		answers: [
 			{ text: `RoboCop`, correct: false },
@@ -1222,6 +1339,15 @@ export default [
 			{ text: `Cliffhanger`, correct: false },
 			{ text: `Judge Dredd`, correct: false },
 			{ text: `Demolition Man`, correct: true },
+		]
+	},
+	{
+		question: `The novel <em>Fair Game</em> by Paula Gosling was the basis for what excessively violent 1986 Sylvester Stallone action movie?`,
+		answers: [
+			{ text: `Cobra`, correct: true },
+			{ text: `First Blood`, correct: false },
+			{ text: `Fair Game`, correct: false },
+			{ text: `Demolition Man`, correct: false },
 		]
 	},
 	{
@@ -1369,6 +1495,24 @@ export default [
 		]
 	},
 	{
+		question: `Damien Chazelle's <em>La La Land</em> was released in what year?`,
+		answers: [
+			{ text: `2016`, correct: true },
+			{ text: `2018`, correct: false },
+			{ text: `2013`, correct: false },
+			{ text: `2010`, correct: false },
+		]
+	},
+	{
+		question: `The Marvel film <em>Black Panther</em> was released in what year?`,
+		answers: [
+			{ text: `2018`, correct: true },
+			{ text: `2016`, correct: false },
+			{ text: `2020`, correct: false },
+			{ text: `2015`, correct: false },
+		]
+	},
+	{
 		question: `The film <em>Master and Commander: The Far Side of the World</em> was released in what year?`,
 		answers: [
 			{ text: `1998`, correct: false },
@@ -1420,6 +1564,15 @@ export default [
 			{ text: `1986`, correct: false },
 			{ text: `1988`, correct: false },
 			{ text: `1991`, correct: true },
+		]
+	},
+	{
+		question: `In what 2015 Ridley Scott film does Matt Damon's charater need to get rescued from Mars?`,
+		answers: [
+			{ text: `Mission to Mars`, correct: false },
+			{ text: `Saving Private Ryan`, correct: false },
+			{ text: `Interstellar`, correct: false },
+			{ text: `The Martian`, correct: true },
 		]
 	},
 	{
@@ -1732,7 +1885,7 @@ export default [
 		question: `The 2017 horror comedy <em>Happy Death Day</em> can best be described as "<em>Scream</em> meets ____."`,
 		answers: [
 			{ text: `Liar Liar`, correct: false },
-			{ text: `Idiocracy`, correct: false },
+			{ text: `Multiplicity`, correct: false },
 			{ text: `Freaky Friday`, correct: false },
 			{ text: `Groundhog Day`, correct: true },
 		]
@@ -1744,6 +1897,51 @@ export default [
 			{ text: `Unhappy Death Day`, correct: false },
 			{ text: `Merry Axe-Mas`, correct: false },
 			{ text: `Happy Death Day 2U`, correct: true },
+		]
+	},
+	{
+		question: `Elizabeth Moss starred in what 2020 reimagining of a classic horror story?`,
+		answers: [
+			{ text: `The Invisible Man`, correct: true },
+			{ text: `Dracula Untold`, correct: false },
+			{ text: `The Mummy`, correct: false },
+			{ text: `Evil Dead`, correct: false },
+		]
+	},
+	{
+		question: `In the 2002 horror film <em>The Ring</em>, what causes people to die?`,
+		answers: [
+			{ text: `a videotape`, correct: true },
+			{ text: `a YouTube video`, correct: false },
+			{ text: `a song`, correct: false },
+			{ text: `a ring`, correct: false },
+		]
+	},
+	{
+		question: `In the 1986 horror film <em>The Fly</em> what does Seth build that causes him to transform?`,
+		answers: [
+			{ text: `teleportation pods`, correct: true },
+			{ text: `a time machine`, correct: false },
+			{ text: `a nuclear bomb`, correct: false },
+			{ text: `an awesome custom van`, correct: false },
+		]
+	},
+	{
+		question: `Who stars as Grace Stewart in the 2001 horror film <em>The Others</em>?`,
+		answers: [
+			{ text: `Nicole Kidman`, correct: true },
+			{ text: `Michelle Pfeiffer`, correct: false },
+			{ text: `Gwyneth Paltrow`, correct: false },
+			{ text: `Jodie Foster`, correct: false },
+		]
+	},
+	{
+		question: `What 2007 British black comedy film set at a funeral had a US remake in 2010?`,
+		answers: [
+			{ text: `Death at a Funeral`, correct: true },
+			{ text: `Four Weddings and a Funeral`, correct: false },
+			{ text: `This is Where I Leave You`, correct: false },
+			{ text: `The Death of a Stalin`, correct: false },
 		]
 	},
 	{

@@ -8,12 +8,19 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
-	<script>
-		window.location.href = '/single-player';
-	</script>
+	<link rel="stylesheet" href="/css/style.css">
+	<script src="/js/single-player.js" type="module" defer></script>
 </head>
 <body>
-
+	<div class="score-container">
+		<p>High Score: <span id="high-score"></span> points</p>
+		<p>Current Score: <span id="current-score"></span> points</p>
+		<p>Questions Asked: <span id="question-count"></span></p>
+		<p>Timer: <span id="timer"></span> seconds</p>
+	</div>
+	<div class="question-container">
+		<p id="current-question"></p>
+	</div>
+	<div class="answers-container"></div>
 </body>
 </html>
