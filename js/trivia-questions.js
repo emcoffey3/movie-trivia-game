@@ -253,6 +253,15 @@ export default [
 		]
 	},
 	{
+		question: `Who shot first?`,
+		answers: [
+			{ text: `Han`, correct: true },
+			{ text: `Greedo`, correct: false },
+			{ text: `Chewy`, correct: false },
+			{ text: `Jar Jar`, correct: false },
+		]
+	},
+	{
 		question: `In the 1994 film <em>Forrest Gump</em>, which of these Presidents does Forrest <em>not</em> meet in person?`,
 		answers: [
 			{ text: `JFK`, correct: false },
@@ -367,6 +376,15 @@ export default [
 			{ text: `The Net`, correct: false },
 			{ text: `Sneakers`, correct: false },
 			{ text: `Hackers`, correct: false },
+		]
+	},
+	{
+		question: `This 2019 film is a sequel to Stanley Kubrick's <em>The Shining</em>?`,
+		answers: [
+			{ text: `Doctor Sleep`, correct: true },
+			{ text: `The Dark Tower`, correct: false },
+			{ text: `Split`, correct: false },
+			{ text: `Hereditary`, correct: false },
 		]
 	},
 	{
@@ -610,6 +628,24 @@ export default [
 			{ text: `travelling into one's dreams`, correct: false },
 			{ text: `the opposite of deception`, correct: false },
 			{ text: `the mission's codename`, correct: false },
+		]
+	},
+	{
+		question: `The 2022 movie <em>The Batman</em> was directed by whom?`,
+		answers: [
+			{ text: `Matt Reeves`, correct: true },
+			{ text: `Christopher Nolan`, correct: false },
+			{ text: `Zack Snyder`, correct: false },
+			{ text: `Mike Flanagan`, correct: false },
+		]
+	},
+	{
+		question: `The 2022 movie features what Nirvana song as part of the main score?`,
+		answers: [
+			{ text: `Something in the Way`, correct: true },
+			{ text: `Heart-Shaped Box`, correct: false },
+			{ text: `All Apologies`, correct: false },
+			{ text: `Come As You Are`, correct: false },
 		]
 	},
 	{
@@ -874,6 +910,15 @@ export default [
 		]
 	},
 	{
+		question: `What 1986 film is a sequel to 1959's <em>The Hustler</em>?`,
+		answers: [
+			{ text: `The Color of Money`, correct: true },
+			{ text: `Rain Man`, correct: false },
+			{ text: `Rounders`, correct: false },
+			{ text: `The Verdict`, correct: false },
+		]
+	},
+	{
 		question: `The 1984 cult film <em>Breakin'</em> had a sequel that came out the same year.  What was the title of that film?`,
 		answers: [
 			{ text: `Breakin' 2: Flat Broke`, correct: false },
@@ -961,6 +1006,195 @@ export default [
 			{ text: `Queen of the Damned`, correct: false },
 			{ text: `From Dusk Till Dawn`, correct: true },
 			{ text: `Let the Right One In`, correct: false },
+		]
+	},
+	{
+		question: `Which of these movies was <em>not</em> written by Quentin Tarantino?`,
+		answers: [
+			{ text: `The Boondock Saints`, correct: true },
+			{ text: `True Romance`, correct: false },
+			{ text: `Jackie Brown`, correct: false },
+			{ text: `Django Unchained`, correct: false },
+		]
+	},
+	{
+		question: `Which of these movies was <em>not</em> written by Aaron Sorkin?`,
+		answers: [
+			{ text: `Argo`, correct: true },
+			{ text: `A Few Good Men`, correct: false },
+			{ text: `The Social Network`, correct: false },
+			{ text: `Moneyball`, correct: false },
+		]
+	},
+	{
+		question: `Which of these movies was <em>not</em> written by John Hughes?`,
+		answers: [
+			{ text: `Better Off Dead`, correct: true },
+			{ text: `The Breakfast Club`, correct: false },
+			{ text: `Pretty in Pink`, correct: false },
+			{ text: `Ferris Bueller's Day Off`, correct: false },
+		]
+	},
+	{
+		question: `Which of these movies was <em>not</em> written by John Hughes?`,
+		answers: [
+			{ text: `Men at Work`, correct: true },
+			{ text: `Home Alone`, correct: false },
+			{ text: `Uncle Buck`, correct: false },
+			{ text: `Planes, Trains & Automobiles`, correct: false },
+		]
+	},
+	{
+		question: `Which of these movies was <em>not</em> written by Paul Schrader?`,
+		answers: [
+			{ text: `The King of Comedy`, correct: true },
+			{ text: `Taxi Driver`, correct: false },
+			{ text: `Raging Bull`, correct: false },
+			{ text: `American Gigolo`, correct: false },
+		]
+	},
+	{
+		question: `Which of these movies was <em>not</em> directed by John Singleton?`,
+		answers: [
+			{ text: `Menace II Society`, correct: true },
+			{ text: `Boyz N the Hood`, correct: false },
+			{ text: `Poetic Justice`, correct: false },
+			{ text: `Higher Learning`, correct: false },
+		]
+	},
+	{
+		question: `Which of these movies does <em>not</em> feature actor Ted Danson?`,
+		answers: [
+			{ text: `City Slickers`, correct: true },
+			{ text: `Saving Private Ryan`, correct: false },
+			{ text: `Three Men and a Baby`, correct: false },
+			{ text: `Body Heat`, correct: false },
+		]
+	},
+	{
+		question: `Which of these movies does <em>not</em> feature actress Meryl Streep?`,
+		answers: [
+			{ text: `Spotlight`, correct: true },
+			{ text: `Out of Africa`, correct: false },
+			{ text: `Don't Look Up`, correct: false },
+			{ text: `Adaptation.`, correct: false },
+		]
+	},
+	{
+		question: `Which of these movies does <em>not</em> feature actress Cher?`,
+		answers: [
+			{ text: `Death Becomes Her`, correct: true },
+			{ text: `Silkwood`, correct: false },
+			{ text: `Moonstruck`, correct: false },
+			{ text: `The Witches of Eastwick`, correct: false },
+		]
+	},
+	{
+		question: `Which of these is <em>not</em> an alias used by Chevy Chase's character in the movie <em>Fletch</em>?`,
+		answers: [
+			{ text: `Freddie Mercury`, correct: true },
+			{ text: `Igor Stravinsky`, correct: false },
+			{ text: `Harry S. Truman`, correct: false },
+			{ text: `Don Corleone`, correct: false },
+		]
+	},
+	{
+		question: `In the 2008 Coen brothers film <em>Burn After Reading</em> who plays former CIA analyst Osbourne Cox?`,
+		answers: [
+			{ text: `John Malkovich`, correct: true },
+			{ text: `Brad Pitt`, correct: false },
+			{ text: `George Clooney`, correct: false },
+			{ text: `Richard Jenkins`, correct: false },
+		]
+	},
+	{
+		question: `In the 2008 Coen brothers film <em>Burn After Reading</em> who plays gym employee Linda Litzke?`,
+		answers: [
+			{ text: `Frances McDormand`, correct: true },
+			{ text: `Tilda Swinton`, correct: false },
+			{ text: `Julianne Moore`, correct: false },
+			{ text: `Holly Hunter`, correct: false },
+		]
+	},
+	{
+		question: `In <em>The Big Lebowski</em>, who did the toe <em>really</em> belong to?`,
+		answers: [
+			{ text: `Franz's girlfriend (Aimee Mann)`, correct: true },
+			{ text: `Bunny (Tara Reid)`, correct: false },
+			{ text: `Maude (Julianne Moore)`, correct: false },
+			{ text: `Jesus (John Turturro)`, correct: false },
+		]
+	},
+	{
+		question: `In <em>The Big Lebowski</em>, who said the following: "You want a toe? I can get you a toe, believe me. There are ways, Dude."?`,
+		answers: [
+			{ text: `Walter (John Goodman)`, correct: true },
+			{ text: `Donny (Steve Buscemi)`, correct: false },
+			{ text: `Maude (Julianne Moore)`, correct: false },
+			{ text: `Jesus (John Turturro)`, correct: false },
+		]
+	},
+	{
+		question: `What is the name of Steve Buscemi's character in <em>The Big Lebowski</em>?`,
+		answers: [
+			{ text: `Donny`, correct: true },
+			{ text: `Ronny`, correct: false },
+			{ text: `Johnny`, correct: false },
+			{ text: `Tommy`, correct: false },
+		]
+	},
+	{
+		question: `Which of these actors has not played John Connor in a <em>Terminator</em> movie?`,
+		answers: [
+			{ text: `Sam Worthington`, correct: true },
+			{ text: `Edward Furlong`, correct: false },
+			{ text: `Christian Bale`, correct: false },
+			{ text: `Nick Stahl`, correct: false },
+		]
+	},
+	{
+		question: `In the 1997 movie <em>Men in Black</em> what actor portrays the character Zed?`,
+		answers: [
+			{ text: `Rip Torn`, correct: true },
+			{ text: `Brian Cox`, correct: false },
+			{ text: `Tony Shalhoub`, correct: false },
+			{ text: `Vincent D'Onofrio`, correct: false },
+		]
+	},
+	{
+		question: `In the 1987 movie <em>The Princess Bride</em> what actor portrays Inigo Montoya?`,
+		answers: [
+			{ text: `Mandy Patinkin`, correct: true },
+			{ text: `Carey Elwes`, correct: false },
+			{ text: `Alan Rickman`, correct: false },
+			{ text: `Christopher Guest`, correct: false },
+		]
+	},
+	{
+		question: `What is the name of the third theatrically released film in <em>The Matrix</em> series?`,
+		answers: [
+			{ text: `The Matrix Revolutions`, correct: true },
+			{ text: `The Matrix Reloaded`, correct: false },
+			{ text: `The Matrix Ressurections`, correct: false },
+			{ text: `The Matrix Salvation`, correct: false },
+		]
+	},
+	{
+		question: `Theatrically released in 2005, what is the sub-title of the third <em>Star Wars</em> prequel?`,
+		answers: [
+			{ text: `Revenge of the Sith`, correct: true },
+			{ text: `Return of the Jedi`, correct: false },
+			{ text: `Attack of the Clones`, correct: false },
+			{ text: `Revenge of the Empire`, correct: false },
+		]
+	},
+	{
+		question: `How many films in the <em>Terminator</em> film series were directed by James Cameron?`,
+		answers: [
+			{ text: `2`, correct: true },
+			{ text: `3`, correct: false },
+			{ text: `4`, correct: false },
+			{ text: `5`, correct: false },
 		]
 	},
 	{
@@ -1630,6 +1864,51 @@ export default [
 		]
 	},
 	{
+		question: `What film takes place first chronologically in Legendary's MonsterVerse?`,
+		answers: [
+			{ text: `Godzilla`, correct: false },
+			{ text: `Godzilla: King of the Monsters`, correct: false },
+			{ text: `Godzilla vs. Kong`, correct: false },
+			{ text: `Kong: Skull Island`, correct: true },
+		]
+	},
+	{
+		question: `In the 1996 movie <em>The Birdcage</em>, what is Gene Hackman's character's job?`,
+		answers: [
+			{ text: `U.S. Senator`, correct: true },
+			{ text: `Evangelical Pastor`, correct: false },
+			{ text: `Governor of Indiana`, correct: false },
+			{ text: `Federal Judge`, correct: false },
+		]
+	},
+	{
+		question: `In the 1996 movie <em>The Birdcage</em>, which actor plays a character named Agador Spartacus?`,
+		answers: [
+			{ text: `Hank Azaria`, correct: true },
+			{ text: `Nathan Lane`, correct: false },
+			{ text: `Robin Williams`, correct: false },
+			{ text: `Gene Hackman`, correct: false },
+		]
+	},
+	{
+		question: `In the 2008 movie <em>Tropic Thunder</em> what actor portrays Les Grossman?`,
+		answers: [
+			{ text: `Tom Cruise`, correct: true },
+			{ text: `Matthew McConaughey`, correct: false },
+			{ text: `Robert Downey Jr.`, correct: false },
+			{ text: `Bill Hader`, correct: false },
+		]
+	},
+	{
+		question: `In the 2008 movie <em>Tropic Thunder</em> what actor portrays Kirk Lazarus?`,
+		answers: [
+			{ text: `Robert Downey Jr.`, correct: true },
+			{ text: `Tom Cruise`, correct: false },
+			{ text: `Matthew McConaughey`, correct: false },
+			{ text: `Bill Hader`, correct: false },
+		]
+	},
+	{
 		question: `Complete this line from the 2014 movie <em>What We Do in the Shadows</em>: "We're werewolves, not ____."`,
 		answers: [
 			{ text: `vampires`, correct: false },
@@ -1661,17 +1940,17 @@ export default [
 		answers: [
 			{ text: `Apples`, correct: false },
 			{ text: `Oranges`, correct: true },
-			{ text: `Bananas`, correct: false },
+			{ text: `Grapes`, correct: false },
 			{ text: `Strawberries`, correct: false },
 		]
 	},
 	{
 		question: `Who directed <em>The Godfather</em> trilogy?`,
 		answers: [
-			{ text: `Martin Scorsese`, correct: false },
 			{ text: `Francis Ford Coppola`, correct: true },
+			{ text: `Martin Scorsese`, correct: false },
 			{ text: `Steven Spielberg`, correct: false },
-			{ text: `George Lucas`, correct: false },
+			{ text: `Brian De Palma`, correct: false },
 		]
 	},
 	{
@@ -1882,6 +2161,15 @@ export default [
 		]
 	},
 	{
+		question: `What 2014 zombie movie was (somewhat loosely) based on a book by author Max Brooks?`,
+		answers: [
+			{ text: `World War Z`, correct: true },
+			{ text: `Zombieland`, correct: false },
+			{ text: `Warm Bodies`, correct: false },
+			{ text: `Scouts Guide to the Zombie Apocalypse`, correct: false },
+		]
+	},
+	{
 		question: `The 2017 horror comedy <em>Happy Death Day</em> can best be described as "<em>Scream</em> meets ____."`,
 		answers: [
 			{ text: `Liar Liar`, correct: false },
@@ -1941,7 +2229,7 @@ export default [
 			{ text: `Death at a Funeral`, correct: true },
 			{ text: `Four Weddings and a Funeral`, correct: false },
 			{ text: `This is Where I Leave You`, correct: false },
-			{ text: `The Death of a Stalin`, correct: false },
+			{ text: `The Death of Stalin`, correct: false },
 		]
 	},
 	{
