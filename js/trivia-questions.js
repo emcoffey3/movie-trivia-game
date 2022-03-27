@@ -343,6 +343,33 @@ export default [
 		]
 	},
 	{
+		question: `In the 1992 film <em>Wayne's World</em>, what is the name of Cassandra's rock band?`,
+		answers: [
+			{ text: `Crucial Taunt`, correct: true },
+			{ text: `Wyld Stallyns`, correct: false },
+			{ text: `The Pinheads`, correct: false },
+			{ text: `Infant Sorrow`, correct: false },
+		]
+	},
+	{
+		question: `What is the name of Bill and Ted's band?`,
+		answers: [
+			{ text: `Wyld Stallyns`, correct: true },
+			{ text: `The Commitments`, correct: false },
+			{ text: `The Lone Rangers`, correct: false },
+			{ text: `Crucial Taunt`, correct: false },
+		]
+	},
+	{
+		question: `What is the name of Marty McFly's band?`,
+		answers: [
+			{ text: `The Pinheads`, correct: true },
+			{ text: `The Commitments`, correct: false },
+			{ text: `The Lone Rangers`, correct: false },
+			{ text: `Crucial Taunt`, correct: false },
+		]
+	},
+	{
 		question: `What 1990's spoof comedies starring Charlie Sheen parodied hit action films such as <em>Top Gun</em> and the <em>Rambo</em> series?`,
 		answers: [
 			{ text: `The Naked Gun`, correct: false },
