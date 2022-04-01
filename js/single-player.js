@@ -1,4 +1,7 @@
-import allTriviaQuestions from './trivia-questions.js';
+import generalQuestions from './trivia-questions.js';
+import imageQuestions from './image-questions.js';
+
+const allTriviaQuestions = [...generalQuestions, ...imageQuestions];
 
 const questionCountSpan = document.querySelector('#question-count');
 const highScoreSpan = document.querySelector('#high-score');

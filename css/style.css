@@ -26,15 +26,16 @@ body {
 	display: none;
 }
 
-.score-container,
 .game-setup-container {
 	padding: 1rem 2rem;
 	font-size: 1.5rem;
 }
 
+.score-container,
 .player-scores-container {
 	padding: 1rem 2rem;
-	font-size: 1.25rem;
+	font-size: 1rem;
+	line-height: 1.3;
 }
 
 .input-group {
@@ -54,14 +55,19 @@ input {
 	font-size: 1.5rem;
 }
 
+img {
+	display: block;
+	max-width: min(100%, 800px);
+	margin-bottom: 0.5rem;
+}
+
 table {
 	border-collapse: collapse;
-	margin-top: 1rem;
 }
 
 th,td {
 	border: thin solid var(--text-color);
-	padding: 0.5rem;
+	padding: 0.25rem 0.5rem;
 }
 
 tr.current-player {
@@ -153,10 +159,14 @@ ol {
 }
 
 @media screen and (max-width: 480px) {
-	.score-container,
-	.game-setup-container,
-	.player-scores-container {
+	.game-setup-container {
 		font-size: 0.9rem;
+	}
+
+	.score-container,
+	.player-scores-container {
+		font-size: 0.85rem;
+		line-height: normal;
 	}
 
 	.question-container {
@@ -174,7 +184,7 @@ ol {
 	}
 
 	th,td {
-		padding: 0.25rem;
+		padding: 0.15rem 0.35rem;
 	}
 
 	input {

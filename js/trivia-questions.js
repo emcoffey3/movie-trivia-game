@@ -1,30 +1,12 @@
 
 export default [
 	{
-		question: `In the 1988 movie <em>Beetlejuice</em>, after Barbara and Adam die they discover a book.  What is the book's title?`,
-		answers: [
-			{ text: `The Necronomicon`, correct: false },
-			{ text: `Tobin's Spirit Guide`, correct: false },
-			{ text: `Welcome to the After-Life`, correct: false},
-			{ text: `Handbook for the Recently Deceased`, correct: true },
-		]
-	},
-	{
 		question: `In the 2016 movie <em>Keanu</em> starring Keegan-Michael Key and Jordan Peele, what is Keanu?`,
 		answers: [
 			{ text: `a person`, correct: false },
 			{ text: `a car`, correct: false },
 			{ text: `a dog`, correct: false},
 			{ text: `a cat`, correct: true },
-		]
-	},
-	{
-		question: `What was the first movie based on a Marvel comic book to feature a black actor in the lead role?`,
-		answers: [
-			{ text: `Black Panther`, correct: false },
-			{ text: `Blade`, correct: true },
-			{ text: `Spawn`, correct: false},
-			{ text: `Catwoman`, correct: false },
 		]
 	},
 	{
@@ -55,21 +37,12 @@ export default [
 		]
 	},
 	{
-		question: `In the Marvel Cinematic Universe, who portrays General Thaddeus "Thunderbolt" Ross?`,
-		answers: [
-			{ text: `Don Cheadle`, correct: false },
-			{ text: `Samuel L. Jackson`, correct: false},
-			{ text: `William Hurt`, correct: true },
-			{ text: `John Hurt`, correct: false },
-		]
-	},
-	{
 		question: `In the Marvel Cinematic Universe, who portrays Nick Fury?`,
 		answers: [
-			{ text: `Don Cheadle`, correct: false },
 			{ text: `Samuel L. Jackson`, correct: true},
-			{ text: `William Hurt`, correct: false },
-			{ text: `John Hurt`, correct: false },
+			{ text: `Don Cheadle`, correct: false },
+			{ text: `Laurnec Fishburne`, correct: false },
+			{ text: `Ernie Hudson`, correct: false },
 		]
 	},
 	{
@@ -136,24 +109,6 @@ export default [
 		]
 	},
 	{
-		question: `In the 1957 film <em>12 Angry Men</em>, what is the murder weapon?`,
-		answers: [
-			{ text: `revolver`, correct: false },
-			{ text: `switchblade`, correct: true },
-			{ text: `hammer`, correct: false},
-			{ text: `chainsaw`, correct: false },
-		]
-	},
-	{
-		question: `This 1997 film features Keanu Reeves as a young lawyer at a law firm with a dark secret?`,
-		answers: [
-			{ text: `Angel Heart`, correct: false },
-			{ text: `The Prophecy`, correct: false},
-			{ text: `The Devil's Advocate`, correct: true },
-			{ text: `Constantine`, correct: false },
-		]
-	},
-	{
 		question: `Actor Djimon Hounsou has appeared in all of these comic book movies except what?`,
 		answers: [
 			{ text: `Constantine`, correct: false },
@@ -187,15 +142,6 @@ export default [
 			{ text: `Jacob's Ladder`, correct: true },
 			{ text: `Mystic River`, correct: false},
 			{ text: `Howard the Duck`, correct: false },
-		]
-	},
-	{
-		question: `What film series is based on the case files of real-life paranormal investigators Ed and Lorraine Warren?`,
-		answers: [
-			{ text: `The Exorcist`, correct: false },
-			{ text: `The Conjuring`, correct: true },
-			{ text: `Insidious`, correct: false},
-			{ text: `Poltergeist`, correct: false },
 		]
 	},
 	{
@@ -280,24 +226,6 @@ export default [
 		]
 	},
 	{
-		question: `In the movie <em>A Few Good Men</em>, Tom Cruise's character Lt. Daniel Kafee is a member of which armed service branch?`,
-		answers: [
-			{ text: `Army`, correct: false },
-			{ text: `Navy`, correct: true },
-			{ text: `Marines`, correct: false },
-			{ text: `Space Force`, correct: false },
-		]
-	},
-	{
-		question: `In the movie <em>A Few Good Men</em>, Jack Nicholson's character Col. Nathan R. Jessup is a member of which armed service branch?`,
-		answers: [
-			{ text: `Army`, correct: false },
-			{ text: `Navy`, correct: false },
-			{ text: `Marines`, correct: true },
-			{ text: `Space Force`, correct: false },
-		]
-	},
-	{
 		question: `What 2000 film about fictional serial killer Patrick Bateman was based on a novel by Bret Easton Ellis?`,
 		answers: [
 			{ text: `Summer of Sam`, correct: false },
@@ -307,30 +235,12 @@ export default [
 		]
 	},
 	{
-		question: `In the 1988 John Carpenter movie <em>They Live</em> starring Roddy Piper and Keith David, who are "they"?`,
-		answers: [
-			{ text: `Vampires`, correct: false },
-			{ text: `Aliens`, correct: true },
-			{ text: `Zombies`, correct: false },
-			{ text: `Werewolves`, correct: false },
-		]
-	},
-	{
 		question: `In the 2014 movie <em>What We Do in the Shadows</em> directed by Taika Watiti, who are "We"?`,
 		answers: [
 			{ text: `Vampires`, correct: true },
 			{ text: `Aliens`, correct: false },
 			{ text: `Zombies`, correct: false },
 			{ text: `Werewolves`, correct: false },
-		]
-	},
-	{
-		question: `In the 1997 movie <em>Men in Black</em>, what actor plays Agent K?`,
-		answers: [
-			{ text: `Will Smith`, correct: false },
-			{ text: `Jamie Foxx`, correct: false },
-			{ text: `Tommy Lee Jones`, correct: true },
-			{ text: `Tony Shalhoub`, correct: false },
 		]
 	},
 	{
@@ -424,51 +334,6 @@ export default [
 		]
 	},
 	{
-		question: `In the 1980 film <em>The Blues Brothers</em>, the mystery woman hellbent on killing Jake Blues is played by what actress?`,
-		answers: [
-			{ text: `Diane Keaton`, correct: false },
-			{ text: `Carrie Fisher`, correct: true },
-			{ text: `Jane Fonda`, correct: false },
-			{ text: `Sigourney Weaver`, correct: false },
-		]
-	},
-	{
-		question: `In the 1987 film <em>Planes, Trains & Automobiles</em>, the character played by actor John Candy sells what product?`,
-		answers: [
-			{ text: `shoelaces`, correct: false },
-			{ text: `novelty keychains`, correct: false },
-			{ text: `spray-on hair`, correct: false },
-			{ text: `shower curtain rings`, correct: true },
-		]
-	},
-	{
-		question: `In the 1988 film <em>Who Framed Roger Rabbit</em>, who framed Roger Rabbit?`,
-		answers: [
-			{ text: `Jessica Rabbit`, correct: false },
-			{ text: `R.K. Maroon`, correct: false },
-			{ text: `Judge Doom`, correct: true },
-			{ text: `Judge Dread`, correct: false },
-		]
-	},
-	{
-		question: `In the 1989 movie <em>Heathers</em>, what is the first name of Winona Ryder's character?`,
-		answers: [
-			{ text: `Heather`, correct: false },
-			{ text: `Sarah`, correct: false },
-			{ text: `Betty`, correct: false },
-			{ text: `Veronica`, correct: true },
-		]
-	},
-	{
-		question: `In the 2018 film <em>Avengers: Infinity War</em>, the character Thor is given a new weapon to replace his broken hammer.  What is this weapon's name?`,
-		answers: [
-			{ text: `Kingslayer`, correct: false },
-			{ text: `Stormbreaker`, correct: true },
-			{ text: `Mjolnir`, correct: false },
-			{ text: `Tesseract`, correct: false },
-		]
-	},
-	{
 		question: `In the <em>X-Men</em> movie franchise, actress Jennifer Lawrence plays what mutant character?`,
 		answers: [
 			{ text: `Storm`, correct: false },
@@ -487,33 +352,6 @@ export default [
 		]
 	},
 	{
-		question: `In the opening scene of the 1993 film <em>Jurassic Park</em>, a park employee is killed by what type of dinosaur?`,
-		answers: [
-			{ text: `Velociraptor`, correct: true },
-			{ text: `Dilophosaurus`, correct: false },
-			{ text: `Triceratops`, correct: false },
-			{ text: `Tyrannosaurus Rex`, correct: false },
-		]
-	},
-	{
-		question: `The 1997 sequel to <em>Jurassic Park</em> shares its title with what 1912 Sir Arthur Conan Doyle novel?`,
-		answers: [
-			{ text: `The Lost World`, correct: true },
-			{ text: `The Land of Mist`, correct: false },
-			{ text: `Fallen Kingdom`, correct: false },
-			{ text: `Dominion`, correct: false },
-		]
-	},
-	{
-		question: `In the 2001 film <em>The Lord of the Rings: The Fellowship of the Ring</em>, who says "One does not simply walk into Mordor."?`,
-		answers: [
-			{ text: `Gandalf`, correct: false },
-			{ text: `Aragorn`, correct: false },
-			{ text: `Legolas`, correct: false },
-			{ text: `Boromir`, correct: true },
-		]
-	},
-	{
 		question: `In the 2001 film <em>The Lord of the Rings: The Fellowship of the Ring</em>, who says "Fly, you fools!"?`,
 		answers: [
 			{ text: `Gandalf`, correct: true },
@@ -523,57 +361,12 @@ export default [
 		]
 	},
 	{
-		question: `The 1994 movie <em>Speed</em> starring Keanu Reeves features passengers trapped on what type of vehicle?`,
-		answers: [
-			{ text: `a plane`, correct: false },
-			{ text: `a train`, correct: false },
-			{ text: `a bus`, correct: true },
-			{ text: `a boat`, correct: false },
-		]
-	},
-	{
-		question: `In the 1985 movie <em>Back to the Future</em>, what does Marty McFly's father George McFly aspire to be and eventually become?`,
-		answers: [
-			{ text: `rock musician`, correct: false },
-			{ text: `sci-fi author`, correct: true },
-			{ text: `inventor`, correct: false },
-			{ text: `time traveller`, correct: false },
-		]
-	},
-	{
-		question: `In the 1989 movie <em>Bill & Ted's Excellent Adventure</em>, Bill and Ted travel through time in what object?`,
-		answers: [
-			{ text: `DeLorean`, correct: false },
-			{ text: `Winnebago`, correct: false },
-			{ text: `Hot Tub`, correct: false },
-			{ text: `Phone Booth`, correct: true },
-		]
-	},
-	{
 		question: `In the 1991 film <em>Robin Hood: Prince of Thieves</em> starring Kevin Costner in the titular role, who played the Sheriff of Nottingham?`,
 		answers: [
 			{ text: `Gary Oldman`, correct: false },
 			{ text: `Timothy Dalton`, correct: false },
 			{ text: `Alan Rickman`, correct: true },
 			{ text: `Christopher Lee`, correct: false },
-		]
-	},
-	{
-		question: `In the 1989 film <em>Indiana Jones and the Last Crusade</em>, what were the main characters searching for?`,
-		answers: [
-			{ text: `The Ark of the Covenant`, correct: false },
-			{ text: `The Holy Grail`, correct: true },
-			{ text: `The Spear of Destiny`, correct: false },
-			{ text: `The Millennium Falcon`, correct: false },
-		]
-	},
-	{
-		question: `In the 1981 film <em>Raiders of the Lost Ark</em>, what were the main characters searching for?`,
-		answers: [
-			{ text: `The Ark of the Covenant`, correct: true },
-			{ text: `The Holy Grail`, correct: false },
-			{ text: `Noah's Ark`, correct: false },
-			{ text: `The Spear of Destiny`, correct: false },
 		]
 	},
 	{
@@ -883,15 +676,6 @@ export default [
 		]
 	},
 	{
-		question: `Actor David Dastmalchian has had minor roles in comic book films such as <em>The Dark Knight</em> and the <em>Ant-Man</em> series, but most recently appeared in 2021's <em>The Suicide Squad</em> as what character?`,
-		answers: [
-			{ text: `Polka-Dot Man`, correct: true },
-			{ text: `Kite Man`, correct: false },
-			{ text: `Calendar Man`, correct: false },
-			{ text: `Captain Boomerang`, correct: false },
-		]
-	},
-	{
 		question: `What 2009 Zack Snyder film is based on an award-winning graphic novel by Alan Moore and takes place in an alternate 1985?`,
 		answers: [
 			{ text: `Sin City`, correct: false },
@@ -907,15 +691,6 @@ export default [
 			{ text: `Mad Max 2: The Road Warrior`, correct: false },
 			{ text: `Mad Max: Beyond Thunderdome`, correct: false },
 			{ text: `Mad Max: Fury Road`, correct: true },
-		]
-	},
-	{
-		question: `In the 2014 film <em>Whiplash</em>, main character Andrew plays what musical instrument?`,
-		answers: [
-			{ text: `piano`, correct: false },
-			{ text: `trumpet`, correct: false },
-			{ text: `drum kit`, correct: true },
-			{ text: `violin`, correct: false },
 		]
 	},
 	{
@@ -1144,6 +919,15 @@ export default [
 		]
 	},
 	{
+		question: `Which one of these movies does actress Julianne Moore <em>not</em> appear in?`,
+		answers: [
+			{ text: `The Witches of Eastwick`, correct: true },
+			{ text: `Hannibal`, correct: false },
+			{ text: `The Lost World: Jurassic Park`, correct: false },
+			{ text: `The Fugitive`, correct: false },
+		]
+	},
+	{
 		question: `In <em>The Big Lebowski</em>, who did the toe <em>really</em> belong to?`,
 		answers: [
 			{ text: `Franz's girlfriend (Aimee Mann)`, correct: true },
@@ -1252,15 +1036,6 @@ export default [
 		]
 	},
 	{
-		question: `In the 1987 movie <em>RoboCop</em>, who plays villain Clarence Boddicker?`,
-		answers: [
-			{ text: `Kurt Fuller`, correct: false },
-			{ text: `Kurtwood Smith`, correct: true },
-			{ text: `Kurt Wagner`, correct: false },
-			{ text: `Kurt Cobain`, correct: false },
-		]
-	},
-	{
 		question: `In the 1987 movie <em>RoboCop</em>, the titular hero squares off against what other robot?`,
 		answers: [
 			{ text: `Johnny 5`, correct: false },
@@ -1339,24 +1114,6 @@ export default [
 			{ text: `Do Androids Dream of Electric Sheep?`, correct: true },
 			{ text: `A Scanner Darkly`, correct: false },
 			{ text: `Ender's Game`, correct: false },
-		]
-	},
-	{
-		question: `In the 1979 movie <em>Alien</em>, what is Ash?`,
-		answers: [
-			{ text: `a human`, correct: false },
-			{ text: `an android`, correct: true },
-			{ text: `a xenomorph`, correct: false },
-			{ text: `a cat`, correct: false },
-		]
-	},
-	{
-		question: `In the 1979 movie <em>Alien</em>, what is Jones?`,
-		answers: [
-			{ text: `a human`, correct: false },
-			{ text: `an android`, correct: false },
-			{ text: `a xenomorph`, correct: false },
-			{ text: `a cat`, correct: true },
 		]
 	},
 	{
@@ -1477,15 +1234,6 @@ export default [
 		]
 	},
 	{
-		question: `What 1988 film stars Gene Hackman and Willem Dafoe as FBI agents investigating the killings of three college students by members of the KKK?`,
-		answers: [
-			{ text: `Ghosts of Mississippi`, correct: false },
-			{ text: `Mississippi Burning`, correct: true },
-			{ text: `Night Moves`, correct: false },
-			{ text: `Under Suspicion`, correct: false },
-		]
-	},
-	{
 		question: `In the 1976 film <em>Taxi Driver</em>, what is the name of the character played by Robert De Niro?`,
 		answers: [
 			{ text: `Neil McCauley`, correct: false },
@@ -1510,15 +1258,6 @@ export default [
 			{ text: `The Washington Post`, correct: false },
 			{ text: `The Boston Globe`, correct: true },
 			{ text: `MAD Magazine`, correct: false },
-		]
-	},
-	{
-		question: `What prolific actor had supporting roles in <em>Cool Hand Luke</em>, <em>The Godfather Part II</em>, <em>Alien</em>, and even <em>Marvel's The Avengers</em>?`,
-		answers: [
-			{ text: `John Hurt`, correct: false },
-			{ text: `William Hurt`, correct: false },
-			{ text: `Ian Holm`, correct: false },
-			{ text: `Harry Dean Stanton`, correct: true },
 		]
 	},
 	{
@@ -1563,7 +1302,7 @@ export default [
 			{ text: `X-Wing`, correct: true },
 			{ text: `Y-Wing`, correct: false },
 			{ text: `TIE Fighter`, correct: false },
-			{ text: `Firespray`, correct: false },
+			{ text: `Viper`, correct: false },
 		]
 	},
 	{
@@ -1882,15 +1621,6 @@ export default [
 		]
 	},
 	{
-		question: `In what movie does actor Denzel Washington say the line "King Kong ain't got shit on me!"?`,
-		answers: [
-			{ text: `Philadelphia`, correct: false },
-			{ text: `American Gangster`, correct: false },
-			{ text: `Training Day`, correct: true },
-			{ text: `Kong: Skull Island`, correct: false },
-		]
-	},
-	{
 		question: `What film takes place first chronologically in Legendary's MonsterVerse?`,
 		answers: [
 			{ text: `Godzilla`, correct: false },
@@ -1936,15 +1666,6 @@ export default [
 		]
 	},
 	{
-		question: `Complete this line from the 2014 movie <em>What We Do in the Shadows</em>: "We're werewolves, not ____."`,
-		answers: [
-			{ text: `vampires`, correct: false },
-			{ text: `swearwolves`, correct: true },
-			{ text: `doctors`, correct: false },
-			{ text: `assholes`, correct: false },
-		]
-	},
-	{
 		question: `Complete this line from the 1972 movie <em>The Godfather</em>: "Luca Brasi sleeps with the ____."`,
 		answers: [
 			{ text: `worms`, correct: false },
@@ -1987,15 +1708,6 @@ export default [
 			{ text: `Steven Spielberg`, correct: false },
 			{ text: `M. Night Shyamalan`, correct: false },
 			{ text: `David Fincher`, correct: false },
-		]
-	},
-	{
-		question: `In the 1982 film <em>Pink Floyd: The Wall</em>, what is the name of the main character?`,
-		answers: [
-			{ text: `Syd`, correct: false },
-			{ text: `Roger`, correct: false },
-			{ text: `Pink`, correct: true },
-			{ text: `Floyd`, correct: false },
 		]
 	},
 	{
@@ -2134,15 +1846,6 @@ export default [
 		]
 	},
 	{
-		question: `What professional ice hockey team was originally named after a 1992 movie starring Emilio Estevez?`,
-		answers: [
-			{ text: `San Jose Sharks`, correct: false },
-			{ text: `Arizona Coyotes`, correct: false },
-			{ text: `Nashville Predators`, correct: false },
-			{ text: `Anaheim Ducks`, correct: true },
-		]
-	},
-	{
 		question: `In the 1992 film <em>Wayne's World</em>, Wayne falls in love with rock singer Cassandra Wong, played by what actress?`,
 		answers: [
 			{ text: `Lauren Tom`, correct: false },
@@ -2260,39 +1963,417 @@ export default [
 		]
 	},
 	{
-		question: `In the 1999 film <em>Office Space</em>, waitress Joanna, played by Jennifer Aniston, is ridiculed by her boss for not having enough what?`,
+		question: `In the 1999 film <em>Office Space</em>, character Michael Bolton describes singer/songwriter Michael Bolton as what?`,
 		answers: [
-			{ text: `confidence`, correct: false },
-			{ text: `positivity`, correct: false },
-			{ text: `cleavage`, correct: false },
-			{ text: `pieces of "flair"`, correct: true },
+			{ text: `no-talent ass-clown`, correct: true },
+			{ text: `pompous scumbag`, correct: false },
+			{ text: `tone-deaf idiot`, correct: false },
+			{ text: `talentless shitheel`, correct: false },
 		]
 	},
 	{
-		question: `In the 2006 comedy <em>Idiocracy</em>, how long are Joe and Rita stuck in suspended animation?`,
+		question: `The 1991 film <em>Defending Your Life</em> was written and directed by and stars what comedic actor?`,
 		answers: [
-			{ text: `6 months`, correct: false },
-			{ text: `20 years`, correct: false },
-			{ text: `100 years`, correct: false },
-			{ text: `500 years`, correct: true },
+			{ text: `Albert Brooks`, correct: true },
+			{ text: `Mel Brooks`, correct: false },
+			{ text: `Rob Reiner`, correct: false },
+			{ text: `Larry David`, correct: false },
 		]
 	},
 	{
-		question: `In the 2006 film <em>Idiocracy</em>, Brawndo has what plants crave, which is what?`,
+		question: `The 1991 film <em>Defending Your Life</em> primary takes place where?`,
 		answers: [
-			{ text: `water`, correct: false },
-			{ text: `sunlight`, correct: false },
-			{ text: `heroin`, correct: false },
-			{ text: `electrolytes`, correct: true },
+			{ text: `the afterlife`, correct: true },
+			{ text: `a psychiatrist's office`, correct: false },
+			{ text: `a courtroom`, correct: false },
+			{ text: `an apartment`, correct: false },
 		]
 	},
 	{
-		question: `In the 2006 film <em>Idiocracy</em>, Dwayne Elizondo Mountain Dew Herbert Camacho is what?`,
+		question: `Who directed the 1985 film <em>Out of Africa</em>?`,
 		answers: [
-			{ text: `5-time Ultimate Smackdown Champion`, correct: true },
-			{ text: `Porn Superstar`, correct: true },
-			{ text: `President of the USA`, correct: true },
-			{ text: `All of These`, correct: true },
+			{ text: `Sydney Pollack`, correct: true },
+			{ text: `Sidney Lumet`, correct: false },
+			{ text: `Stephen Spielberg`, correct: false },
+			{ text: `Stanley Kubrick`, correct: false },
 		]
 	},
+	{
+		question: `The 1985 film <em>Out of Africa</em> takes place during what war?`,
+		answers: [
+			{ text: `World War I`, correct: true },
+			{ text: `World War II`, correct: false },
+			{ text: `Vietnam War`, correct: false },
+			{ text: `War of 1812`, correct: false },
+		]
+	},
+	{
+		question: `The 2003 film <em>Cold Mountain</em> takes place during what war?`,
+		answers: [
+			{ text: `Civil War`, correct: true },
+			{ text: `Revolutionary War`, correct: false },
+			{ text: `World War II`, correct: false },
+			{ text: `War of 1812`, correct: false },
+		]
+	},
+	{
+		question: `Which of these actresses was not in the 2003 film <em>Cold Mountain</em>?`,
+		answers: [
+			{ text: `Cate Blanchett`, correct: true },
+			{ text: `Nicole Kidman`, correct: false },
+			{ text: `Natalie Portman`, correct: false },
+			{ text: `Renee Zellweger`, correct: false },
+		]
+	},
+	// {
+	// 	question: `In the 1988 movie <em>Beetlejuice</em>, after Barbara and Adam die they discover a book.  What is the book's title?`,
+	// 	answers: [
+	// 		{ text: `The Necronomicon`, correct: false },
+	// 		{ text: `Tobin's Spirit Guide`, correct: false },
+	// 		{ text: `Welcome to the After-Life`, correct: false},
+	// 		{ text: `Handbook for the Recently Deceased`, correct: true },
+	// 	]
+	// },
+	// {
+	// 	question: `What was the first movie based on a Marvel comic book to feature a black actor in the lead role?`,
+	// 	answers: [
+	// 		{ text: `Black Panther`, correct: false },
+	// 		{ text: `Blade`, correct: true },
+	// 		{ text: `Spawn`, correct: false},
+	// 		{ text: `Catwoman`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the Marvel Cinematic Universe, who portrays General Thaddeus "Thunderbolt" Ross?`,
+	// 	answers: [
+	// 		{ text: `Don Cheadle`, correct: false },
+	// 		{ text: `Samuel L. Jackson`, correct: false},
+	// 		{ text: `William Hurt`, correct: true },
+	// 		{ text: `John Hurt`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1957 film <em>12 Angry Men</em>, what is the murder weapon?`,
+	// 	answers: [
+	// 		{ text: `revolver`, correct: false },
+	// 		{ text: `switchblade`, correct: true },
+	// 		{ text: `hammer`, correct: false},
+	// 		{ text: `chainsaw`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `This 1997 film features Keanu Reeves as a young lawyer at a law firm with a dark secret?`,
+	// 	answers: [
+	// 		{ text: `Angel Heart`, correct: false },
+	// 		{ text: `The Prophecy`, correct: false},
+	// 		{ text: `The Devil's Advocate`, correct: true },
+	// 		{ text: `Constantine`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `What film series is based on the case files of real-life paranormal investigators Ed and Lorraine Warren?`,
+	// 	answers: [
+	// 		{ text: `The Exorcist`, correct: false },
+	// 		{ text: `The Conjuring`, correct: true },
+	// 		{ text: `Insidious`, correct: false},
+	// 		{ text: `Poltergeist`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the movie <em>A Few Good Men</em>, Tom Cruise's character Lt. Daniel Kafee is a member of which armed service branch?`,
+	// 	answers: [
+	// 		{ text: `Army`, correct: false },
+	// 		{ text: `Navy`, correct: true },
+	// 		{ text: `Marines`, correct: false },
+	// 		{ text: `Space Force`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the movie <em>A Few Good Men</em>, Jack Nicholson's character Col. Nathan R. Jessup is a member of which armed service branch?`,
+	// 	answers: [
+	// 		{ text: `Army`, correct: false },
+	// 		{ text: `Navy`, correct: false },
+	// 		{ text: `Marines`, correct: true },
+	// 		{ text: `Space Force`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1988 John Carpenter movie <em>They Live</em> starring Roddy Piper and Keith David, who are "they"?`,
+	// 	answers: [
+	// 		{ text: `Vampires`, correct: false },
+	// 		{ text: `Aliens`, correct: true },
+	// 		{ text: `Zombies`, correct: false },
+	// 		{ text: `Werewolves`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1997 movie <em>Men in Black</em>, what actor plays Agent J?`,
+	// 	answers: [
+	// 		{ text: `Will Smith`, correct: true },
+	// 		{ text: `Jamie Foxx`, correct: false },
+	// 		{ text: `Tommy Lee Jones`, correct: false },
+	// 		{ text: `Tony Shalhoub`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1997 movie <em>Men in Black</em>, what actor plays Agent K?`,
+	// 	answers: [
+	// 		{ text: `Will Smith`, correct: false },
+	// 		{ text: `Jamie Foxx`, correct: false },
+	// 		{ text: `Tommy Lee Jones`, correct: true },
+	// 		{ text: `Tony Shalhoub`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1980 film <em>The Blues Brothers</em>, the mystery woman hellbent on killing Jake Blues is played by what actress?`,
+	// 	answers: [
+	// 		{ text: `Diane Keaton`, correct: false },
+	// 		{ text: `Carrie Fisher`, correct: true },
+	// 		{ text: `Jane Fonda`, correct: false },
+	// 		{ text: `Sigourney Weaver`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1987 film <em>Planes, Trains & Automobiles</em>, the character played by actor John Candy sells what product?`,
+	// 	answers: [
+	// 		{ text: `shoelaces`, correct: false },
+	// 		{ text: `novelty keychains`, correct: false },
+	// 		{ text: `spray-on hair`, correct: false },
+	// 		{ text: `shower curtain rings`, correct: true },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1988 film <em>Who Framed Roger Rabbit</em>, who framed Roger Rabbit?`,
+	// 	answers: [
+	// 		{ text: `Jessica Rabbit`, correct: false },
+	// 		{ text: `R.K. Maroon`, correct: false },
+	// 		{ text: `Judge Doom`, correct: true },
+	// 		{ text: `Judge Dread`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1989 movie <em>Heathers</em>, what is the first name of Winona Ryder's character?`,
+	// 	answers: [
+	// 		{ text: `Heather`, correct: false },
+	// 		{ text: `Sarah`, correct: false },
+	// 		{ text: `Betty`, correct: false },
+	// 		{ text: `Veronica`, correct: true },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 2018 film <em>Avengers: Infinity War</em>, the character Thor is given a new weapon to replace his broken hammer.  What is this weapon's name?`,
+	// 	answers: [
+	// 		{ text: `Kingslayer`, correct: false },
+	// 		{ text: `Stormbreaker`, correct: true },
+	// 		{ text: `Mjolnir`, correct: false },
+	// 		{ text: `Tesseract`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the opening scene of the 1993 film <em>Jurassic Park</em>, a park employee is killed by what type of dinosaur?`,
+	// 	answers: [
+	// 		{ text: `Velociraptor`, correct: true },
+	// 		{ text: `Dilophosaurus`, correct: false },
+	// 		{ text: `Triceratops`, correct: false },
+	// 		{ text: `Tyrannosaurus Rex`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `The 1997 sequel to <em>Jurassic Park</em> shares its title with what 1912 Sir Arthur Conan Doyle novel?`,
+	// 	answers: [
+	// 		{ text: `The Lost World`, correct: true },
+	// 		{ text: `The Land of Mist`, correct: false },
+	// 		{ text: `Fallen Kingdom`, correct: false },
+	// 		{ text: `Dominion`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 2001 film <em>The Lord of the Rings: The Fellowship of the Ring</em>, who says "One does not simply walk into Mordor."?`,
+	// 	answers: [
+	// 		{ text: `Gandalf`, correct: false },
+	// 		{ text: `Aragorn`, correct: false },
+	// 		{ text: `Legolas`, correct: false },
+	// 		{ text: `Boromir`, correct: true },
+	// 	]
+	// },
+	// {
+	// 	question: `The 1994 movie <em>Speed</em> starring Keanu Reeves features passengers trapped on what type of vehicle?`,
+	// 	answers: [
+	// 		{ text: `a plane`, correct: false },
+	// 		{ text: `a train`, correct: false },
+	// 		{ text: `a bus`, correct: true },
+	// 		{ text: `a boat`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1985 movie <em>Back to the Future</em>, what does Marty McFly's father George McFly aspire to be and eventually become?`,
+	// 	answers: [
+	// 		{ text: `rock musician`, correct: false },
+	// 		{ text: `sci-fi author`, correct: true },
+	// 		{ text: `inventor`, correct: false },
+	// 		{ text: `time traveller`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1989 movie <em>Bill & Ted's Excellent Adventure</em>, Bill and Ted travel through time in what object?`,
+	// 	answers: [
+	// 		{ text: `DeLorean`, correct: false },
+	// 		{ text: `Winnebago`, correct: false },
+	// 		{ text: `Hot Tub`, correct: false },
+	// 		{ text: `Phone Booth`, correct: true },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1989 film <em>Indiana Jones and the Last Crusade</em>, what were the main characters searching for?`,
+	// 	answers: [
+	// 		{ text: `The Ark of the Covenant`, correct: false },
+	// 		{ text: `The Holy Grail`, correct: true },
+	// 		{ text: `The Spear of Destiny`, correct: false },
+	// 		{ text: `The Millennium Falcon`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1981 film <em>Raiders of the Lost Ark</em>, what were the main characters searching for?`,
+	// 	answers: [
+	// 		{ text: `The Ark of the Covenant`, correct: true },
+	// 		{ text: `The Holy Grail`, correct: false },
+	// 		{ text: `Noah's Ark`, correct: false },
+	// 		{ text: `The Spear of Destiny`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `Actor David Dastmalchian has had minor roles in comic book films such as <em>The Dark Knight</em> and the <em>Ant-Man</em> series, but most recently appeared in 2021's <em>The Suicide Squad</em> as what character?`,
+	// 	answers: [
+	// 		{ text: `Polka-Dot Man`, correct: true },
+	// 		{ text: `Kite Man`, correct: false },
+	// 		{ text: `Calendar Man`, correct: false },
+	// 		{ text: `Captain Boomerang`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 2014 film <em>Whiplash</em>, main character Andrew plays what musical instrument?`,
+	// 	answers: [
+	// 		{ text: `piano`, correct: false },
+	// 		{ text: `trumpet`, correct: false },
+	// 		{ text: `drum kit`, correct: true },
+	// 		{ text: `violin`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In what movie does actor Denzel Washington say the line "King Kong ain't got shit on me!"?`,
+	// 	answers: [
+	// 		{ text: `Philadelphia`, correct: false },
+	// 		{ text: `American Gangster`, correct: false },
+	// 		{ text: `Training Day`, correct: true },
+	// 		{ text: `Kong: Skull Island`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `Complete this line from the 2014 movie <em>What We Do in the Shadows</em>: "We're werewolves, not ____."`,
+	// 	answers: [
+	// 		{ text: `vampires`, correct: false },
+	// 		{ text: `swearwolves`, correct: true },
+	// 		{ text: `doctors`, correct: false },
+	// 		{ text: `assholes`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1982 film <em>Pink Floyd: The Wall</em>, what is the name of the main character?`,
+	// 	answers: [
+	// 		{ text: `Syd`, correct: false },
+	// 		{ text: `Roger`, correct: false },
+	// 		{ text: `Pink`, correct: true },
+	// 		{ text: `Floyd`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `What professional ice hockey team was originally named after a 1992 movie starring Emilio Estevez?`,
+	// 	answers: [
+	// 		{ text: `San Jose Sharks`, correct: false },
+	// 		{ text: `Arizona Coyotes`, correct: false },
+	// 		{ text: `Nashville Predators`, correct: false },
+	// 		{ text: `Anaheim Ducks`, correct: true },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1999 film <em>Office Space</em>, waitress Joanna, played by Jennifer Aniston, is ridiculed by her boss for not having enough what?`,
+	// 	answers: [
+	// 		{ text: `confidence`, correct: false },
+	// 		{ text: `positivity`, correct: false },
+	// 		{ text: `cleavage`, correct: false },
+	// 		{ text: `pieces of "flair"`, correct: true },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 2006 comedy <em>Idiocracy</em>, how long are Joe and Rita stuck in suspended animation?`,
+	// 	answers: [
+	// 		{ text: `6 months`, correct: false },
+	// 		{ text: `20 years`, correct: false },
+	// 		{ text: `100 years`, correct: false },
+	// 		{ text: `500 years`, correct: true },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 2006 film <em>Idiocracy</em>, Brawndo has what plants crave, which is what?`,
+	// 	answers: [
+	// 		{ text: `water`, correct: false },
+	// 		{ text: `sunlight`, correct: false },
+	// 		{ text: `heroin`, correct: false },
+	// 		{ text: `electrolytes`, correct: true },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 2006 film <em>Idiocracy</em>, Dwayne Elizondo Mountain Dew Herbert Camacho is what?`,
+	// 	answers: [
+	// 		{ text: `5-time Ultimate Smackdown Champion`, correct: true },
+	// 		{ text: `Porn Superstar`, correct: true },
+	// 		{ text: `President of the USA`, correct: true },
+	// 		{ text: `All of These`, correct: true },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1979 movie <em>Alien</em>, what is Ash?`,
+	// 	answers: [
+	// 		{ text: `a human`, correct: false },
+	// 		{ text: `an android`, correct: true },
+	// 		{ text: `a xenomorph`, correct: false },
+	// 		{ text: `a cat`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1979 movie <em>Alien</em>, what is Jones?`,
+	// 	answers: [
+	// 		{ text: `a human`, correct: false },
+	// 		{ text: `an android`, correct: false },
+	// 		{ text: `a xenomorph`, correct: false },
+	// 		{ text: `a cat`, correct: true },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 1987 movie <em>RoboCop</em>, who plays villain Clarence Boddicker?`,
+	// 	answers: [
+	// 		{ text: `Kurt Fuller`, correct: false },
+	// 		{ text: `Kurtwood Smith`, correct: true },
+	// 		{ text: `Kurt Wagner`, correct: false },
+	// 		{ text: `Kurt Cobain`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `What 1988 film stars Gene Hackman and Willem Dafoe as FBI agents investigating the killings of three college students by members of the KKK?`,
+	// 	answers: [
+	// 		{ text: `Ghosts of Mississippi`, correct: false },
+	// 		{ text: `Mississippi Burning`, correct: true },
+	// 		{ text: `Night Moves`, correct: false },
+	// 		{ text: `Under Suspicion`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `What prolific actor had supporting roles in <em>Cool Hand Luke</em>, <em>The Godfather Part II</em>, <em>Alien</em>, and even <em>Marvel's The Avengers</em>?`,
+	// 	answers: [
+	// 		{ text: `John Hurt`, correct: false },
+	// 		{ text: `William Hurt`, correct: false },
+	// 		{ text: `Ian Holm`, correct: false },
+	// 		{ text: `Harry Dean Stanton`, correct: true },
+	// 	]
+	// },
 ];

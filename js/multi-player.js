@@ -1,4 +1,7 @@
-import allTriviaQuestions from './trivia-questions.js';
+import generalQuestions from './trivia-questions.js';
+import imageQuestions from './image-questions.js';
+
+const allTriviaQuestions = [...generalQuestions, ...imageQuestions];
 
 const gameSetupContainer = document.querySelector('.game-setup-container');
 const gameSetupForm = document.querySelector('#game-setup');
