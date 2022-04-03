@@ -1,5 +1,23 @@
 export default [
 	{
+		question: `<img src="../img/big-trouble-in-little-china-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Big Trouble in Little China`, correct: true},
+			{ text: `Mortal Kombat`, correct: false },
+			{ text: `Enter the Dragon`, correct: false },
+			{ text: `Crouching Tiger Hidden Dragon`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/big-trouble-in-little-china-01.jpg">What is the name of the character shown above?`,
+		answers: [
+			{ text: `Lo Pan`, correct: true},
+			{ text: `Shang Tsung`, correct: false },
+			{ text: `Ra's al Ghul`, correct: false },
+			{ text: `Mr. Miyagi`, correct: false },
+		]
+	},
+	{
 		question: `<img src="../img/the-thing-01.jpg">The image shown above is from what movie?`,
 		answers: [
 			{ text: `The Thing`, correct: true },
@@ -699,6 +717,15 @@ export default [
 			{ text: `The Shape of Water`, correct: false },
 			{ text: `Pan's Labyrinth`, correct: false },
 			{ text: `Creature from the Black Lagoon`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/event-horizon-01.jpg">The above image is from what movie?`,
+		answers: [
+			{ text: `Event Horizon`, correct: true },
+			{ text: `In the Mouth of Madness`, correct: false },
+			{ text: `Hellraise`, correct: false },
+			{ text: `Star Trek: The Motion Picture`, correct: false },
 		]
 	},
 ];

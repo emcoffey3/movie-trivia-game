@@ -2106,6 +2106,15 @@ export default [
 			{ text: `Hot Tub`, correct: false },
 		]
 	},
+	{
+		question: `In the 1997 movie <em>Event Horizon</em>, what was Event Horizon?`,
+		answers: [
+			{ text: `a spaceship`, correct: true },
+			{ text: `a planet`, correct: false },
+			{ text: `an AI`, correct: false },
+			{ text: `an event`, correct: false },
+		]
+	},
 	// {
 	// 	question: `In the 1988 movie <em>Beetlejuice</em>, after Barbara and Adam die they discover a book.  What is the book's title?`,
 	// 	answers: [
