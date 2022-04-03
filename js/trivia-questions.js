@@ -91,6 +91,24 @@ export default [
 		]
 	},
 	{
+		question: `Sylvester Stallone and Kurt Russell co-starred in what 1989 buddy cop movie?`,
+		answers: [
+			{ text: `Tango & Cash`, correct: true },
+			{ text: `Lethal Weapon`, correct: false },
+			{ text: `Demolition Man`, correct: false},
+			{ text: `Tequila Sunrise`, correct: false },
+		]
+	},
+	{
+		question: `Which of these movies does <em>not</em> co-star husband and wife Kurt Rusell and Goldie Hawn?`,
+		answers: [
+			{ text: `Bird on a Wire (1990)`, correct: true },
+			{ text: `Swing Shift (1984)`, correct: false },
+			{ text: `Overboard (1987)`, correct: false},
+			{ text: `The Christmas Chronicles (2018)`, correct: false },
+		]
+	},
+	{
 		question: `What 1986 3D sci-fi film starring Michael Jackson was formerly shown in Disney theme parks?`,
 		answers: [
 			{ text: `The Dark Crystal`, correct: false },
@@ -243,15 +261,15 @@ export default [
 			{ text: `Werewolves`, correct: false },
 		]
 	},
-	{
-		question: `The 1994 film <em>Airheads</em> stars Brendan Fraser, Steve Buscemi, and Adam Sandler as members of a rock band.  What is the name of their band?`,
-		answers: [
-			{ text: `Wyld Stallyns`, correct: false },
-			{ text: `The Lone Rangers`, correct: true },
-			{ text: `Crucial Taunt`, correct: false },
-			{ text: `The Pinheads`, correct: false },
-		]
-	},
+	// {
+	// 	question: `The 1994 film <em>Airheads</em> stars Brendan Fraser, Steve Buscemi, and Adam Sandler as members of a rock band.  What is the name of their band?`,
+	// 	answers: [
+	// 		{ text: `Wyld Stallyns`, correct: false },
+	// 		{ text: `The Lone Rangers`, correct: true },
+	// 		{ text: `Crucial Taunt`, correct: false },
+	// 		{ text: `The Pinheads`, correct: false },
+	// 	]
+	// },
 	{
 		question: `In the 1992 film <em>Wayne's World</em>, what is the name of Cassandra's rock band?`,
 		answers: [
@@ -280,14 +298,23 @@ export default [
 		]
 	},
 	{
-		question: `What 1990's spoof comedies starring Charlie Sheen parodied hit action films such as <em>Top Gun</em> and the <em>Rambo</em> series?`,
+		question: `What spoof comedy series featured actor OJ Simpson as a supporting character?`,
 		answers: [
-			{ text: `The Naked Gun`, correct: false },
+			{ text: `The Naked Gun`, correct: true },
+			{ text: `Hot Shots!`, correct: false },
 			{ text: `Police Academy`, correct: false },
-			{ text: `Hot Shots!`, correct: true },
 			{ text: `Airplane!`, correct: false },
 		]
 	},
+	// {
+	// 	question: `What 1990's spoof comedies starring Charlie Sheen parodied hit action films such as <em>Top Gun</em> and the <em>Rambo</em> series?`,
+	// 	answers: [
+	// 		{ text: `The Naked Gun`, correct: false },
+	// 		{ text: `Police Academy`, correct: false },
+	// 		{ text: `Hot Shots!`, correct: true },
+	// 		{ text: `Airplane!`, correct: false },
+	// 	]
+	// },
 	{
 		question: `Jack Nicholson not only starred in but also directed the 1990 movie <em>The Two Jakes</em>, which was a sequel to what movie from 1974?`,
 		answers: [
@@ -360,15 +387,15 @@ export default [
 			{ text: `Boromir`, correct: false },
 		]
 	},
-	{
-		question: `In the 1991 film <em>Robin Hood: Prince of Thieves</em> starring Kevin Costner in the titular role, who played the Sheriff of Nottingham?`,
-		answers: [
-			{ text: `Gary Oldman`, correct: false },
-			{ text: `Timothy Dalton`, correct: false },
-			{ text: `Alan Rickman`, correct: true },
-			{ text: `Christopher Lee`, correct: false },
-		]
-	},
+	// {
+	// 	question: `In the 1991 film <em>Robin Hood: Prince of Thieves</em> starring Kevin Costner in the titular role, who played the Sheriff of Nottingham?`,
+	// 	answers: [
+	// 		{ text: `Gary Oldman`, correct: false },
+	// 		{ text: `Timothy Dalton`, correct: false },
+	// 		{ text: `Alan Rickman`, correct: true },
+	// 		{ text: `Christopher Lee`, correct: false },
+	// 	]
+	// },
 	{
 		question: `In the 1980 film <em>The Empire Strikes Back</em>, what color is the blade of Luke Skywalker's lightsaber?`,
 		answers: [
@@ -898,6 +925,24 @@ export default [
 			{ text: `Igor Stravinsky`, correct: false },
 			{ text: `Harry S. Truman`, correct: false },
 			{ text: `Don Corleone`, correct: false },
+		]
+	},
+	{
+		question: `Who portrays the ghost of Elvis Presley in the 1993 film <em>True Romance</em>?`,
+		answers: [
+			{ text: `Val Kilmer`, correct: true },
+			{ text: `Bruce Campbell`, correct: false },
+			{ text: `Kurt Russell`, correct: false },
+			{ text: `Kevin Costner`, correct: false },
+		]
+	},
+	{
+		question: `Who voices Elvis Presley in the 1994 film <em>Forrest Gump</em>?`,
+		answers: [
+			{ text: `Kurt Russell`, correct: true },
+			{ text: `Val Kilmer`, correct: false },
+			{ text: `Bruce Campbell`, correct: false },
+			{ text: `Kevin Costner`, correct: false },
 		]
 	},
 	{
@@ -1864,6 +1909,15 @@ export default [
 		]
 	},
 	{
+		question: `Which one of these films did actor/stut-man Johnny Knoxville <em>not</em> appear in?`,
+		answers: [
+			{ text: `Road Trip`, correct: true },
+			{ text: `Action Point`, correct: false },
+			{ text: `Men in Black II`, correct: false },
+			{ text: `The Dukes of Hazzard`, correct: false },
+		]
+	},
+	{
 		question: `Who portrays King Arthur (and the voice of God) in the film <em>Monty Python and the Holy Grail</em>?`,
 		answers: [
 			{ text: `John Cleese`, correct: false },
@@ -2023,6 +2077,33 @@ export default [
 			{ text: `Nicole Kidman`, correct: false },
 			{ text: `Natalie Portman`, correct: false },
 			{ text: `Renee Zellweger`, correct: false },
+		]
+	},
+	{
+		question: `Which of these magazine publishers was portrayed by actor Woody Harrelson?`,
+		answers: [
+			{ text: `Larry Flynt`, correct: true },
+			{ text: `Hugh Hefner`, correct: false },
+			{ text: `William Randolph Hearst`, correct: false },
+			{ text: `Joseph Paul Franklin`, correct: false },
+		]
+	},
+	{
+		question: `At the end of the 1989 movie <em>Back to the Future Part II</em>, Doc Brown is sent back to what year?`,
+		answers: [
+			{ text: `1885`, correct: true },
+			{ text: `1855`, correct: false },
+			{ text: `1955`, correct: false },
+			{ text: `2015`, correct: false },
+		]
+	},
+	{
+		question: `At the end of the 1990 movie <em>Back to the Future Part III</em>, Doc Brown shows up in a new time machine he has made out of what?`,
+		answers: [
+			{ text: `Train`, correct: true },
+			{ text: `DeLorean`, correct: false },
+			{ text: `Winnebago`, correct: false },
+			{ text: `Hot Tub`, correct: false },
 		]
 	},
 	// {

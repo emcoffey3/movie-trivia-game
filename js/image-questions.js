@@ -9,6 +9,15 @@ export default [
 		]
 	},
 	{
+		question: `<img src="../img/the-thing-01.jpg">What is the name of the character shown above?`,
+		answers: [
+			{ text: `R.J. MacReady`, correct: true },
+			{ text: `Snake Plissken`, correct: false },
+			{ text: `Jack Burton`, correct: false },
+			{ text: `Lt. Gabriel Cash`, correct: false},
+		]
+	},
+	{
 		question: `<img src="../img/the-thing-02.jpg">The image shown above is from what movie?`,
 		answers: [
 			{ text: `The Thing`, correct: true },
@@ -18,7 +27,52 @@ export default [
 		]
 	},
 	{
-		question: `<img src="../img/goodfellas-01.jpg">What is the name of the character on the left?`,
+		question: `<img src="../img/alien-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Alien`, correct: true },
+			{ text: `The Thing`, correct: false },
+			{ text: `Hellraiser`, correct: false },
+			{ text: `The Abyss`, correct: false},
+		]
+	},
+	{
+		question: `<img src="../img/alien-01.jpg">The creature in the above image is commonly known as what?`,
+		answers: [
+			{ text: `Facehugger`, correct: true },
+			{ text: `Xeno-Crab`, correct: false },
+			{ text: `Predator`, correct: false },
+			{ text: `Cenobite`, correct: false},
+		]
+	},
+	{
+		question: `<img src="../img/aliens-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Aliens`, correct: true },
+			{ text: `The Thing`, correct: false },
+			{ text: `The Terminator`, correct: false },
+			{ text: `The Abyss`, correct: false},
+		]
+	},
+	{
+		question: `<img src="../img/aliens-01.jpg">What is the name of the character in the foreground?`,
+		answers: [
+			{ text: `Cpl. Hicks`, correct: true },
+			{ text: `PFC Hudson`, correct: false },
+			{ text: `Kyle Reese`, correct: false },
+			{ text: `Bishop`, correct: false},
+		]
+	},
+	{
+		question: `<img src="../img/aliens-01.jpg">What is the name of the actor in the foreground?`,
+		answers: [
+			{ text: `Michael Biehn`, correct: true },
+			{ text: `Bill Paxton`, correct: false },
+			{ text: `Kurt Russell`, correct: false },
+			{ text: `Lance Henriksen`, correct: false},
+		]
+	},
+	{
+		question: `<img src="../img/goodfellas-01.jpg">What is the name of the character pictured on the left?`,
 		answers: [
 			{ text: `Jimmy Conway`, correct: true },
 			{ text: `Ace Rothstein`, correct: false},
@@ -27,7 +81,7 @@ export default [
 		]
 	},
 	{
-		question: `<img src="../img/goodfellas-01.jpg">What is the name of the character on the right?`,
+		question: `<img src="../img/goodfellas-01.jpg">What is the name of the character pictured on the right?`,
 		answers: [
 			{ text: `Henry Hill`, correct: true },
 			{ text: `Jimmy Conway`, correct: false },
@@ -42,6 +96,15 @@ export default [
 			{ text: `The Godfather`, correct: false },
 			{ text: `Casino`, correct: false },
 			{ text: `Reservoir Dogs`, correct: false},
+		]
+	},
+	{
+		question: `<img src="../img/goodfellas-02.jpg">Which of these actors is <em>not</em> pictured above?`,
+		answers: [
+			{ text: `Harvey Keitel`, correct: true },
+			{ text: `Joe Pesci`, correct: false },
+			{ text: `Ray Liotta`, correct: false },
+			{ text: `Paul Sorvino`, correct: false},
 		]
 	},
 	{
@@ -108,6 +171,51 @@ export default [
 		]
 	},
 	{
+		question: `<img src="../img/full-metal-jacket-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Full Metal Jacket`, correct: true },
+			{ text: `Apocalypse Now`, correct: false },
+			{ text: `Platoon`, correct: false },
+			{ text: `The Thin Red Line`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/full-metal-jacket-01.jpg">What is the name of the actor on the left?`,
+		answers: [
+			{ text: `Vincent D'Onofrio`, correct: true },
+			{ text: `Philip Seymour Hoffman`, correct: false },
+			{ text: `Brian Dennehy`, correct: false },
+			{ text: `Matthew Modine`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/full-metal-jacket-01.jpg">What is the name of the actor on the right?`,
+		answers: [
+			{ text: `R. Lee Ermey`, correct: true },
+			{ text: `George C. Scott`, correct: false },
+			{ text: `Robert Forster`, correct: false },
+			{ text: `John C. McGinley`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/full-metal-jacket-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Full Metal Jacket`, correct: true },
+			{ text: `Apocalypse Now`, correct: false },
+			{ text: `Platoon`, correct: false },
+			{ text: `The Thin Red Line`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/full-metal-jacket-03.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Full Metal Jacket`, correct: true },
+			{ text: `Apocalypse Now`, correct: false },
+			{ text: `Platoon`, correct: false },
+			{ text: `The Thin Red Line`, correct: false },
+		]
+	},
+	{
 		question: `<img src="../img/apocalypse-now-01.jpg">The image shown above is from what movie?`,
 		answers: [
 			{ text: `Apocalypse Now`, correct: true },
@@ -117,12 +225,30 @@ export default [
 		]
 	},
 	{
+		question: `<img src="../img/apocalypse-now-01.jpg">What is the name of the actor in the center wearing the hat?`,
+		answers: [
+			{ text: `Robert Duvall`, correct: true },
+			{ text: `James Caan`, correct: false },
+			{ text: `Richard Dreyfuss`, correct: false },
+			{ text: `Dennis Hopper`, correct: false },
+		]
+	},
+	{
 		question: `<img src="../img/apocalypse-now-02.jpg">The image shown above is from what movie?`,
 		answers: [
 			{ text: `Apocalypse Now`, correct: true },
 			{ text: `Platoon`, correct: false },
 			{ text: `The Thin Red Line`, correct: false },
 			{ text: `Full Metal Jacket`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/apocalypse-now-02.jpg">What is the name of the actor shown above?`,
+		answers: [
+			{ text: `Martin Sheen`, correct: true },
+			{ text: `Charlie Sheen`, correct: false },
+			{ text: `Emilio Estevez`, correct: false },
+			{ text: `Jack Nicholson`, correct: false },
 		]
 	},
 	{
@@ -144,7 +270,16 @@ export default [
 		]
 	},
 	{
-		question: `<img src="../img/reservoir-dogs-01.jpg">What is the name of the character in the middle?`,
+		question: `<img src="../img/saving-private-ryan-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Saving Private Ryan`, correct: true },
+			{ text: `The Thin Red Line`, correct: false },
+			{ text: `Full Metal Jacket`, correct: false },
+			{ text: `Platoon`, correct: true },
+		]
+	},
+	{
+		question: `<img src="../img/reservoir-dogs-01.jpg">What is the name of the character in the center?`,
 		answers: [
 			{ text: `Mr. White`, correct: true },
 			{ text: `Mr. Pink`, correct: false },
@@ -279,6 +414,15 @@ export default [
 		]
 	},
 	{
+		question: `<img src="../img/monty-python-and-the-holy-grail-03.jpg">What is the name of the character shown above?`,
+		answers: [
+			{ text: `Roger the Shrubber`, correct: true },
+			{ text: `Stephen the Gardener`, correct: false },
+			{ text: `Phillip the Farmer`, correct: false },
+			{ text: `The Knight Who Says 'Ni!'`, correct: false },
+		]
+	},
+	{
 		question: `<img src="../img/office-space-01.webp">What is the name of the character pictured above?`,
 		answers: [
 			{ text: `Milton`, correct: true },
@@ -402,6 +546,159 @@ export default [
 			{ text: `Alan Grant`, correct: false },
 			{ text: `Wayne Knight`, correct: false },
 			{ text: `John Glover`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/spider-man-far-from-home-01.jpg">The above image is from what movie?`,
+		answers: [
+			{ text: `Spider-Man: Far From Home`, correct: true },
+			{ text: `Spider-Man: No Way Home`, correct: false },
+			{ text: `Avengers: Infinity War`, correct: false },
+			{ text: `Captain America: Civil War`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/spider-man-far-from-home-01.webp">What is the name of the character shown above?`,
+		answers: [
+			{ text: `Mysterio`, correct: true },
+			{ text: `Magneto`, correct: false },
+			{ text: `Electro`, correct: false },
+			{ text: `Shocker`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/spider-man-far-from-home-01.webp">What is the name of the actor shown above?`,
+		answers: [
+			{ text: `Jake Gyllenhaal`, correct: true },
+			{ text: `Tobey Maguire`, correct: false },
+			{ text: `Tom Holland`, correct: false },
+			{ text: `Andrew Garfield`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/avengers-infinity-war-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Avengers: Infinity War`, correct: true },
+			{ text: `Avengers: Endgame`, correct: false },
+			{ text: `Guardians of the Galaxy`, correct: false },
+			{ text: `Spider-Man: Far From Home`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/avengers-infinity-war-01.jpg">What is the name of the character shown above?`,
+		answers: [
+			{ text: `Thanos`, correct: true },
+			{ text: `Dr. Manhattan`, correct: false },
+			{ text: `Apocalypse`, correct: false },
+			{ text: `Darkseid`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/watchmen-01.webp">What is the name of the character shown above?`,
+		answers: [
+			{ text: `Dr. Manhattan`, correct: true },
+			{ text: `Apocalypse`, correct: false },
+			{ text: `Thanos`, correct: false },
+			{ text: `Darkseid`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/watchmen-01.jpg">What is the name of the movie shown above?`,
+		answers: [
+			{ text: `Watchmen`, correct: true },
+			{ text: `Batman v. Superman: Dawn of Justice`, correct: false },
+			{ text: `Justice League`, correct: false },
+			{ text: `The Dark Knight Rises`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/watchmen-01.jpg">What is the name of the character on the left?`,
+		answers: [
+			{ text: `Nite Owl`, correct: true },
+			{ text: `Batman`, correct: false },
+			{ text: `Hawkman`, correct: false },
+			{ text: `Birdman`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/watchmen-01.jpg">What is the name of the character on the right?`,
+		answers: [
+			{ text: `Rorschach`, correct: true },
+			{ text: `The Riddler`, correct: false },
+			{ text: `The Question`, correct: false },
+			{ text: `Mindfreak`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/watchmen-01.jpg">What is the name of the character in the middle?`,
+		answers: [
+			{ text: `Silk Spectre`, correct: true },
+			{ text: `Silhouette`, correct: false },
+			{ text: `Twilight Lady`, correct: false },
+			{ text: `Black Canary`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/deadpool-01.jpg">What is the name of the character pictured above?`,
+		answers: [
+			{ text: `Negasonic Teenage Warhead`, correct: true },
+			{ text: `Silk Spectre`, correct: false },
+			{ text: `Kitty Pryde`, correct: false },
+			{ text: `X-23`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/birds-of-prey-01.jpg">What is the name of the character pictured on the left?`,
+		answers: [
+			{ text: `Black Canary`, correct: true },
+			{ text: `Huntress`, correct: false },
+			{ text: `Cassandra Cain`, correct: false },
+			{ text: `Harley Quinn`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/birds-of-prey-01.jpg">What is the name of the actress pictured on the left?`,
+		answers: [
+			{ text: `Jurnee Smollett-Bell`, correct: true },
+			{ text: `Zoe Saldana`, correct: false },
+			{ text: `Zoë Kravitz`, correct: false },
+			{ text: `Zazie Beetz`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/birds-of-prey-01.jpg">What is the name of the actress pictured on the right?`,
+		answers: [
+			{ text: `Margot Robbie`, correct: true },
+			{ text: `Jaime Pressly`, correct: false },
+			{ text: `Samara Weaving`, correct: false },
+			{ text: `Anne Hathaway`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-shape-of-water-01.jpg">What is the name of the actress pictured on the left?`,
+		answers: [
+			{ text: `Sally Hawkins`, correct: true },
+			{ text: `Audrey Tautou`, correct: false },
+			{ text: `Selma Blair`, correct: false },
+			{ text: `Parker Posey`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-shape-of-water-01.jpg">The above image is from what movie?`,
+		answers: [
+			{ text: `The Shape of Water`, correct: true },
+			{ text: `Hellboy`, correct: false },
+			{ text: `Pan's Labyrinth`, correct: false },
+			{ text: `Creature from the Black Lagoon`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/hellboy-01.jpg">The above image is from what movie?`,
+		answers: [
+			{ text: `Hellboy`, correct: true },
+			{ text: `The Shape of Water`, correct: false },
+			{ text: `Pan's Labyrinth`, correct: false },
+			{ text: `Creature from the Black Lagoon`, correct: false },
 		]
 	},
 ];
