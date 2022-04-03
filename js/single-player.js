@@ -2,6 +2,7 @@ import generalQuestions from './trivia-questions.js';
 import imageQuestions from './image-questions.js';
 
 const allTriviaQuestions = [...generalQuestions, ...imageQuestions];
+allTriviaQuestions.sort(() => Math.random() - 0.5);
 
 const questionCountSpan = document.querySelector('#question-count');
 const highScoreSpan = document.querySelector('#high-score');
