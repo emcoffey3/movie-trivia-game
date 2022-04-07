@@ -28,12 +28,66 @@ export default [
 		]
 	},
 	{
+		question: `In the Marvel Cinematic Universe, which Infinity Stone is located inside Loki's scepter and (later) in Vision's head?`,
+		answers: [
+			{ text: `Mind Stone`, correct: true },
+			{ text: `Power Stone`, correct: false },
+			{ text: `Soul Stone`, correct: false },
+			{ text: `Reality Stone`, correct: false },
+		]
+	},
+	{
+		question: `In the Marvel Cinematic Universe, which Infinity Stone is located inside the Tesseract?`,
+		answers: [
+			{ text: `Power Stone`, correct: true },
+			{ text: `Mind Stone`, correct: false },
+			{ text: `Soul Stone`, correct: false },
+			{ text: `Reality Stone`, correct: false },
+		]
+	},
+	{
+		question: `In the Marvel Cinematic Universe, which Infinity Stone is located inside the Eye of Agamotto?`,
+		answers: [
+			{ text: `Time Stone`, correct: true },
+			{ text: `Mind Stone`, correct: false },
+			{ text: `Soul Stone`, correct: false },
+			{ text: `Power Stone`, correct: false },
+		]
+	},
+	{
 		question: `In the Marvel Cinematic Universe, the character Loki is originally from where?`,
 		answers: [
-			{ text: `Asgard`, correct: false },
-			{ text: `Midgard`, correct: false},
 			{ text: `Jotunheim`, correct: true },
 			{ text: `Anaheim`, correct: false },
+			{ text: `Asgard`, correct: false },
+			{ text: `Midgard`, correct: false},
+		]
+	},
+	{
+		question: `In the Marvel Cinematic Universe, which of these characters was <em>not</em> snapped out of existence by Thanos?`,
+		answers: [
+			{ text: `Scott Lang (Ant-Man)`, correct: true },
+			{ text: `Peter Parker (Spider-Man)`, correct: false },
+			{ text: `Wanda Maximoff (Scarlet Witch)`, correct: false},
+			{ text: `T'Challa (Black Panther)`, correct: false },
+		]
+	},
+	{
+		question: `In the Marvel Cinematic Universe, which of these characters was <em>not</em> snapped out of existence by Thanos?`,
+		answers: [
+			{ text: `Nebula`, correct: true },
+			{ text: `Sam Wilson (Falcon)`, correct: false },
+			{ text: `Nick Fury`, correct: false},
+			{ text: `Drax`, correct: false },
+		]
+	},
+	{
+		question: `In the Marvel Cinematic Universe, which of these characters was <em>not</em> snapped out of existence by Thanos?`,
+		answers: [
+			{ text: `Korg`, correct: true },
+			{ text: `Dr. Stephen Strange`, correct: false },
+			{ text: `Peter Quill (Star-Lord)`, correct: false},
+			{ text: `Maria Hill`, correct: false },
 		]
 	},
 	{
@@ -41,7 +95,7 @@ export default [
 		answers: [
 			{ text: `Samuel L. Jackson`, correct: true},
 			{ text: `Don Cheadle`, correct: false },
-			{ text: `Laurnec Fishburne`, correct: false },
+			{ text: `Laurence Fishburne`, correct: false },
 			{ text: `Ernie Hudson`, correct: false },
 		]
 	},
@@ -315,6 +369,15 @@ export default [
 	// 		{ text: `Airplane!`, correct: false },
 	// 	]
 	// },
+	{
+		question: `Who directed the 1986 film <em>Top Gun</em>?`,
+		answers: [
+			{ text: `Tony Scott`, correct: true },
+			{ text: `Ridley Scott`, correct: false },
+			{ text: `Michael Bay`, correct: false },
+			{ text: `Jerry Bruckheimer`, correct: false },
+		]
+	},
 	{
 		question: `Jack Nicholson not only starred in but also directed the 1990 movie <em>The Two Jakes</em>, which was a sequel to what movie from 1974?`,
 		answers: [
@@ -853,6 +916,15 @@ export default [
 			{ text: `A Few Good Men`, correct: false },
 			{ text: `The Social Network`, correct: false },
 			{ text: `Moneyball`, correct: false },
+		]
+	},
+	{
+		question: `Which of these movies was <em>not</em> written by David Mamet?`,
+		answers: [
+			{ text: `A Few Good Men`, correct: true },
+			{ text: `The Verdict`, correct: false },
+			{ text: `Glengarry GlenRoss`, correct: false },
+			{ text: `Hannibal`, correct: false },
 		]
 	},
 	{
@@ -1810,12 +1882,93 @@ export default [
 		]
 	},
 	{
+		question: `Which of the following movies was <em>not</em> directed by Brian De Palma?`,
+		answers: [
+			{ text: `Body Heat (1981)`, correct: true },
+			{ text: `Body Double (1984)`, correct: false },
+			{ text: `Blow Out (1981)`, correct: false },
+			{ text: `Dressed to Kill (1980)`, correct: false },
+		]
+	},
+	{
+		question: `Which of the following movies was <em>not</em> directed by Brian De Palma?`,
+		answers: [
+			{ text: `9½ Weeks (1986)`, correct: true },
+			{ text: `Carrie (1976)`, correct: false },
+			{ text: `Scarface (1983)`, correct: false },
+			{ text: `Mission: Impossible (1996)`, correct: false },
+		]
+	},
+	{
+		question: `In the 1984 movie <em>Ghostbusters</em> Dana Barrett gets possessed by what entity?`,
+		answers: [
+			{ text: `Zuul`, correct: true },
+			{ text: `Gozer`, correct: false },
+			{ text: `Vince Clortho`, correct: false },
+			{ text: `Vigo the Carpathian`, correct: false },
+		]
+	},
+	{
+		question: `In the 1984 movie <em>Ghostbusters</em> Louis Tully gets possessed by what entity?`,
+		answers: [
+			{ text: `Vince Clortho`, correct: true },
+			{ text: `Vigo the Carpathian`, correct: false },
+			{ text: `Zuul`, correct: false },
+			{ text: `Gozer`, correct: false },
+		]
+	},
+	{
+		question: `In the 1984 movie <em>Ghostbusters</em>, Egon Spengler mentions that he collects all of the following except what?`,
+		answers: [
+			{ text: `algae`, correct: true },
+			{ text: `spores`, correct: false },
+			{ text: `molds`, correct: false },
+			{ text: `fungus`, correct: false },
+		]
+	},
+	{
 		question: `In the 1984 movie <em>Ghostbusters</em>, what actor portrays Winston Zeddemore?`,
 		answers: [
 			{ text: `Morgan Freeman`, correct: false },
 			{ text: `Danny Glover`, correct: false },
 			{ text: `Charles Robinson`, correct: false },
 			{ text: `Ernie Hudson`, correct: true },
+		]
+	},
+	{
+		question: `Who directed the orginal <em>Ghostbusters</em> and <em>Ghostbusters II</em>?`,
+		answers: [
+			{ text: `Ivan Reitman`, correct: true },
+			{ text: `Jason Reitman`, correct: false },
+			{ text: `Robert Zemeckis`, correct: false },
+			{ text: `Harold Ramis`, correct: false },
+		]
+	},
+	{
+		question: `Who directed the 2016 movie <em>Ghostbusters</em>?`,
+		answers: [
+			{ text: `Paul Feig`, correct: true },
+			{ text: `Jason Reitman`, correct: false },
+			{ text: `Ivan Reitman`, correct: false },
+			{ text: `Judd Apatow`, correct: false },
+		]
+	},
+	{
+		question: `Who directed the 2021 movie <em>Ghostbusters: Afterlife</em>?`,
+		answers: [
+			{ text: `Jason Reitman`, correct: true },
+			{ text: `Ivan Reitman`, correct: false },
+			{ text: `Paul Feig`, correct: false },
+			{ text: `Judd Apatow`, correct: false },
+		]
+	},
+	{
+		question: `What year was the movie <em>Ghostbusters II</em> released?`,
+		answers: [
+			{ text: `1989`, correct: true },
+			{ text: `1987`, correct: false },
+			{ text: `1991`, correct: false },
+			{ text: `1993`, correct: false },
 		]
 	},
 	{
@@ -2113,6 +2266,15 @@ export default [
 			{ text: `a planet`, correct: false },
 			{ text: `an AI`, correct: false },
 			{ text: `an event`, correct: false },
+		]
+	},
+	{
+		question: `In which movie did the Joker say the following? "This city deserves a better class of criminal. And I'm gonna give it to them."`,
+		answers: [
+			{ text: `The Dark Knight (2008)`, correct: true },
+			{ text: `Suicide Squad (2016)`, correct: false },
+			{ text: `Joker (2019)`, correct: false },
+			{ text: `Batman (1989)`, correct: false },
 		]
 	},
 	// {

@@ -2,7 +2,7 @@ export default [
 	{
 		question: `<img src="../img/big-trouble-in-little-china-01.jpg">The image shown above is from what movie?`,
 		answers: [
-			{ text: `Big Trouble in Little China`, correct: true},
+			{ text: `Big Trouble in Little China`, correct: true },
 			{ text: `Mortal Kombat`, correct: false },
 			{ text: `Enter the Dragon`, correct: false },
 			{ text: `Crouching Tiger Hidden Dragon`, correct: false },
@@ -11,7 +11,7 @@ export default [
 	{
 		question: `<img src="../img/big-trouble-in-little-china-01.jpg">What is the name of the character shown above?`,
 		answers: [
-			{ text: `Lo Pan`, correct: true},
+			{ text: `Lo Pan`, correct: true },
 			{ text: `Shang Tsung`, correct: false },
 			{ text: `Ra's al Ghul`, correct: false },
 			{ text: `Mr. Miyagi`, correct: false },
@@ -23,7 +23,7 @@ export default [
 			{ text: `The Thing`, correct: true },
 			{ text: `Alien`, correct: false },
 			{ text: `Escape From New York`, correct: false },
-			{ text: `Big Trouble in Little China`, correct: false},
+			{ text: `Big Trouble in Little China`, correct: false },
 		]
 	},
 	{
@@ -32,7 +32,7 @@ export default [
 			{ text: `R.J. MacReady`, correct: true },
 			{ text: `Snake Plissken`, correct: false },
 			{ text: `Jack Burton`, correct: false },
-			{ text: `Lt. Gabriel Cash`, correct: false},
+			{ text: `Lt. Gabriel Cash`, correct: false },
 		]
 	},
 	{
@@ -41,7 +41,7 @@ export default [
 			{ text: `The Thing`, correct: true },
 			{ text: `Alien`, correct: false },
 			{ text: `Eraserhead`, correct: false },
-			{ text: `Re-Animator`, correct: false},
+			{ text: `Re-Animator`, correct: false },
 		]
 	},
 	{
@@ -50,7 +50,7 @@ export default [
 			{ text: `Alien`, correct: true },
 			{ text: `The Thing`, correct: false },
 			{ text: `Hellraiser`, correct: false },
-			{ text: `The Abyss`, correct: false},
+			{ text: `The Abyss`, correct: false },
 		]
 	},
 	{
@@ -59,7 +59,7 @@ export default [
 			{ text: `Facehugger`, correct: true },
 			{ text: `Xeno-Crab`, correct: false },
 			{ text: `Predator`, correct: false },
-			{ text: `Cenobite`, correct: false},
+			{ text: `Cenobite`, correct: false },
 		]
 	},
 	{
@@ -68,7 +68,7 @@ export default [
 			{ text: `Aliens`, correct: true },
 			{ text: `The Thing`, correct: false },
 			{ text: `The Terminator`, correct: false },
-			{ text: `The Abyss`, correct: false},
+			{ text: `The Abyss`, correct: false },
 		]
 	},
 	{
@@ -77,7 +77,7 @@ export default [
 			{ text: `Cpl. Hicks`, correct: true },
 			{ text: `PFC Hudson`, correct: false },
 			{ text: `Kyle Reese`, correct: false },
-			{ text: `Bishop`, correct: false},
+			{ text: `Bishop`, correct: false },
 		]
 	},
 	{
@@ -86,7 +86,7 @@ export default [
 			{ text: `Michael Biehn`, correct: true },
 			{ text: `Bill Paxton`, correct: false },
 			{ text: `Kurt Russell`, correct: false },
-			{ text: `Lance Henriksen`, correct: false},
+			{ text: `Lance Henriksen`, correct: false },
 		]
 	},
 	{
@@ -104,7 +104,7 @@ export default [
 			{ text: `Henry Hill`, correct: true },
 			{ text: `Jimmy Conway`, correct: false },
 			{ text: `Tommy DeVito`, correct: false },
-			{ text: `Billy Batts`, correct: false},
+			{ text: `Billy Batts`, correct: false },
 		]
 	},
 	{
@@ -113,7 +113,7 @@ export default [
 			{ text: `Goodfellas`, correct: true },
 			{ text: `The Godfather`, correct: false },
 			{ text: `Casino`, correct: false },
-			{ text: `Reservoir Dogs`, correct: false},
+			{ text: `Reservoir Dogs`, correct: false },
 		]
 	},
 	{
@@ -122,7 +122,7 @@ export default [
 			{ text: `Harvey Keitel`, correct: true },
 			{ text: `Joe Pesci`, correct: false },
 			{ text: `Ray Liotta`, correct: false },
-			{ text: `Paul Sorvino`, correct: false},
+			{ text: `Paul Sorvino`, correct: false },
 		]
 	},
 	{
@@ -720,12 +720,120 @@ export default [
 		]
 	},
 	{
+		question: `<img src="../img/morbius-01.jpg">The above image is from what movie?`,
+		answers: [
+			{ text: `Morbius`, correct: true },
+			{ text: `Blade: Trinity`, correct: false },
+			{ text: `Dracula Untold`, correct: false },
+			{ text: `Dracula 2000`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/morbius-01.jpg">What is the name of the actor pictured above?`,
+		answers: [
+			{ text: `Jared Leto`, correct: true },
+			{ text: `Joaquin Phoenix`, correct: false },
+			{ text: `Casey Affleck`, correct: false },
+			{ text: `Robert Pattinson`, correct: false },
+		]
+	},
+	{
 		question: `<img src="../img/event-horizon-01.jpg">The above image is from what movie?`,
 		answers: [
 			{ text: `Event Horizon`, correct: true },
 			{ text: `In the Mouth of Madness`, correct: false },
-			{ text: `Hellraise`, correct: false },
+			{ text: `Hellraiser`, correct: false },
 			{ text: `Star Trek: The Motion Picture`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/a-few-good-men-01.jpg">The above image is from what movie?`,
+		answers: [
+			{ text: `A Few Good Men`, correct: true },
+			{ text: `Born on the Fourth of July`, correct: false },
+			{ text: `Top Gun`, correct: false },
+			{ text: `Rules of Engagement`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/a-few-good-men-01.jpg">What is the name of the character in the foreground?`,
+		answers: [
+			{ text: `Col. Nathan R. Jessup`, correct: true },
+			{ text: `Cpt. Jack Ross`, correct: false },
+			{ text: `Lt. Daniel Kaffee`, correct: false },
+			{ text: `Lt. Cdr. Joe Galloway`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/a-few-good-men-02.jpg">The above image is from what movie?`,
+		answers: [
+			{ text: `A Few Good Men`, correct: true },
+			{ text: `Born on the Fourth of July`, correct: false },
+			{ text: `Top Gun`, correct: false },
+			{ text: `Rules of Engagement`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/a-few-good-men-02.jpg">What is the name of the character on the right?`,
+		answers: [
+			{ text: `Lt. Daniel Kaffee`, correct: true },
+			{ text: `Col. Nathan R. Jessup`, correct: false },
+			{ text: `Cpt. Jack Ross`, correct: false },
+			{ text: `Lt. Cdr. Joe Galloway`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/a-few-good-men-02.jpg">What is the name of the character on the left?`,
+		answers: [
+			{ text: `Cpt. Jack Ross`, correct: true },
+			{ text: `Lt. Daniel Kaffee`, correct: false },
+			{ text: `Col. Nathan R. Jessup`, correct: false },
+			{ text: `Lt. Cdr. Joe Galloway`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/top-gun-01.jpg">The above image is from what movie?`,
+		answers: [
+			{ text: `Top Gun`, correct: true },
+			{ text: `A Few Good Men`, correct: false },
+			{ text: `Born on the Fourth of July`, correct: false },
+			{ text: `Days of Thunder`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/top-gun-01.jpg">What is the call sign of the character on the right (foreground)?`,
+		answers: [
+			{ text: `Maverick`, correct: true },
+			{ text: `Goose`, correct: false },
+			{ text: `Iceman`, correct: false },
+			{ text: `Viper`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/top-gun-01.jpg">What is the call sign of the character on the left (foreground)?`,
+		answers: [
+			{ text: `Iceman`, correct: true },
+			{ text: `Maverick`, correct: false },
+			{ text: `Goose`, correct: false },
+			{ text: `Viper`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/ghostbusters-01.jpg">What is the name of the character shown above?`,
+		answers: [
+			{ text: `Gozer`, correct: true },
+			{ text: `Zuul`, correct: false },
+			{ text: `Vince Clortho`, correct: false },
+			{ text: `Vigo the Carpathian`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/ghostbusters-2-01.jpg">What is the name of the character shown above?`,
+		answers: [
+			{ text: `Vigo the Carpathian`, correct: true },
+			{ text: `Vince Clortho`, correct: false },
+			{ text: `Zuul`, correct: false },
+			{ text: `Gozer`, correct: false },
 		]
 	},
 ];
