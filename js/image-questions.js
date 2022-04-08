@@ -14,7 +14,43 @@ export default [
 			{ text: `Lo Pan`, correct: true },
 			{ text: `Shang Tsung`, correct: false },
 			{ text: `Ra's al Ghul`, correct: false },
-			{ text: `Mr. Miyagi`, correct: false },
+			{ text: `Chong Li`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/mortal-kombat-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Mortal Kombat`, correct: true },
+			{ text: `Big Trouble in Little China`, correct: false },
+			{ text: `Enter the Dragon`, correct: false },
+			{ text: `Crouching Tiger Hidden Dragon`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/mortal-kombat-01.jpg">What is the name of the character on the left?`,
+		answers: [
+			{ text: `Sub-Zero`, correct: true },
+			{ text: `Scorpion`, correct: false },
+			{ text: `Reptile`, correct: false },
+			{ text: `Kano`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/mortal-kombat-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Mortal Kombat`, correct: true },
+			{ text: `Big Trouble in Little China`, correct: false },
+			{ text: `Enter the Dragon`, correct: false },
+			{ text: `Crouching Tiger Hidden Dragon`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/mortal-kombat-02.jpg">What is the name of the character shown above?`,
+		answers: [
+			{ text: `Shang Tsung`, correct: true },
+			{ text: `Lo Pan`, correct: false },
+			{ text: `Ra's al Ghul`, correct: false },
+			{ text: `Chong Li`, correct: false },
 		]
 	},
 	{
@@ -57,7 +93,7 @@ export default [
 		question: `<img src="../img/alien-01.jpg">The creature in the above image is commonly known as what?`,
 		answers: [
 			{ text: `Facehugger`, correct: true },
-			{ text: `Xeno-Crab`, correct: false },
+			{ text: `Skullgrabber`, correct: false },
 			{ text: `Predator`, correct: false },
 			{ text: `Cenobite`, correct: false },
 		]
@@ -153,7 +189,7 @@ export default [
 		]
 	},
 	{
-		question: `<img src="../img/the-godfather-02.jpg">What is the name of the character shown above?`,
+		question: `<img src="../img/the-godfather-01.jpg">What is the name of the character shown above?`,
 		answers: [
 			{ text: `Vito Corleone`, correct: true },
 			{ text: `Michael Corleone`, correct: false },
@@ -179,13 +215,31 @@ export default [
 			{ text: `Carlito's Way`, correct: false },
 		]
 	},
+	// {
+	// 	question: `<img src="../img/the-big-lebowski-01.jpg">The image shown above is from what movie?`,
+	// 	answers: [
+	// 		{ text: `The Big Lebowski`, correct: true },
+	// 		{ text: `The Big Easy`, correct: false },
+	// 		{ text: `The Fisher King`, correct: false },
+	// 		{ text: `Argo`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `<img src="../img/the-big-lebowski-01.jpg">What is the name of the character on the left?`,
+	// 	answers: [
+	// 		{ text: `The Dude`, correct: true },
+	// 		{ text: `Walter Sobchak`, correct: false },
+	// 		{ text: `Donny`, correct: false },
+	// 		{ text: `The Stranger`, correct: false },
+	// 	]
+	// },
 	{
-		question: `<img src="../img/the-big-lebowski-01.jpg">The image shown above is from what movie?`,
+		question: `<img src="../img/the-big-lebowski-01.jpg">What is the name of the character on the right?`,
 		answers: [
-			{ text: `The Big Lebowski`, correct: true },
-			{ text: `The Big Easy`, correct: false },
-			{ text: `The Fisher King`, correct: false },
-			{ text: `Argo`, correct: false },
+			{ text: `Walter Sobchak`, correct: true },
+			{ text: `Donny`, correct: false },
+			{ text: `The Dude`, correct: false },
+			{ text: `Jackie Treehorn`, correct: false },
 		]
 	},
 	{
@@ -359,15 +413,15 @@ export default [
 			{ text: `Winston Wolfe`, correct: false },
 		]
 	},
-	{
-		question: `<img src="../img/pulp-fiction-02.jpg">The image shown above is from what movie?`,
-		answers: [
-			{ text: `Pulp Fiction`, correct: true },
-			{ text: `Reservoir Dogs`, correct: false },
-			{ text: `Jackie Brown`, correct: false },
-			{ text: `Heat`, correct: false },
-		]
-	},
+	// {
+	// 	question: `<img src="../img/pulp-fiction-02.jpg">The image shown above is from what movie?`,
+	// 	answers: [
+	// 		{ text: `Pulp Fiction`, correct: true },
+	// 		{ text: `Reservoir Dogs`, correct: false },
+	// 		{ text: `Jackie Brown`, correct: false },
+	// 		{ text: `Heat`, correct: false },
+	// 	]
+	// },
 	{
 		question: `<img src="../img/pulp-fiction-03.jpg">The image shown above is from what movie?`,
 		answers: [
@@ -384,6 +438,15 @@ export default [
 			{ text: `Yolanda`, correct: false },
 			{ text: `Esmeralda`, correct: false },
 			{ text: `Fabienne`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/pulp-fiction-04.jpg">What is the name of the actress shown above?`,
+		answers: [
+			{ text: `Uma Thurman`, correct: true },
+			{ text: `Amanda Seyfried`, correct: false },
+			{ text: `Angelina Jolie`, correct: false },
+			{ text: `Milla Jovovich`, correct: false },
 		]
 	},
 	{
@@ -836,4 +899,247 @@ export default [
 			{ text: `Gozer`, correct: false },
 		]
 	},
+	{
+		question: `<img src="../img/lethal-weapon-01.jpg">What is the name of the character on the left?`,
+		answers: [
+			{ text: `Martin Riggs`, correct: true },
+			{ text: `Roger Murtaugh`, correct: false },
+			{ text: `John McClane`, correct: false },
+			{ text: `Axel Foley`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/lethal-weapon-01.jpg">What is the name of the character on the right?`,
+		answers: [
+			{ text: `Roger Murtaugh`, correct: true },
+			{ text: `Martin Riggs`, correct: false },
+			{ text: `John McClane`, correct: false },
+			{ text: `Axel Foley`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/enter-the-dragon-01.webp">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Enter the Dragon`, correct: true },
+			{ text: `Big Trouble in Little China`, correct: false },
+			{ text: `Mortal Kombat`, correct: false },
+			{ text: `Bloodsport`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/back-to-the-future-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Back to the Future`, correct: true },
+			{ text: `Groundhog Day`, correct: false },
+			{ text: `The Breakfast Club`, correct: false },
+			{ text: `Happy Death Day`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/inception-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Inception`, correct: true },
+			{ text: `Tenet`, correct: false },
+			{ text: `Knives Out`, correct: false },
+			{ text: `Get Out`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/inception-01.jpg">The spinning item near the corner of the table is referred to as what?`,
+		answers: [
+			{ text: `totem`, correct: true },
+			{ text: `token`, correct: false },
+			{ text: `glyph`, correct: false },
+			{ text: `rune`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/inception-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Inception`, correct: true },
+			{ text: `Tenet`, correct: false },
+			{ text: `The Dark Knight Rises`, correct: false },
+			{ text: `Contagion`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/inception-02.jpg">What is the name of the actor on the left?`,
+		answers: [
+			{ text: `Ken Watanabe`, correct: true },
+			{ text: `Kenneth Choi`, correct: false },
+			{ text: `Sung Kang`, correct: false },
+			{ text: `Daniel Dae Kim`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/inception-02.jpg">What is the name of the actress on the right?`,
+		answers: [
+			{ text: `Marion Cotilard`, correct: true },
+			{ text: `Rachel Weisz`, correct: false },
+			{ text: `Eva Green`, correct: false },
+			{ text: `Charlotte Gainsbourg`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/inception-02.jpg">What is the name of the character on the right?`,
+		answers: [
+			{ text: `Mal Cobb`, correct: true },
+			{ text: `Talia al Ghul`, correct: false },
+			{ text: `Selina Kyle`, correct: false },
+			{ text: `Bridget Gregory`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/tropic-thunder-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Tropic Thunder`, correct: true },
+			{ text: `Platoon`, correct: false },
+			{ text: `The Thin Red Line`, correct: false },
+			{ text: `Apocalypse Now`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/tropic-thunder-01.jpg">What is the name of the character on the left?`,
+		answers: [
+			{ text: `Tugg Speedman`, correct: true },
+			{ text: `Kirk Lazarus`, correct: false },
+			{ text: `Jeff Portnoy`, correct: false },
+			{ text: `Les Grossman`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/tropic-thunder-01.jpg">What is the name of the character on the right?`,
+		answers: [
+			{ text: `Kirk Lazarus`, correct: true },
+			{ text: `Tugg Speedman`, correct: false },
+			{ text: `Jeff Portnoy`, correct: false },
+			{ text: `Les Grossman`, correct: false },
+		]
+	},
+	// {
+	// 	question: `<img src="../img/tropic-thunder-01.jpg">What is the name of the actor on the right?`,
+	// 	answers: [
+	// 		{ text: `Robert Downey Jr.`, correct: true },
+	// 		{ text: `Cuba Gooding Jr.`, correct: false },
+	// 		{ text: `Richard Roundtree`, correct: false },
+	// 		{ text: `Jeffrey Dean Morgan`, correct: false },
+	// 	]
+	// },
+	{
+		question: `<img src="../img/tropic-thunder-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Tropic Thunder`, correct: true },
+			{ text: `The Big Short`, correct: false },
+			{ text: `Draft Day`, correct: false },
+			{ text: `Margin Call`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/tropic-thunder-02.jpg">What is the name of the actor on the left?`,
+		answers: [
+			{ text: `Tom Cruise`, correct: true },
+			{ text: `Jason Alexander`, correct: false },
+			{ text: `Robert Downey Jr.`, correct: false },
+			{ text: `John Travolta`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/tropic-thunder-02.jpg">What is the name of the character on the left?`,
+		answers: [
+			{ text: `Les Grossman`, correct: true },
+			{ text: `Kirk Lazarus`, correct: false },
+			{ text: `Tugg Speedman`, correct: false },
+			{ text: `Jeff Portnoy`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/tropic-thunder-02.jpg">What is the name of the character on the right?`,
+		answers: [
+			{ text: `Rick Peck`, correct: true },
+			{ text: `Les Grossman`, correct: false },
+			{ text: `Tugg Speedman`, correct: false },
+			{ text: `Kirk Lazarus`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-fifth-element-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `The Fifth Element`, correct: true },
+			{ text: `Blade Runner`, correct: false },
+			{ text: `Back to the Future Part II`, correct: false },
+			{ text: `Dredd`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/blade-runner-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Blade Runner`, correct: true },
+			{ text: `The Fifth Element`, correct: false },
+			{ text: `The Matrix`, correct: false },
+			{ text: `Back to the Future`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/leon-the-professional-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Léon: The Professional`, correct: true },
+			{ text: `The Fifth Element`, correct: false },
+			{ text: `Ronin`, correct: false },
+			{ text: `Heat`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/leon-the-professional-01.jpg">What is the name of the actor on the left?`,
+		answers: [
+			{ text: `Jean Reno`, correct: true },
+			{ text: `Javier Bardem`, correct: false },
+			{ text: `Liam Cunningham`, correct: false },
+			{ text: `Vincent Cassel`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/leon-the-professional-01.jpg">What is the name of the actress on the right?`,
+		answers: [
+			{ text: `Natalie Portman`, correct: true },
+			{ text: `Keira Knightley`, correct: false },
+			{ text: `Winona Ryder`, correct: false },
+			{ text: `Olivia Wilde`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/leon-the-professional-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Léon: The Professional`, correct: true },
+			{ text: `The Fifth Element`, correct: false },
+			{ text: `True Romance`, correct: false },
+			{ text: `Heat`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/leon-the-professional-02.jpg">What is the name of the actor shown above?`,
+		answers: [
+			{ text: `Gary Oldman`, correct: true },
+			{ text: `Sam Rockwell`, correct: false },
+			{ text: `John Hurt`, correct: false },
+			{ text: `Hugo Weaving`, correct: false },
+		]
+	},
+	// {
+	// 	question: `<img src="../img/groundhog-day-01.jpg">The image shown above is from what movie?`,
+	// 	answers: [
+	// 		{ text: `Groundhog Day`, correct: true },
+	// 		{ text: `Back to the Future`, correct: false },
+	// 		{ text: `The Breakfast Club`, correct: false },
+	// 		{ text: `Happy Death Day`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `<img src="../img/enter-the-dragon-01.webp">What is the name of the actor in the above image?`,
+	// 	answers: [
+	// 		{ text: `Bruce Lee`, correct: true },
+	// 		{ text: `Brandon Lee`, correct: false },
+	// 		{ text: `Jackie Chan`, correct: false },
+	// 		{ text: `Bolo Yeung`, correct: false },
+	// 	]
+	// },
 ];

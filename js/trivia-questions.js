@@ -90,15 +90,15 @@ export default [
 			{ text: `Maria Hill`, correct: false },
 		]
 	},
-	{
-		question: `In the Marvel Cinematic Universe, who portrays Nick Fury?`,
-		answers: [
-			{ text: `Samuel L. Jackson`, correct: true},
-			{ text: `Don Cheadle`, correct: false },
-			{ text: `Laurence Fishburne`, correct: false },
-			{ text: `Ernie Hudson`, correct: false },
-		]
-	},
+	// {
+	// 	question: `In the Marvel Cinematic Universe, who portrays Nick Fury?`,
+	// 	answers: [
+	// 		{ text: `Samuel L. Jackson`, correct: true},
+	// 		{ text: `Don Cheadle`, correct: false },
+	// 		{ text: `Laurence Fishburne`, correct: false },
+	// 		{ text: `Ernie Hudson`, correct: false },
+	// 	]
+	// },
 	{
 		question: `In the MCU, what type of shape-shifting aliens are introduced in <em>Captain Marvel</em> and later seen in <em>Spider-Man: Far From Home</em>?`,
 		answers: [
@@ -145,7 +145,7 @@ export default [
 		]
 	},
 	{
-		question: `Sylvester Stallone and Kurt Russell co-starred in what 1989 buddy cop movie?`,
+		question: `Sylvester Stallone and Kurt Russell co-starred in what 1989 movie?`,
 		answers: [
 			{ text: `Tango & Cash`, correct: true },
 			{ text: `Lethal Weapon`, correct: false },
@@ -162,24 +162,24 @@ export default [
 			{ text: `The Christmas Chronicles (2018)`, correct: false },
 		]
 	},
-	{
-		question: `What 1986 3D sci-fi film starring Michael Jackson was formerly shown in Disney theme parks?`,
-		answers: [
-			{ text: `The Dark Crystal`, correct: false },
-			{ text: `Moonwalker`, correct: false},
-			{ text: `Captain EO`, correct: true },
-			{ text: `Starchaser: The Legend of Orin`, correct: false },
-		]
-	},
-	{
-		question: `Actor Michael Keaton has appeared on-screen as Batman, Birdman, and what other winged comic book character?`,
-		answers: [
-			{ text: `The Falcon`, correct: false },
-			{ text: `The Vulture`, correct: true },
-			{ text: `Archangel`, correct: false},
-			{ text: `Nite Owl`, correct: false },
-		]
-	},
+	// {
+	// 	question: `What 1986 3D sci-fi film starring Michael Jackson was formerly shown in Disney theme parks?`,
+	// 	answers: [
+	// 		{ text: `The Dark Crystal`, correct: false },
+	// 		{ text: `Moonwalker`, correct: false},
+	// 		{ text: `Captain EO`, correct: true },
+	// 		{ text: `Starchaser: The Legend of Orin`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `Actor Michael Keaton has appeared on-screen as Batman, Birdman, and what other winged comic book character?`,
+	// 	answers: [
+	// 		{ text: `The Falcon`, correct: false },
+	// 		{ text: `The Vulture`, correct: true },
+	// 		{ text: `Archangel`, correct: false},
+	// 		{ text: `Nite Owl`, correct: false },
+	// 	]
+	// },
 	{
 		question: `Actor Djimon Hounsou has appeared in all of these comic book movies except what?`,
 		answers: [
@@ -216,15 +216,15 @@ export default [
 			{ text: `Howard the Duck`, correct: false },
 		]
 	},
-	{
-		question: `The character Dr. Hannibal Lecter first appeared in what film?`,
-		answers: [
-			{ text: `The Silence of the Lambs`, correct: false },
-			{ text: `Red Dragon`, correct: false },
-			{ text: `Manhunter`, correct: true },
-			{ text: `To Live and Die in LA`, correct: false },
-		]
-	},
+	// {
+	// 	question: `The character Dr. Hannibal Lecter first appeared in what film?`,
+	// 	answers: [
+	// 		{ text: `Manhunter`, correct: true },
+	// 		{ text: `The Silence of the Lambs`, correct: false },
+	// 		{ text: `Red Dragon`, correct: false },
+	// 		{ text: `To Live and Die in LA`, correct: false },
+	// 	]
+	// },
 	{
 		question: `In how many films has Anthony Hopkins portrayed Dr. Hannibal Lecter?`,
 		answers: [
@@ -297,15 +297,15 @@ export default [
 			{ text: `Rock Star`, correct: true },
 		]
 	},
-	{
-		question: `What 2000 film about fictional serial killer Patrick Bateman was based on a novel by Bret Easton Ellis?`,
-		answers: [
-			{ text: `Summer of Sam`, correct: false },
-			{ text: `American Psycho`, correct: true },
-			{ text: `Less Than Zero`, correct: false },
-			{ text: `Saw`, correct: false },
-		]
-	},
+	// {
+	// 	question: `What 2000 film about fictional serial killer Patrick Bateman was based on a novel by Bret Easton Ellis?`,
+	// 	answers: [
+	// 		{ text: `Summer of Sam`, correct: false },
+	// 		{ text: `American Psycho`, correct: true },
+	// 		{ text: `Less Than Zero`, correct: false },
+	// 		{ text: `Saw`, correct: false },
+	// 	]
+	// },
 	{
 		question: `In the 2014 movie <em>What We Do in the Shadows</em> directed by Taika Watiti, who are "We"?`,
 		answers: [
@@ -423,15 +423,15 @@ export default [
 			{ text: `Brain Candy`, correct: true },
 		]
 	},
-	{
-		question: `In the <em>X-Men</em> movie franchise, actress Jennifer Lawrence plays what mutant character?`,
-		answers: [
-			{ text: `Storm`, correct: false },
-			{ text: `Rogue`, correct: false },
-			{ text: `Mystique`, correct: true },
-			{ text: `Kitty Pryde`, correct: false },
-		]
-	},
+	// {
+	// 	question: `In the <em>X-Men</em> movie franchise, actress Jennifer Lawrence plays what mutant character?`,
+	// 	answers: [
+	// 		{ text: `Storm`, correct: false },
+	// 		{ text: `Rogue`, correct: false },
+	// 		{ text: `Mystique`, correct: true },
+	// 		{ text: `Kitty Pryde`, correct: false },
+	// 	]
+	// },
 	{
 		question: `In the <em>X-Men</em> movie franchise, actress Halle Berry plays what mutant character?`,
 		answers: [
@@ -450,6 +450,15 @@ export default [
 			{ text: `Boromir`, correct: false },
 		]
 	},
+	// {
+	// 	question: `In the 2001 film <em>The Lord of the Rings: The Fellowship of the Ring</em>, who says "One does not simply walk into Mordor."?`,
+	// 	answers: [
+	// 		{ text: `Gandalf`, correct: false },
+	// 		{ text: `Aragorn`, correct: false },
+	// 		{ text: `Legolas`, correct: false },
+	// 		{ text: `Boromir`, correct: true },
+	// 	]
+	// },
 	// {
 	// 	question: `In the 1991 film <em>Robin Hood: Prince of Thieves</em> starring Kevin Costner in the titular role, who played the Sheriff of Nottingham?`,
 	// 	answers: [
@@ -558,22 +567,31 @@ export default [
 			{ text: `Come As You Are`, correct: false },
 		]
 	},
+	// {
+	// 	question: `In the 1997 movie <em>Batman & Robin</em>, what character does Arnold Schwarzenegger portray?`,
+	// 	answers: [
+	// 		{ text: `Batman`, correct: false },
+	// 		{ text: `Bane`, correct: false },
+	// 		{ text: `Mr. Freeze`, correct: true },
+	// 		{ text: `Killer Croc`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `In the 2005 film <em>Batman Begins</em>, Rachel Dawes is portrayed by actress Katie Holmes.  Who portrays this character in 2008 sequel <em>The Dark Knight</em>?`,
+	// 	answers: [
+	// 		{ text: `Anne Hathaway`, correct: false },
+	// 		{ text: `Scarlett Johansson`, correct: false },
+	// 		{ text: `Maggie Gyllenhaal`, correct: true },
+	// 		{ text: `Katie Holmes`, correct: false },
+	// 	]
+	// },
 	{
-		question: `In the 1997 movie <em>Batman & Robin</em>, what character does Arnold Schwarzenegger portray?`,
+		question: `In the 2008 film <em>The Dark Knight</em>, Rachel Dawes is portrayed by actress Maggie Gyllenhaal.  Who portrays this character in the 2005 movie <em>Batman Begins</em>?`,
 		answers: [
-			{ text: `Batman`, correct: false },
-			{ text: `Bane`, correct: false },
-			{ text: `Mr. Freeze`, correct: true },
-			{ text: `Killer Croc`, correct: false },
-		]
-	},
-	{
-		question: `In the 2005 film <em>Batman Begins</em>, Rachel Dawes is portrayed by actress Katie Holmes.  Who portrays this character in 2008 sequel <em>The Dark Knight</em>?`,
-		answers: [
+			{ text: `Katie Holmes`, correct: true },
+			{ text: `Maggie Gyllenhaal`, correct: false },
 			{ text: `Anne Hathaway`, correct: false },
-			{ text: `Scarlett Johansson`, correct: false },
-			{ text: `Maggie Gyllenhaal`, correct: true },
-			{ text: `Katie Holmes`, correct: false },
+			{ text: `Marion Cotillard`, correct: false },
 		]
 	},
 	{
@@ -792,15 +810,15 @@ export default [
 			{ text: `The Three Musketeers`, correct: false },
 		]
 	},
-	{
-		question: `What 1976 Sidney Lumet film features the iconic line "I'm mad as hell, and I'm not going to take this anymore!"?`,
-		answers: [
-			{ text: `12 Angry Men`, correct: false },
-			{ text: `The Conversation`, correct: false },
-			{ text: `Broadcast News`, correct: false },
-			{ text: `Network`, correct: true },
-		]
-	},
+	// {
+	// 	question: `What 1976 Sidney Lumet film features the iconic line "I'm mad as hell, and I'm not going to take this anymore!"?`,
+	// 	answers: [
+	// 		{ text: `12 Angry Men`, correct: false },
+	// 		{ text: `The Conversation`, correct: false },
+	// 		{ text: `Broadcast News`, correct: false },
+	// 		{ text: `Network`, correct: true },
+	// 	]
+	// },
 	{
 		question: `What 1986 film is a sequel to 1959's <em>The Hustler</em>?`,
 		answers: [
@@ -810,15 +828,15 @@ export default [
 			{ text: `The Verdict`, correct: false },
 		]
 	},
-	{
-		question: `The 1984 cult film <em>Breakin'</em> had a sequel that came out the same year.  What was the title of that film?`,
-		answers: [
-			{ text: `Breakin' 2: Flat Broke`, correct: false },
-			{ text: `Breakin' 2: Electric Boogaloo`, correct: true },
-			{ text: `Breakin' 2: Friends Forever`, correct: false },
-			{ text: `More Breakin'`, correct: false },
-		]
-	},
+	// {
+	// 	question: `The 1984 cult film <em>Breakin'</em> had a sequel that came out the same year.  What was the title of that film?`,
+	// 	answers: [
+	// 		{ text: `Breakin' 2: Flat Broke`, correct: false },
+	// 		{ text: `Breakin' 2: Electric Boogaloo`, correct: true },
+	// 		{ text: `Breakin' 2: Friends Forever`, correct: false },
+	// 		{ text: `More Breakin'`, correct: false },
+	// 	]
+	// },
 	{
 		question: `In the <em>John Wick</em> film series, what is the name of the hotel where assassins always stay?`,
 		answers: [
@@ -964,6 +982,15 @@ export default [
 		]
 	},
 	{
+		question: `Which of these movies was <em>not</em> directed by Luc Besson?`,
+		answers: [
+			{ text: `V for Vendetta`, correct: true },
+			{ text: `Léon: The Professional`, correct: false },
+			{ text: `The Fifth Element`, correct: false },
+			{ text: `Lucy`, correct: false },
+		]
+	},
+	{
 		question: `Which of these movies does <em>not</em> feature actor Ted Danson?`,
 		answers: [
 			{ text: `City Slickers`, correct: true },
@@ -1056,10 +1083,10 @@ export default [
 	{
 		question: `In <em>The Big Lebowski</em>, who said the following: "You want a toe? I can get you a toe, believe me. There are ways, Dude."?`,
 		answers: [
-			{ text: `Walter (John Goodman)`, correct: true },
-			{ text: `Donny (Steve Buscemi)`, correct: false },
-			{ text: `Maude (Julianne Moore)`, correct: false },
-			{ text: `Jesus (John Turturro)`, correct: false },
+			{ text: `Walter`, correct: true },
+			{ text: `Donny`, correct: false },
+			{ text: `Maude`, correct: false },
+			{ text: `Jesus`, correct: false },
 		]
 	},
 	{
@@ -1125,15 +1152,15 @@ export default [
 			{ text: `5`, correct: false },
 		]
 	},
-	{
-		question: `Kathryn Bigelow is perhaps best known as the first woman to win the Academy Award for Best Director for <em>The Hurt Locker</em>.  What 1987 vampire film featuring actor Bill Paxton did she also direct?`,
-		answers: [
-			{ text: `The Hunger`, correct: false },
-			{ text: `The Lost Boys`, correct: false },
-			{ text: `Near Dark`, correct: true },
-			{ text: `Vampire's Kiss`, correct: false },
-		]
-	},
+	// {
+	// 	question: `Kathryn Bigelow is perhaps best known as the first woman to win the Academy Award for Best Director for <em>The Hurt Locker</em>.  What 1987 vampire film featuring actor Bill Paxton did she also direct?`,
+	// 	answers: [
+	// 		{ text: `The Hunger`, correct: false },
+	// 		{ text: `The Lost Boys`, correct: false },
+	// 		{ text: `Near Dark`, correct: true },
+	// 		{ text: `Vampire's Kiss`, correct: false },
+	// 	]
+	// },
 	{
 		question: `During the production of this 1973 horror movie, director William Friedkin carried a gun on set and would fire it at random to get startled reactions from the actors.  What is the title of this movie?`,
 		answers: [
@@ -1738,12 +1765,48 @@ export default [
 		]
 	},
 	{
-		question: `What film takes place first chronologically in Legendary's MonsterVerse?`,
+		question: `What film takes place <em>first</em> chronologically in Legendary's MonsterVerse?`,
 		answers: [
 			{ text: `Godzilla`, correct: false },
 			{ text: `Godzilla: King of the Monsters`, correct: false },
 			{ text: `Godzilla vs. Kong`, correct: false },
 			{ text: `Kong: Skull Island`, correct: true },
+		]
+	},
+	{
+		question: `What film takes place <em>last</em> chronologically in Legendary's MonsterVerse?`,
+		answers: [
+			{ text: `Godzilla`, correct: false },
+			{ text: `Godzilla: King of the Monsters`, correct: false },
+			{ text: `Kong: Skull Island`, correct: false },
+			{ text: `Godzilla vs. Kong`, correct: true },
+		]
+	},
+	{
+		question: `Who directed the 2017 film <em>Kong: Skull Island</em>?`,
+		answers: [
+			{ text: `Jordan Vogt-Roberts`, correct: true },
+			{ text: `Peter Jackson`, correct: false },
+			{ text: `Christopher Nolan`, correct: false },
+			{ text: `Stephen Spielberg`, correct: false },
+		]
+	},
+	{
+		question: `Which one of these films was <em>not</em> directed by Nicolas Winding Refn?`,
+		answers: [
+			{ text: `Nightcrawler (2014)`, correct: true },
+			{ text: `Drive (2011)`, correct: false },
+			{ text: `Only God Forgives (2013)`, correct: false },
+			{ text: `The Neon Demon (2016)`, correct: false },
+		]
+	},
+	{
+		question: `Which one of these films did actor Ryan Gosling <em>not</em> appear in?`,
+		answers: [
+			{ text: `The Neon Demon (2016)`, correct: true },
+			{ text: `Drive (2011)`, correct: false },
+			{ text: `The Nice Guys (2016)`, correct: false },
+			{ text: `Blade Runner 2049 (2017)`, correct: false },
 		]
 	},
 	{
@@ -1971,15 +2034,15 @@ export default [
 			{ text: `1993`, correct: false },
 		]
 	},
-	{
-		question: `In the 1993 film <em>Wayne's World 2</em>, what is the name of the music festival that Wayne and Garth try to organize?`,
-		answers: [
-			{ text: `Waynefest`, correct: false },
-			{ text: `Waynestock`, correct: true },
-			{ text: `Wayne's Worldapalooza`, correct: false },
-			{ text: `Aurora City Limits`, correct: false },
-		]
-	},
+	// {
+	// 	question: `In the 1993 film <em>Wayne's World 2</em>, what is the name of the music festival that Wayne and Garth try to organize?`,
+	// 	answers: [
+	// 		{ text: `Waynefest`, correct: false },
+	// 		{ text: `Waynestock`, correct: true },
+	// 		{ text: `Wayne's Worldapalooza`, correct: false },
+	// 		{ text: `Aurora City Limits`, correct: false },
+	// 	]
+	// },
 	{
 		question: `In the 1994 movie <em>Clerks</em>, Kevin Smith portrays what character?`,
 		answers: [
@@ -2053,7 +2116,7 @@ export default [
 		]
 	},
 	{
-		question: `Actors Johnny Knoxville, Steve-O and Jason "Wee Man" Acuña are best known for appearing in what comedy stunt movie series?`,
+		question: `Actors Johnny Knoxville, Steve-O and Jason "Wee Man" Acuña are appear in what comedy stunt movie series?`,
 		answers: [
 			{ text: `Borat`, correct: false },
 			{ text: `Jackass`, correct: true },
@@ -2185,6 +2248,15 @@ export default [
 			{ text: `Mel Brooks`, correct: false },
 			{ text: `Rob Reiner`, correct: false },
 			{ text: `Larry David`, correct: false },
+		]
+	},
+	{
+		question: `What comedic actor plays Aaron in the 1987 movie <em>Broadcast News</em>?`,
+		answers: [
+			{ text: `Albert Brooks`, correct: true },
+			{ text: `Mel Brooks`, correct: false },
+			{ text: `Rob Reiner`, correct: false },
+			{ text: `William Hurt`, correct: false },
 		]
 	},
 	{
@@ -2437,15 +2509,6 @@ export default [
 	// 		{ text: `The Land of Mist`, correct: false },
 	// 		{ text: `Fallen Kingdom`, correct: false },
 	// 		{ text: `Dominion`, correct: false },
-	// 	]
-	// },
-	// {
-	// 	question: `In the 2001 film <em>The Lord of the Rings: The Fellowship of the Ring</em>, who says "One does not simply walk into Mordor."?`,
-	// 	answers: [
-	// 		{ text: `Gandalf`, correct: false },
-	// 		{ text: `Aragorn`, correct: false },
-	// 		{ text: `Legolas`, correct: false },
-	// 		{ text: `Boromir`, correct: true },
 	// 	]
 	// },
 	// {
