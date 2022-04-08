@@ -1124,6 +1124,78 @@ export default [
 			{ text: `Hugo Weaving`, correct: false },
 		]
 	},
+	{
+		question: `<img src="../img/us-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Us`, correct: true },
+			{ text: `Get Out`, correct: false },
+			{ text: `Nope`, correct: false },
+			{ text: `You're Next`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/us-01.jpg">What is the name of the actress shown above?`,
+		answers: [
+			{ text: `Lupita Nyong'o`, correct: true },
+			{ text: `Danai Gurira`, correct: false },
+			{ text: `Letitia Wright`, correct: false },
+			{ text: `Sonequa Martin-Green`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/nightcrawler-01.webp">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Nightcrawler`, correct: true },
+			{ text: `Nocturnal Animals`, correct: false },
+			{ text: `Drive`, correct: false },
+			{ text: `Zodiac`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/nightcrawler-01.jpg">What is the name of the actor on the right?`,
+		answers: [
+			{ text: `Jake Gyllenhaal`, correct: true },
+			{ text: `Tobey Maguire`, correct: false },
+			{ text: `Jude Law`, correct: false },
+			{ text: `Jared Leto`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/nightcrawler-01.jpg">What is the name of the actor on the left?`,
+		answers: [
+			{ text: `Riz Ahmed`, correct: true },
+			{ text: `Dev Patel`, correct: false },
+			{ text: `Rahul Kohli`, correct: false },
+			{ text: `Rami Malek`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-social-network-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `The Social Network`, correct: true },
+			{ text: `Steve Jobs`, correct: false },
+			{ text: `Primer`, correct: false },
+			{ text: `Sneakers`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-social-network-01.jpg">What is the name of the actor on the left (foreground)?`,
+		answers: [
+			{ text: `Andrew Garfield`, correct: true },
+			{ text: `Andrew Lincoln`, correct: false },
+			{ text: `Tom Holland`, correct: false },
+			{ text: `Tom Hardy`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-social-network-01.jpg">What is the name of the actor on the right (foreground)?`,
+		answers: [
+			{ text: `Jesse Eisenberg`, correct: true },
+			{ text: `Michael Cera`, correct: false },
+			{ text: `Andy Samberg`, correct: false },
+			{ text: `Aaron Paul`, correct: false },
+		]
+	},
 	// {
 	// 	question: `<img src="../img/groundhog-day-01.jpg">The image shown above is from what movie?`,
 	// 	answers: [
