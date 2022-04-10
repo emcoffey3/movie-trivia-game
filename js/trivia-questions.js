@@ -108,33 +108,33 @@ export default [
 			{ text: `Celestials`, correct: false },
 		]
 	},
-	{
-		question: `In the MCU, what type of aliens attack New York at the end of <em>The Avengers</em>?`,
-		answers: [
-			{ text: `Kree`, correct: false },
-			{ text: `Skrulls`, correct: false },
-			{ text: `Chitauri`, correct: true },
-			{ text: `Celestials`, correct: false },
-		]
-	},
-	{
-		question: `Actor Willem Dafoe portrays what villain in both the 2002 film <em>Spider-Man</em> and the 2021 film <em>Spider-Man: No Way Home</em>?`,
-		answers: [
-			{ text: `Doctor Octopus`, correct: false },
-			{ text: `Green Goblin`, correct: true },
-			{ text: `Hobgoblin`, correct: false},
-			{ text: `Venom`, correct: false },
-		]
-	},
-	{
-		question: `Actor Alfred Molina portrays what villain in both the 2004 film <em>Spider-Man 2</em> and the 2021 film <em>Spider-Man: No Way Home</em>?`,
-		answers: [
-			{ text: `Doctor Octopus`, correct: true },
-			{ text: `Green Goblin`, correct: false },
-			{ text: `Hobgoblin`, correct: false},
-			{ text: `Venom`, correct: false },
-		]
-	},
+	// {
+	// 	question: `In the MCU, what type of aliens attack New York at the end of <em>The Avengers</em>?`,
+	// 	answers: [
+	// 		{ text: `Kree`, correct: false },
+	// 		{ text: `Skrulls`, correct: false },
+	// 		{ text: `Chitauri`, correct: true },
+	// 		{ text: `Celestials`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `Actor Willem Dafoe portrays what villain in both the 2002 film <em>Spider-Man</em> and the 2021 film <em>Spider-Man: No Way Home</em>?`,
+	// 	answers: [
+	// 		{ text: `Doctor Octopus`, correct: false },
+	// 		{ text: `Green Goblin`, correct: true },
+	// 		{ text: `Hobgoblin`, correct: false},
+	// 		{ text: `Venom`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `Actor Alfred Molina portrays what villain in both the 2004 film <em>Spider-Man 2</em> and the 2021 film <em>Spider-Man: No Way Home</em>?`,
+	// 	answers: [
+	// 		{ text: `Doctor Octopus`, correct: true },
+	// 		{ text: `Green Goblin`, correct: false },
+	// 		{ text: `Hobgoblin`, correct: false},
+	// 		{ text: `Venom`, correct: false },
+	// 	]
+	// },
 	{
 		question: `What is the name of the first movie that Sylvester Stallone appeared in as the character John Rambo?`,
 		answers: [
@@ -846,15 +846,15 @@ export default [
 			{ text: `The Babylon`, correct: false },
 		]
 	},
-	{
-		question: `In the 1997 film <em>Boogie Nights</em>, the character Scotty J has an unrequited crush on main character Dirk Diggler, who is played by Mark Wahlberg.  What actor plays Scotty J?`,
-		answers: [
-			{ text: `John C. Reilly`, correct: false },
-			{ text: `William H. Macy`, correct: false },
-			{ text: `Philip Baker Hall`, correct: false },
-			{ text: `Philip Seymour Hoffman`, correct: true },
-		]
-	},
+	// {
+	// 	question: `In the 1997 film <em>Boogie Nights</em>, the character Scotty J has an unrequited crush on main character Dirk Diggler, who is played by Mark Wahlberg.  What actor plays Scotty J?`,
+	// 	answers: [
+	// 		{ text: `John C. Reilly`, correct: false },
+	// 		{ text: `William H. Macy`, correct: false },
+	// 		{ text: `Philip Baker Hall`, correct: false },
+	// 		{ text: `Philip Seymour Hoffman`, correct: true },
+	// 	]
+	// },
 	{
 		question: `In the 1997 film <em>Boogie Nights</em>, the character Little Bill kills his wife and another man before committing suicide, all during a New Year's Eve party.  What actor plays Little Bill?`,
 		answers: [
@@ -864,15 +864,15 @@ export default [
 			{ text: `Don Cheadle`, correct: false },
 		]
 	},
-	{
-		question: `The Rob Reiner film <em>Misery</em> stars what actress as the deranged Annie Wilkes?`,
-		answers: [
-			{ text: `Kathy Bates`, correct: true },
-			{ text: `Sharon Stone`, correct: false },
-			{ text: `Sissy Spacek`, correct: false },
-			{ text: `Kathleen Turner`, correct: false },
-		]
-	},
+	// {
+	// 	question: `The Rob Reiner film <em>Misery</em> stars what actress as the deranged Annie Wilkes?`,
+	// 	answers: [
+	// 		{ text: `Kathy Bates`, correct: true },
+	// 		{ text: `Sharon Stone`, correct: false },
+	// 		{ text: `Sissy Spacek`, correct: false },
+	// 		{ text: `Kathleen Turner`, correct: false },
+	// 	]
+	// },
 	{
 		question: `The 1976 film <em>Carrie</em> stars what actress as Carrie White?`,
 		answers: [
@@ -1269,15 +1269,15 @@ export default [
 			{ text: `The Predator (Kevin Peter Hall)`, correct: false },
 		]
 	},
-	{
-		question: `In the 1987 movie <em>Predator</em>, who says the line "I ain't got time to bleed"?`,
-		answers: [
-			{ text: `Dutch (Arnold Schwarzenegger)`, correct: false },
-			{ text: `Dillon (Carl Weathers)`, correct: false },
-			{ text: `Blain (Jesse Ventura)`, correct: true },
-			{ text: `The Predator (Kevin Peter Hall)`, correct: false },
-		]
-	},
+	// {
+	// 	question: `In the 1987 movie <em>Predator</em>, who says the line "I ain't got time to bleed"?`,
+	// 	answers: [
+	// 		{ text: `Dutch (Arnold Schwarzenegger)`, correct: false },
+	// 		{ text: `Dillon (Carl Weathers)`, correct: false },
+	// 		{ text: `Blain (Jesse Ventura)`, correct: true },
+	// 		{ text: `The Predator (Kevin Peter Hall)`, correct: false },
+	// 	]
+	// },
 	{
 		question: `In the 1990 film <em>Predator 2</em>, what actor portrays lead character Lt. Mike Harrigan?`,
 		answers: [
@@ -1401,7 +1401,7 @@ export default [
 			{ text: `The New York Times`, correct: false },
 			{ text: `The Washington Post`, correct: false },
 			{ text: `The Boston Globe`, correct: true },
-			{ text: `MAD Magazine`, correct: false },
+			{ text: `The Onion`, correct: false },
 		]
 	},
 	{
