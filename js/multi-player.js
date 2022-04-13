@@ -185,7 +185,7 @@ function selectAnswer(e) {
 		answersContainer.querySelectorAll('button[data-correct=true]').forEach(button => {
 			button.classList.add('correct');
 		});
-		players[currentPlayer].incorrectAnswers++
+		players[currentPlayer].incorrectAnswers++;
 		players[currentPlayer].score += (fiftyFiftyUsed ? -1 : 0);
 	}
 

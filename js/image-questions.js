@@ -1,4 +1,4 @@
-export default [
+const imageQuestions = [
 	{
 		question: `<img src="../img/big-trouble-in-little-china-01.jpg">The image shown above is from what movie?`,
 		answers: [
@@ -1215,3 +1215,15 @@ export default [
 	// 	]
 	// },
 ];
+
+const regex = /src="(.*?)"/;
+const images = [...new Set(imageQuestions.map(iq => regex.exec(iq.question)[1]))];
+images.forEach(image => {
+	const preload = document.createElement('link');
+	preload.rel = 'preload';
+	preload.as = 'image';
+	preload.href = image;
+	document.querySelector('head').appendChild(preload);
+});
+
+export default imageQuestions;
