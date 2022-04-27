@@ -1152,7 +1152,7 @@ const imageQuestions = [
 		]
 	},
 	{
-		question: `<img src="../img/nightcrawler-01.jpg">What is the name of the actor on the right?`,
+		question: `<img src="../img/nightcrawler-01.jpg">What is the name of the actor pictured on the right?`,
 		answers: [
 			{ text: `Jake Gyllenhaal`, correct: true },
 			{ text: `Tobey Maguire`, correct: false },
@@ -1161,7 +1161,7 @@ const imageQuestions = [
 		]
 	},
 	{
-		question: `<img src="../img/nightcrawler-01.jpg">What is the name of the actor on the left?`,
+		question: `<img src="../img/nightcrawler-01.jpg">What is the name of the actor pictured on the left?`,
 		answers: [
 			{ text: `Riz Ahmed`, correct: true },
 			{ text: `Dev Patel`, correct: false },
@@ -1194,6 +1194,294 @@ const imageQuestions = [
 			{ text: `Michael Cera`, correct: false },
 			{ text: `Andy Samberg`, correct: false },
 			{ text: `Aaron Paul`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/pacific-rim-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Pacific Rim`, correct: true },
+			{ text: `Mighty Morphin Power Rangers`, correct: false },
+			{ text: `Transformers`, correct: false },
+			{ text: `Transformers: Dark of the Moon`, correct: false },
+		]
+	},
+	// {
+	// 	question: `<img src="../img/pacific-rim-02.jpg">The image shown above is from what movie?`,
+	// 	answers: [
+	// 		{ text: `Pacific Rim`, correct: true },
+	// 		{ text: `Ghost in the Shell`, correct: false },
+	// 		{ text: `Blade Runner 2049`, correct: false },
+	// 		{ text: `The Matrix`, correct: false },
+	// 	]
+	// },
+	{
+		question: `<img src="../img/pacific-rim-02.jpg">What is the name of the actor pictured on the left?`,
+		answers: [
+			{ text: `Ron Perlman`, correct: true },
+			{ text: `Tom Waits`, correct: false },
+			{ text: `Ray Liotta`, correct: false },
+			{ text: `Benicio Del Toro`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/pacific-rim-02.jpg">What is the name of the actor pictured on the right?`,
+		answers: [
+			{ text: `Charlie Day`, correct: true },
+			{ text: `Rob McElhenney`, correct: false },
+			{ text: `Glenn Howerton`, correct: false },
+			{ text: `Jason Bateman`, correct: false },
+		]
+	},
+	// {
+	// 	question: `<img src="../img/pacific-rim-03.jpg">The image shown above is from what movie?`,
+	// 	answers: [
+	// 		{ text: `Pacific Rim`, correct: true },
+	// 		{ text: `The Rock`, correct: false },
+	// 		{ text: `Top Gun`, correct: false },
+	// 		{ text: `A Few Good Men`, correct: false },
+	// 	]
+	// },
+	{
+		question: `<img src="../img/pacific-rim-03.jpg">What is the name of the actor shown above?`,
+		answers: [
+			{ text: `Idris Elba`, correct: true },
+			{ text: `Terrence Howard`, correct: false },
+			{ text: `Michael K. Williams`, correct: false },
+			{ text: `Chiwetel Ejiofor`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/pacific-rim-04.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Pacific Rim`, correct: true },
+			{ text: `Godzilla: King of the Monsters`, correct: false },
+			{ text: `Cloverfield`, correct: false },
+			{ text: `The Mist`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/pacific-rim-05.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Pacific Rim`, correct: true },
+			{ text: `Edge of Darkness`, correct: false },
+			{ text: `Prometheus`, correct: false },
+			{ text: `Alien`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/pacific-rim-05.jpg">What is the name of the actor shown above?`,
+		answers: [
+			{ text: `Charlie Day`, correct: true },
+			{ text: `Rob McElhenney`, correct: false },
+			{ text: `Glenn Howerton`, correct: false },
+			{ text: `Jason Bateman`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/pacific-rim-06.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Pacific Rim`, correct: true },
+			{ text: `Edge of Darkness`, correct: false },
+			{ text: `Battle: LA`, correct: false },
+			{ text: `Starship Troopers`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-rock-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `The Rock`, correct: true },
+			{ text: `Platoon`, correct: false },
+			{ text: `Born on the Fourth of July`, correct: false },
+			{ text: `Top Gun`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-rock-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `The Rock`, correct: true },
+			{ text: `National Treasure`, correct: false },
+			{ text: `Face/Off`, correct: false },
+			{ text: `Con Air`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-rock-02.jpg">What is the name of the actor pictured on the left?`,
+		answers: [
+			{ text: `Sean Connery`, correct: true },
+			{ text: `Ian McKellen`, correct: false },
+			{ text: `Christopher Lee`, correct: false },
+			{ text: `Brendan Gleeson`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-rock-02.jpg">What is the name of the actor pictured on the right?`,
+		answers: [
+			{ text: `Nicolas Cage`, correct: true },
+			{ text: `Tom Cruise`, correct: false },
+			{ text: `Mark Wahlberg`, correct: false },
+			{ text: `John Cusack`, correct: false },
+		]
+	},
+	// {
+	// 	question: `<img src="../img/con-air-01.jpg">The image shown above is from what movie?`,
+	// 	answers: [
+	// 		{ text: `Con Air`, correct: true },
+	// 		{ text: `In the Line of Fire`, correct: false },
+	// 		{ text: `The Silence of the Lambs`, correct: false },
+	// 		{ text: `Hannibal`, correct: false },
+	// 	]
+	// },
+	// {
+	// 	question: `<img src="../img/con-air-01.jpg">What is the name of the actor shown above?`,
+	// 	answers: [
+	// 		{ text: `John Malkovich`, correct: true },
+	// 		{ text: `Steve Buscemi`, correct: false },
+	// 		{ text: `Ron Perlman`, correct: false },
+	// 		{ text: `Jackie Earle Haley`, correct: false },
+	// 	]
+	// },
+	{
+		question: `<img src="../img/con-air-01.jpg">What is the name of the character shown above?`,
+		answers: [
+			{ text: `Cyrus "The Virus" Grisson`, correct: true },
+			{ text: `Hannibal "The Cannibal" Lector`, correct: false },
+			{ text: `Garland "The Marietta Mangler" Greene`, correct: false },
+			{ text: `Earl "Swamp Thing" Williams`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/con-air-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Con Air`, correct: true },
+			{ text: `Ghost Rider`, correct: false },
+			{ text: `The Rock`, correct: false },
+			{ text: `Face/Off`, correct: false },
+		]
+	},
+	// {
+	// 	question: `<img src="../img/con-air-03.jpg">The image shown above is from what movie?`,
+	// 	answers: [
+	// 		{ text: `Con Air`, correct: true },
+	// 		{ text: `Half Baked`, correct: false },
+	// 		{ text: `The Rock`, correct: false },
+	// 		{ text: `Live Free or Die Hard`, correct: false },
+	// 	]
+	// },
+	{
+		question: `<img src="../img/con-air-03.jpg">What is the name of the actor shown above?`,
+		answers: [
+			{ text: `Dave Chappelle`, correct: true },
+			{ text: `Lakeith Stanfield`, correct: false },
+			{ text: `Malcolm Barrett`, correct: false },
+			{ text: `Bokeem Woodbine`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/con-air-04.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Con Air`, correct: true },
+			{ text: `In the Line of Fire`, correct: false },
+			{ text: `Rounders`, correct: false },
+			{ text: `Red`, correct: false },
+		]
+	},
+	// {
+	// 	question: `<img src="../img/con-air-04.jpg">What is the name of the actor shown above?`,
+	// 	answers: [
+	// 		{ text: `John Malkovich`, correct: true },
+	// 		{ text: `Steve Buscemi`, correct: false },
+	// 		{ text: `Ron Perlman`, correct: false },
+	// 		{ text: `Jackie Earle Haley`, correct: false },
+	// 	]
+	// },
+	{
+		question: `<img src="../img/con-air-04.jpg">What is the name of the character shown above?`,
+		answers: [
+			{ text: `Cyrus "The Virus" Grisson`, correct: true },
+			{ text: `Hannibal "The Cannibal" Lector`, correct: false },
+			{ text: `Garland "The Marietta Mangler" Greene`, correct: false },
+			{ text: `Earl "Swamp Thing" Williams`, correct: false },
+		]
+	},
+	// {
+	// 	question: `<img src="../img/con-air-05.jpg">The image shown above is from what movie?`,
+	// 	answers: [
+	// 		{ text: `Con Air`, correct: true },
+	// 		{ text: `The Rock`, correct: false },
+	// 		{ text: `Face/Off`, correct: false },
+	// 		{ text: `Ghost Rider`, correct: false },
+	// 	]
+	// },
+	{
+		question: `<img src="../img/con-air-05.jpg">What is the name of the actor shown above?`,
+		answers: [
+			{ text: `Nicolas Cage`, correct: true },
+			{ text: `Tom Cruise`, correct: false },
+			{ text: `Mark Wahlberg`, correct: false },
+			{ text: `John Cusack`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/con-air-04.jpg">What is the name of the character shown above?`,
+		answers: [
+			{ text: `Cameron Poe`, correct: true },
+			{ text: `Stanley Goodspeed`, correct: false },
+			{ text: `Memphis Raines`, correct: false },
+			{ text: `Poe Dameron`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/in-the-line-of-fire-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `In the Line of Fire`, correct: true },
+			{ text: `Con Air`, correct: false },
+			{ text: `Burn After Reading`, correct: false },
+			{ text: `Of Mice and Men`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/in-the-line-of-fire-01.jpg">What is the name of the actor pictured above?`,
+		answers: [
+			{ text: `John Malkovich`, correct: true },
+			{ text: `Steve Buscemi`, correct: false },
+			{ text: `Ron Perlman`, correct: false },
+			{ text: `Jackie Earle Haley`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/sorry-to-bother-you-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Sorry to Bother You`, correct: true },
+			{ text: `Friday`, correct: false },
+			{ text: `Get Out`, correct: false },
+			{ text: `Knives Out`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/sorry-to-bother-you-01.jpg">What is the name of the actor pictured on the left?`,
+		answers: [
+			{ text: `LaKeith Stanfield`, correct: true },
+			{ text: `Daniel Kaluuya`, correct: false },
+			{ text: `Michael B. Jordan`, correct: false },
+			{ text: `Chadwick Boseman`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/sorry-to-bother-you-01.jpg">What is the name of the actress pictured on the right?`,
+		answers: [
+			{ text: `Tessa Thompson`, correct: true },
+			{ text: `Zoe Saldana`, correct: false },
+			{ text: `Danai Gurira`, correct: false },
+			{ text: `Lupita Nyong'o`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/sorry-to-bother-you-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Sorry to Bother You`, correct: true },
+			{ text: `The Big Short`, correct: false },
+			{ text: `Uncut Gems`, correct: false },
+			{ text: `Knives Out`, correct: false },
 		]
 	},
 	// {
