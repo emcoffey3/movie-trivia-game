@@ -61,6 +61,11 @@ img {
 	margin-bottom: 0.5rem;
 }
 
+.game-over {
+	padding-top: 1rem;
+	max-width: min(100%, 460px);
+}
+
 table {
 	border-collapse: collapse;
 }

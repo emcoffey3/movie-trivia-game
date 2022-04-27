@@ -4,6 +4,7 @@ import imageQuestions from './image-questions.js';
 const allTriviaQuestions = [...generalQuestions, ...imageQuestions];
 allTriviaQuestions.sort(() => Math.random() - 0.5);
 
+const scoreContainer = document.querySelector('.score-container');
 const questionCountSpan = document.querySelector('#question-count');
 const highScoreSpan = document.querySelector('#high-score');
 const currentScoreSpan = document.querySelector('#current-score');
@@ -33,6 +34,7 @@ function startGame() {
 	highScoreSpan.innerText = getHighScore();
 	currentScoreSpan.innerText = '0';
 	questionCountSpan.innerText = '0';
+	scoreContainer.classList.remove('hidden');
 
 	getNextTriviaQuestion();
 }
@@ -101,7 +103,7 @@ function selectAnswer(e) {
 }
 
 function gameOver() {
-	let msg = `GAME OVER\nYou scored ${score} out of a possible ${MAXIMUM_SCORE} points!`;
+	let msg = `<img class="game-over" alt="Game Over, Man!" src="../img/aliens-game-over.jpg">You scored ${score} out of a possible ${MAXIMUM_SCORE} points!`;
 	if(setHighScore(score)) {
 		msg += " That's a new high score!";
 	}
@@ -110,7 +112,8 @@ function gameOver() {
 	} else {
 		msg += '\nAnswer faster for even more points!';
 	}
-	currentQuestion.innerText = msg;
+	scoreContainer.classList.add('hidden');
+	currentQuestion.innerHTML = msg;
 	answersContainer.innerHTML = '';
 	timerSpan.innerText = '0';
 
