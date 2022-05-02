@@ -2736,4 +2736,13 @@ export default [
 			{ text: `Harry Dean Stanton`, correct: true },
 		]
 	},
+	{
+		question: `The 2011 movie <em>The Raid: Redemption</em> takes place in what country?`,
+		answers: [
+			{ text: `Indonesia`, correct: true },
+			{ text: `India`, correct: false },
+			{ text: `Japan`, correct: false },
+			{ text: `North Korea`, correct: false },
+		]
+	},
 ];

@@ -1449,6 +1449,24 @@ const imageQuestions = [
 		]
 	},
 	{
+		question: `<img src="../img/edge-of-tomorrow-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Edge of Tomorrow`, correct: true },
+			{ text: `Oblivion`, correct: false },
+			{ text: `Looper`, correct: false },
+			{ text: `Elysium`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/edge-of-tomorrow-01.jpg">What is the name of the actress pictured on the right?`,
+		answers: [
+			{ text: `Emily Blunt`, correct: true },
+			{ text: `Emma Stone`, correct: false },
+			{ text: `Vera Farmiga`, correct: false },
+			{ text: `Rebecca Ferguson`, correct: false },
+		]
+	},
+	{
 		question: `<img src="../img/sorry-to-bother-you-01.jpg">The image shown above is from what movie?`,
 		answers: [
 			{ text: `Sorry to Bother You`, correct: true },
@@ -1482,6 +1500,213 @@ const imageQuestions = [
 			{ text: `The Big Short`, correct: false },
 			{ text: `Uncut Gems`, correct: false },
 			{ text: `Knives Out`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/sicario-01.jpg">What is the name of the actor pictured above?`,
+		answers: [
+			{ text: `Benicio Del Toro`, correct: true },
+			{ text: `Brad Pitt`, correct: false },
+			{ text: `Antonio Banderas`, correct: false },
+			{ text: `Danny Trejo`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/sicario-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Sicario`, correct: true },
+			{ text: `Traffic`, correct: false },
+			{ text: `Heat`, correct: false },
+			{ text: `Zero Dark Thirty`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/sicario-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Sicario`, correct: true },
+			{ text: `Traffic`, correct: false },
+			{ text: `Heat`, correct: false },
+			{ text: `Hell or High Water`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/sicario-03.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Sicario`, correct: true },
+			{ text: `The Town`, correct: false },
+			{ text: `Man on Fire`, correct: false },
+			{ text: `Hell or High Water`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-raid-redemption-01.webp">The image shown above is from what movie?`,
+		answers: [
+			{ text: `The Raid: Redemption`, correct: true },
+			{ text: `The Town`, correct: false },
+			{ text: `Zero Dark Thirty`, correct: false },
+			{ text: `Sicario`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/2001-a-space-odyssey-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `2001: A Space Odyssey`, correct: true },
+			{ text: `Moon`, correct: false },
+			{ text: `Independence Day: Resurgence`, correct: false },
+			{ text: `Armageddon`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/2001-a-space-odyssey-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `2001: A Space Odyssey`, correct: true },
+			{ text: `Moon`, correct: false },
+			{ text: `Alien`, correct: false },
+			{ text: `Armageddon`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/2001-a-space-odyssey-03.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `2001: A Space Odyssey`, correct: true },
+			{ text: `Apollo 13`, correct: false },
+			{ text: `Gravity`, correct: false },
+			{ text: `Interstellar`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/2001-a-space-odyssey-04.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `2001: A Space Odyssey`, correct: true },
+			{ text: `Ad Astra`, correct: false },
+			{ text: `Gravity`, correct: false },
+			{ text: `The Martian`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/2001-a-space-odyssey-05.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `2001: A Space Odyssey`, correct: true },
+			{ text: `Ad Astra`, correct: false },
+			{ text: `The Martian`, correct: false },
+			{ text: `Interstellar`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-martian-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `The Martian`, correct: true },
+			{ text: `Interstellar`, correct: false },
+			{ text: `2001: A Space Odyssey`, correct: false },
+			{ text: `Prometheus`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-martian-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `The Martian`, correct: true },
+			{ text: `Apollo 13`, correct: false },
+			{ text: `2001: A Space Odyssey`, correct: false },
+			{ text: `Armageddon`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-martian-03.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `The Martian`, correct: true },
+			{ text: `Apollo 13`, correct: false },
+			{ text: `Gravity`, correct: false },
+			{ text: `Independence Day`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-martian-03.jpg">What is the name of the actor pictured above?`,
+		answers: [
+			{ text: `Jeff Daniels`, correct: true },
+			{ text: `Bill Pullman`, correct: false },
+			{ text: `Dave Coulier`, correct: false },
+			{ text: `Ed Harris`, correct: false },
+		]
+	},
+	// {
+	// 	question: `<img src="../img/apollo-13-01.jpg">The image shown above is from what movie?`,
+	// 	answers: [
+	// 		{ text: `Apollo 13`, correct: true },
+	// 		{ text: `Interstellar`, correct: false },
+	// 		{ text: `Moon`, correct: false },
+	// 		{ text: `Gravity`, correct: false },
+	// 	]
+	// },
+	{
+		question: `<img src="../img/apollo-13-01.jpg">What is the name of the actor pictured above (foreground)?`,
+		answers: [
+			{ text: `Ed Harris`, correct: true },
+			{ text: `Jeff Daniels`, correct: false },
+			{ text: `Bill Pullman`, correct: false },
+			{ text: `William Hurt`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/apollo-13-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Apollo 13`, correct: true },
+			{ text: `Armageddon`, correct: false },
+			{ text: `Moon`, correct: false },
+			{ text: `The Martian`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/apollo-13-03.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Apollo 13`, correct: true },
+			{ text: `First Man`, correct: false },
+			{ text: `Ad Astra`, correct: false },
+			{ text: `Interstellar`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/apollo-13-03.jpg">Which of these actors is not pictured above?`,
+		answers: [
+			{ text: `Bill Pullman`, correct: true },
+			{ text: `Tom Hanks`, correct: false },
+			{ text: `Kevin Bacon`, correct: false },
+			{ text: `Bill Paxton`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-crow-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `The Crow`, correct: true },
+			{ text: `Batman`, correct: false },
+			{ text: `The Dark Knight`, correct: false },
+			{ text: `Dark City`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-crow-01.jpg">What is the name of the actor pictured above?`,
+		answers: [
+			{ text: `Brandon Lee`, correct: true },
+			{ text: `Heath Ledger`, correct: false },
+			{ text: `Joaquin Phoenix`, correct: false },
+			{ text: `Keanu Reeves`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-crow-01.jpg">What is the name of the character shown above?`,
+		answers: [
+			{ text: `The Crow`, correct: true },
+			{ text: `The Joker`, correct: false },
+			{ text: `Lobo`, correct: false },
+			{ text: `The Violator`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-crow-03.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `The Crow`, correct: true },
+			{ text: `Se7en`, correct: false },
+			{ text: `The Dark Knight Rises`, correct: false },
+			{ text: `Dark City`, correct: false },
 		]
 	},
 	// {
