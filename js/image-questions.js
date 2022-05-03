@@ -36,6 +36,15 @@ const imageQuestions = [
 		]
 	},
 	{
+		question: `<img src="../img/mortal-kombat-01.jpg">What is the name of the character on the right?`,
+		answers: [
+			{ text: `Liu Kang`, correct: true },
+			{ text: `Quan Chi`, correct: false },
+			{ text: `Kung Lao`, correct: false },
+			{ text: `Kano`, correct: false },
+		]
+	},
+	{
 		question: `<img src="../img/mortal-kombat-02.jpg">The image shown above is from what movie?`,
 		answers: [
 			{ text: `Mortal Kombat`, correct: true },
@@ -69,6 +78,15 @@ const imageQuestions = [
 			{ text: `Snake Plissken`, correct: false },
 			{ text: `Jack Burton`, correct: false },
 			{ text: `Lt. Gabriel Cash`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-thing-01.jpg">What is the name of the actor shown above?`,
+		answers: [
+			{ text: `Kurt Russell`, correct: true },
+			{ text: `Jeff Bridges`, correct: false },
+			{ text: `David Keith`, correct: false },
+			{ text: `Kris Kristofferson`, correct: false },
 		]
 	},
 	{
@@ -1587,9 +1605,36 @@ const imageQuestions = [
 		question: `<img src="../img/2001-a-space-odyssey-05.jpg">The image shown above is from what movie?`,
 		answers: [
 			{ text: `2001: A Space Odyssey`, correct: true },
-			{ text: `Ad Astra`, correct: false },
+			{ text: `Solaris`, correct: false },
 			{ text: `The Martian`, correct: false },
 			{ text: `Interstellar`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/gravity-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Gravity`, correct: true },
+			{ text: `Interstellar`, correct: false },
+			{ text: `Ad Astra`, correct: false },
+			{ text: `The Martian`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/gravity-01.jpg">What is the name of the actress pictured above?`,
+		answers: [
+			{ text: `Sandra Bullock`, correct: true },
+			{ text: `Anne Hathaway`, correct: false },
+			{ text: `Kristen Wiig`, correct: false },
+			{ text: `Marisa Tomei`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/gravity-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Gravity`, correct: true },
+			{ text: `Apollo 13`, correct: false },
+			{ text: `Ad Astra`, correct: false },
+			{ text: `Solaris`, correct: false },
 		]
 	},
 	{
@@ -1707,6 +1752,168 @@ const imageQuestions = [
 			{ text: `Se7en`, correct: false },
 			{ text: `The Dark Knight Rises`, correct: false },
 			{ text: `Dark City`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/shaun-of-the-dead-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Shaun of the Dead`, correct: true },
+			{ text: `The World's End`, correct: false },
+			{ text: `Zombieland`, correct: false },
+			{ text: `Zombieland: Douple Tap`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/shaun-of-the-dead-01.jpg">Which of these actors is <em>not</em> in the image shown above?`,
+		answers: [
+			{ text: `Peter Serafinowicz`, correct: true },
+			{ text: `Simon Pegg`, correct: false },
+			{ text: `Lucy Davis`, correct: false },
+			{ text: `Dylan Moran`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/shaun-of-the-dead-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Shaun of the Dead`, correct: true },
+			{ text: `Zombieland`, correct: false },
+			{ text: `Warm Bodies`, correct: false },
+			{ text: `Dawn of the Dead`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/shaun-of-the-dead-03.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Shaun of the Dead`, correct: true },
+			{ text: `The World's End`, correct: false },
+			{ text: `Hot Fuzz`, correct: false },
+			{ text: `Paul`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/shaun-of-the-dead-03.jpg">Which of these actors is <em>not</em> in the image shown above?`,
+		answers: [
+			{ text: `Lucy Davis`, correct: true },
+			{ text: `Simon Pegg`, correct: false },
+			{ text: `Kate Ashfield`, correct: false },
+			{ text: `Nick Frost`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/shaun-of-the-dead-03.jpg">What is the name of the bar in the image shown above?`,
+		answers: [
+			{ text: `The Winchester`, correct: true },
+			{ text: `The Hole in the Wall`, correct: false },
+			{ text: `The World's End`, correct: false },
+			{ text: `The Two-Headed Dog`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/hot-fuzz-01.webp">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Hot Fuzz`, correct: true },
+			{ text: `Super Troopers`, correct: false },
+			{ text: `Paul`, correct: false },
+			{ text: `Let's Be Cops`, correct: false },
+		]
+	},
+	// {
+	// 	question: `<img src="../img/hot-fuzz-01.jpg">The image shown above is from what movie?`,
+	// 	answers: [
+	// 		{ text: `Hot Fuzz`, correct: true },
+	// 		{ text: `Super Troopers`, correct: false },
+	// 		{ text: `Paul`, correct: false },
+	// 		{ text: `Let's Be Cops`, correct: false },
+	// 	]
+	// },
+	{
+		question: `<img src="../img/hot-fuzz-01.jpg">What is the name of the actor on the left?`,
+		answers: [
+			{ text: `Simon Pegg`, correct: true },
+			{ text: `Nick Frost`, correct: false },
+			{ text: `Michael Sheen`, correct: false },
+			{ text: `Tom Hiddleston`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/hot-fuzz-01.jpg">What is the name of the actor on the right?`,
+		answers: [
+			{ text: `Nick Frost`, correct: true },
+			{ text: `Simon Pegg`, correct: false },
+			{ text: `Kevin Smith`, correct: false },
+			{ text: `Seth Rogen`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/hot-fuzz-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Hot Fuzz`, correct: true },
+			{ text: `Super Troopers`, correct: false },
+			{ text: `Police Academy`, correct: false },
+			{ text: `Shaun of the Dead`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/hot-fuzz-02.jpg">Which of these actors is <em>not</em> pictured above?`,
+		answers: [
+			{ text: `Martin Freeman`, correct: true },
+			{ text: `Nick Frost`, correct: false },
+			{ text: `Jim Broadbent`, correct: false },
+			{ text: `Olivia Colman`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/hot-fuzz-03.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Hot Fuzz`, correct: true },
+			{ text: `Knives Out`, correct: false },
+			{ text: `The Ninth Gate`, correct: false },
+			{ text: `The World's End`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/hot-fuzz-03.jpg">What is the name of the actor pictured above?`,
+		answers: [
+			{ text: `Timothy Dalton`, correct: true },
+			{ text: `Pierce Brosnan`, correct: false },
+			{ text: `Julian Sands`, correct: false },
+			{ text: `Liam Neeson`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/hereditary-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Hereditary`, correct: true },
+			{ text: `Midsommar`, correct: false },
+			{ text: `The Ninth Gate`, correct: false },
+			{ text: `Red Dragon`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/hereditary-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Hereditary`, correct: true },
+			{ text: `Little Miss Sunshine`, correct: false },
+			{ text: `Poltergeist`, correct: false },
+			{ text: `Orphan`, correct: false },
+		]
+	},
+	// {
+	// 	question: `<img src="../img/hereditary-03.jpg">The image shown above is from what movie?`,
+	// 	answers: [
+	// 		{ text: `Hereditary`, correct: true },
+	// 		{ text: `Knives Out`, correct: false },
+	// 		{ text: `The Sixth Sense`, correct: false },
+	// 		{ text: `Little Miss Sunshine`, correct: false },
+	// 	]
+	// },
+	{
+		question: `<img src="../img/hereditary-03.jpg">What is the name of the actress pictured above?`,
+		answers: [
+			{ text: `Toni Collette`, correct: true },
+			{ text: `Uma Thurman`, correct: false },
+			{ text: `Frances McDormand`, correct: false },
+			{ text: `Allison Janney`, correct: false },
 		]
 	},
 	// {
