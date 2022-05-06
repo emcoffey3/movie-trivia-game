@@ -233,6 +233,24 @@ const imageQuestions = [
 			{ text: `Carlito's Way`, correct: false },
 		]
 	},
+	{
+		question: `<img src="../img/scarface-01.jpg">What is the name of the actor shown above?`,
+		answers: [
+			{ text: `Al Pacino`, correct: true },
+			{ text: `Robert De Niro`, correct: false },
+			{ text: `Ray Liotta`, correct: false },
+			{ text: `Harvey Keitel`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/scarface-01.jpg">What is the name of the character shown above?`,
+		answers: [
+			{ text: `Tony Montana`, correct: true },
+			{ text: `Michael Corleone`, correct: false },
+			{ text: `Carlito Brigante`, correct: false },
+			{ text: `Frank Serpico`, correct: false },
+		]
+	},
 	// {
 	// 	question: `<img src="../img/the-big-lebowski-01.jpg">The image shown above is from what movie?`,
 	// 	answers: [
@@ -942,6 +960,15 @@ const imageQuestions = [
 			{ text: `Big Trouble in Little China`, correct: false },
 			{ text: `Mortal Kombat`, correct: false },
 			{ text: `Bloodsport`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/enter-the-dragon-01.webp">What is the name of the actor in the above image?`,
+		answers: [
+			{ text: `Bruce Lee`, correct: true },
+			{ text: `Brandon Lee`, correct: false },
+			{ text: `Jackie Chan`, correct: false },
+			{ text: `Bolo Yeung`, correct: false },
 		]
 	},
 	{
@@ -1916,24 +1943,177 @@ const imageQuestions = [
 			{ text: `Allison Janney`, correct: false },
 		]
 	},
-	// {
-	// 	question: `<img src="../img/groundhog-day-01.jpg">The image shown above is from what movie?`,
-	// 	answers: [
-	// 		{ text: `Groundhog Day`, correct: true },
-	// 		{ text: `Back to the Future`, correct: false },
-	// 		{ text: `The Breakfast Club`, correct: false },
-	// 		{ text: `Happy Death Day`, correct: false },
-	// 	]
-	// },
-	// {
-	// 	question: `<img src="../img/enter-the-dragon-01.webp">What is the name of the actor in the above image?`,
-	// 	answers: [
-	// 		{ text: `Bruce Lee`, correct: true },
-	// 		{ text: `Brandon Lee`, correct: false },
-	// 		{ text: `Jackie Chan`, correct: false },
-	// 		{ text: `Bolo Yeung`, correct: false },
-	// 	]
-	// },
+	{
+		question: `<img src="../img/only-lovers-left-alive-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Only Lovers Left Alive`, correct: true },
+			{ text: `The Dead Don't Die`, correct: false },
+			{ text: `The Hunger`, correct: false },
+			{ text: `Orlando`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/only-lovers-left-alive-01.jpg">What is the name of the actress pictured above?`,
+		answers: [
+			{ text: `Tilda Swinton`, correct: true },
+			{ text: `Cate Blanchett`, correct: false },
+			{ text: `Alice Krige`, correct: false },
+			{ text: `Anna Torv`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/only-lovers-left-alive-01.jpg">What is the name of the actor pictured above?`,
+		answers: [
+			{ text: `Tom Hiddleston`, correct: true },
+			{ text: `Kevin Bacon`, correct: false },
+			{ text: `Michael Fassbender`, correct: false },
+			{ text: `Benedict Cumberbatch`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/only-lovers-left-alive-01.jpg">What are the names of the characters pictured above?`,
+		answers: [
+			{ text: `Adam & Eve`, correct: true },
+			{ text: `John & Sarah`, correct: false },
+			{ text: `Barnabas & Josette`, correct: false },
+			{ text: `Lestat & Claudia`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/groundhog-day-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Groundhog Day`, correct: true },
+			{ text: `Back to the Future`, correct: false },
+			{ text: `The Breakfast Club`, correct: false },
+			{ text: `Happy Death Day`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/predator-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Predator`, correct: true },
+			{ text: `Commando`, correct: false },
+			{ text: `Collateral Damage`, correct: false },
+			{ text: `The Terminator`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/predator-01.jpg">What is the name of the character furthest to the left?`,
+		answers: [
+			{ text: `Dutch`, correct: true },
+			{ text: `Blain`, correct: false },
+			{ text: `Dillon`, correct: false },
+			{ text: `The Predator`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/predator-01.jpg">What is the name of the actor furthest to the left?`,
+		answers: [
+			{ text: `Arnold Schwarzenegger`, correct: true },
+			{ text: `Sylvester Stallone`, correct: false },
+			{ text: `Steven Seagal`, correct: false },
+			{ text: `Bruce Willis`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/predator-01.jpg">What is the name of the character immediately to the right of Dutch?`,
+		answers: [
+			{ text: `Mac`, correct: true },
+			{ text: `Blain`, correct: false },
+			{ text: `Dillon`, correct: false },
+			{ text: `Hawkins`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/predator-01.jpg">What is the name of the actor immediately to the right of Arnold Schwarzenegger?`,
+		answers: [
+			{ text: `Bill Duke`, correct: true },
+			{ text: `Shane Black`, correct: false },
+			{ text: `Carl Weathers`, correct: false },
+			{ text: `Danny Glover`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/predator-02.jpg">The above image is from what movie?`,
+		answers: [
+			{ text: `Predator`, correct: true },
+			{ text: `Predator 2`, correct: false },
+			{ text: `First Blood`, correct: false },
+			{ text: `Delta Force`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/predator-02.jpg">What is the name of the actor shown above?`,
+		answers: [
+			{ text: `Carl Weathers`, correct: true },
+			{ text: `Bill Duke`, correct: false },
+			{ text: `Danny Glover`, correct: false },
+			{ text: `Ernie Hudson`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/predator-02.jpg">What is the name of the character shown above?`,
+		answers: [
+			{ text: `Dillon`, correct: true },
+			{ text: `Mac`, correct: false },
+			{ text: `Blain`, correct: false },
+			{ text: `Dutch`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/v-for-vendetta-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `V for Vendetta`, correct: true },
+			{ text: `Watchmen`, correct: false },
+			{ text: `Sin City`, correct: false },
+			{ text: `The Shadow`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/v-for-vendetta-01.jpg">What is the name of the character pictured above?`,
+		answers: [
+			{ text: `V`, correct: true },
+			{ text: `Rorschach`, correct: false },
+			{ text: `John Constantine`, correct: false },
+			{ text: `The Comedian`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/thor-ragnarok-01.jpg">The image above is from what movie?`,
+		answers: [
+			{ text: `Thor: Ragnarok`, correct: true },
+			{ text: `Thor: The Dark World`, correct: false },
+			{ text: `Captain America: Civil War`, correct: false },
+			{ text: `Avengers: Infinity War`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/thor-ragnarok-01.jpg">What is the name of the character pictured above?`,
+		answers: [
+			{ text: `Thor`, correct: true },
+			{ text: `Star-Lord`, correct: false },
+			{ text: `Adam Warlock`, correct: false },
+			{ text: `Shazam`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/thor-ragnarok-01.jpg">What is the name of the actor pictured above?`,
+		answers: [
+			{ text: `Chris Hemsworth`, correct: true },
+			{ text: `Liam Hemsworth`, correct: false },
+			{ text: `Chris Pratt`, correct: false },
+			{ text: `Chris Pine`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/thor-ragnarok-02.jpg">The image above is from what movie?`,
+		answers: [
+			{ text: `Thor: Ragnarok`, correct: true },
+			{ text: `Batman v. Superman`, correct: false },
+			{ text: `Justice League`, correct: false },
+			{ text: `Avengers: Infinity War`, correct: false },
+		]
+	},
 ];
 
 const regex = /src="(.*?)"/;

@@ -181,12 +181,12 @@ export default [
 		]
 	},
 	{
-		question: `Actor Djimon Hounsou has appeared in all of these comic book movies except what?`,
+		question: `Which one of these comic book movies has actor Djimon Hounsou <em>not</em> appeared in?`,
 		answers: [
+			{ text: `Avengers: Endgame`, correct: true },
 			{ text: `Constantine`, correct: false },
 			{ text: `Guardians of the Galaxy`, correct: false },
 			{ text: `Shazam!`, correct: false},
-			{ text: `Avengers: Endgame`, correct: true },
 		]
 	},
 	{
@@ -1108,6 +1108,15 @@ export default [
 		]
 	},
 	{
+		question: `What actress stars as Orlando in the 1992 film <em>Orlando</em>?`,
+		answers: [
+			{ text: `Tilda Swinton`, correct: true },
+			{ text: `Cate Blanchett`, correct: false },
+			{ text: `Julia Roberts`, correct: false },
+			{ text: `Meryl Streep`, correct: false },
+		]
+	},
+	{
 		question: `Which one of these movies does actress Julianne Moore <em>not</em> appear in?`,
 		answers: [
 			{ text: `The Witches of Eastwick`, correct: true },
@@ -1317,10 +1326,55 @@ export default [
 	{
 		question: `In the 1987 movie <em>Predator</em>, who says the line "I ain't got time to bleed"?`,
 		answers: [
+			{ text: `Blain (Jesse Ventura)`, correct: true },
 			{ text: `Dutch (Arnold Schwarzenegger)`, correct: false },
 			{ text: `Dillon (Carl Weathers)`, correct: false },
-			{ text: `Blain (Jesse Ventura)`, correct: true },
 			{ text: `The Predator (Kevin Peter Hall)`, correct: false },
+		]
+	},
+	{
+		question: `In the 1987 movie <em>Predator</em>, who calls themself "a goddamn sexual Tyrannosaurus"?`,
+		answers: [
+			{ text: `Blain (Jesse Ventura)`, correct: true },
+			{ text: `Dutch (Arnold Schwarzenegger)`, correct: false },
+			{ text: `Dillon (Carl Weathers)`, correct: false },
+			{ text: `Mac (Bill Duke)`, correct: false },
+		]
+	},
+	{
+		question: `In the 1987 movie <em>Predator</em>, who does Dutch call a "son of a bitch"?`,
+		answers: [
+			{ text: `Dillon (Carl Weathers)`, correct: true },
+			{ text: `Blain (Jesse Ventura)`, correct: false },
+			{ text: `Mac (Bill Duke)`, correct: false },
+			{ text: `The Predator (Kevin Peter Hall)`, correct: false },
+		]
+	},
+	{
+		question: `In the 1987 movie <em>Predator</em>, who does Dutch call a "one ugly motherfucker"?`,
+		answers: [
+			{ text: `The Predator (Kevin Peter Hall)`, correct: true },
+			{ text: `Dillon (Carl Weathers)`, correct: false },
+			{ text: `Blain (Jesse Ventura)`, correct: false },
+			{ text: `Mac (Bill Duke)`, correct: false },
+		]
+	},
+	{
+		question: `In the 1987 movie <em>Predator</em> what government agency does Dillon work for?`,
+		answers: [
+			{ text: `CIA`, correct: true },
+			{ text: `DEA`, correct: false },
+			{ text: `FBI`, correct: false },
+			{ text: `State Department`, correct: false },
+		]
+	},
+	{
+		question: `In the 1987 movie <em>Predator</em> what is Blain's gun's nickname?`,
+		answers: [
+			{ text: `Ol' Painless`, correct: true },
+			{ text: `The Samaritan`, correct: false },
+			{ text: `The Noisy Cricket`, correct: false },
+			{ text: `Boomstick`, correct: false },
 		]
 	},
 	{
@@ -1330,6 +1384,33 @@ export default [
 			{ text: `Samuel L. Jackson`, correct: false },
 			{ text: `Mel Gibson`, correct: false },
 			{ text: `Danny Glover`, correct: true },
+		]
+	},
+	{
+		question: `At the end of <em>Predator 2</em>, what does one of the Predators give to Harrigan?`,
+		answers: [
+			{ text: `an antique pistol`, correct: true },
+			{ text: `a crystal skull`, correct: false },
+			{ text: `an ancient scroll`, correct: false },
+			{ text: `immortality`, correct: false },
+		]
+	},
+	{
+		question: `The 1987 movie <em>Predator</em> primarily takes place where?`,
+		answers: [
+			{ text: `the jungle`, correct: true },
+			{ text: `the desert`, correct: false },
+			{ text: `the Moon`, correct: false },
+			{ text: `Los Angeles`, correct: false },
+		]
+	},
+	{
+		question: `The 1990 movie <em>Predator 2</em> primarily takes place where?`,
+		answers: [
+			{ text: `Los Angeles`, correct: true },
+			{ text: `the jungle`, correct: false },
+			{ text: `the desert`, correct: false },
+			{ text: `the Moon`, correct: false },
 		]
 	},
 	{
@@ -1945,6 +2026,15 @@ export default [
 		]
 	},
 	{
+		question: `In what 1993 film does Will Smith portray a con artist?`,
+		answers: [
+			{ text: `Six Degrees of Separation`, correct: true },
+			{ text: `Metropolitan`, correct: false },
+			{ text: `Hitch`, correct: false },
+			{ text: `Made in America`, correct: false },
+		]
+	},
+	{
 		question: `What 2002 Stephen Spielberg movie is based on the life of conman Frank Abagnale Jr.?`,
 		answers: [
 			{ text: `Confidence`, correct: false },
@@ -2212,6 +2302,33 @@ export default [
 			{ text: `Zombieland`, correct: false },
 			{ text: `Warm Bodies`, correct: false },
 			{ text: `Scouts Guide to the Zombie Apocalypse`, correct: false },
+		]
+	},
+	{
+		question: `In the 2009 film <em>Zombieland</em> who portrays "Columbus"?`,
+		answers: [
+			{ text: `Jesse Eisenberg`, correct: true },
+			{ text: `Woody Harrelson`, correct: false },
+			{ text: `Emma Stone`, correct: false },
+			{ text: `Abigail Breslin`, correct: false },
+		]
+	},
+	{
+		question: `In the 2009 film <em>Zombieland</em> who portrays "Talahassee"?`,
+		answers: [
+			{ text: `Woody Harrelson`, correct: true },
+			{ text: `Jesse Eisenberg`, correct: false },
+			{ text: `Emma Stone`, correct: false },
+			{ text: `Abigail Breslin`, correct: false },
+		]
+	},
+	{
+		question: `In the 2009 film <em>Zombieland</em>, which of these is <em>not</em> one of the main characters?`,
+		answers: [
+			{ text: `Tucson`, correct: true },
+			{ text: `Wichita`, correct: false },
+			{ text: `Little Rock`, correct: false },
+			{ text: `Talahassee`, correct: false },
 		]
 	},
 	{
