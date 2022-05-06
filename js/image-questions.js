@@ -2114,6 +2114,51 @@ const imageQuestions = [
 			{ text: `Avengers: Infinity War`, correct: false },
 		]
 	},
+	{
+		question: `<img src="../img/dredd-01.webp">The image above is from what movie?`,
+		answers: [
+			{ text: `Dredd`, correct: true },
+			{ text: `The Raid: Redemption`, correct: false },
+			{ text: `Doom`, correct: false },
+			{ text: `Demolition Man`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/dredd-01.webp">What is the name of the actor shown above?`,
+		answers: [
+			{ text: `Karl Urban`, correct: true },
+			{ text: `Sylvester Stallone`, correct: false },
+			{ text: `Dominic Cooper`, correct: false },
+			{ text: `Hugh Jackman`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/dredd-01.webp">What is the name of the character shown above?`,
+		answers: [
+			{ text: `Judge Dredd`, correct: true },
+			{ text: `John Spartan`, correct: false },
+			{ text: `Alex Murphy`, correct: false },
+			{ text: `Frank Castle`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/dredd-01.jpg">The image above is from what movie?`,
+		answers: [
+			{ text: `Dredd`, correct: true },
+			{ text: `Ghost in the Shell`, correct: false },
+			{ text: `G.I. Joe: The Rise of Cobra`, correct: false },
+			{ text: `Captain America: Winter Soldier`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/dredd-01.jpg">What is the name of the actress shown above?`,
+		answers: [
+			{ text: `Olivia Thirlby`, correct: true },
+			{ text: `Scarlett Johansson`, correct: false },
+			{ text: `Anne Hathaway`, correct: false },
+			{ text: `Anna Kendrick`, correct: false },
+		]
+	},
 ];
 
 const regex = /src="(.*?)"/;
