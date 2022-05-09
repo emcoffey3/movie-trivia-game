@@ -298,6 +298,42 @@ export default [
 		]
 	},
 	{
+		question: `This 2014 film starring Tom Cruise was based on the book <em>All You Need Is Kill</em> and was later retitled <em>Live Die Repeat</em>.  What was the film's original title?`,
+		answers: [
+			{ text: `Edge of Tomorrow`, correct: true },
+			{ text: `Oblivion`, correct: false },
+			{ text: `Looper`, correct: false },
+			{ text: `Minority Report`, correct: false },
+		]
+	},
+	{
+		question: `What 2006 film starring Clive Owen is set in a chaotic future in which humans can no longer procreate?`,
+		answers: [
+			{ text: `Children of Men`, correct: true },
+			{ text: `Edge of Tomorrow`, correct: false },
+			{ text: `Oblivion`, correct: false },
+			{ text: `Ghost in the Shell`, correct: false },
+		]
+	},
+	{
+		question: `Who portrays Sgt. Al Powell in <em>Die Hard</em>?`,
+		answers: [
+			{ text: `Reginald VelJohnson`, correct: true },
+			{ text: `Ernie Hudson`, correct: false },
+			{ text: `James Earl Jones`, correct: false },
+			{ text: `Samuel L. Jackson`, correct: false },
+		]
+	},
+	{
+		question: `The original 1988 <em>Die Hard</em> was directed by John McTieranan.  What other film in that series did he direct?`,
+		answers: [
+			{ text: `Die Hard with a Vengeance`, correct: true },
+			{ text: `Die Hard 2`, correct: false },
+			{ text: `Live Free or Die Hard`, correct: false },
+			{ text: `A Good Day to Die Hard`, correct: false },
+		]
+	},
+	{
 		question: `What 2000 film about fictional serial killer Patrick Bateman was based on a novel by Bret Easton Ellis?`,
 		answers: [
 			{ text: `Summer of Sam`, correct: false },
@@ -2494,6 +2530,24 @@ export default [
 		]
 	},
 	{
+		question: `Which of these time travel movies did Mary Steenburgen appear in?`,
+		answers: [
+			{ text: `Time After Time`, correct: true },
+			{ text: `12 Monkeys`, correct: false },
+			{ text: `Groundhog Day`, correct: false },
+			{ text: `Hot Tub Time Machine`, correct: false },
+		]
+	},
+	{
+		question: `Which of these time travel movies did Mary Steenburgen appear in?`,
+		answers: [
+			{ text: `Back to the Future Part III`, correct: true },
+			{ text: `The Terminator`, correct: false },
+			{ text: `Star Trek IV: The Voyage Home`, correct: false },
+			{ text: `The Time Machine`, correct: false },
+		]
+	},
+	{
 		question: `In the 1997 movie <em>Event Horizon</em>, what was Event Horizon?`,
 		answers: [
 			{ text: `a spaceship`, correct: true },
@@ -2644,6 +2698,15 @@ export default [
 			{ text: `Sarah`, correct: false },
 			{ text: `Betty`, correct: false },
 			{ text: `Veronica`, correct: true },
+		]
+	},
+	{
+		question: `According to Vision, which Avenger does Ultron hate the most?`,
+		answers: [
+			{ text: `Iron Man`, correct: true },
+			{ text: `Captain America`, correct: false },
+			{ text: `Thor`, correct: false },
+			{ text: `Hulk`, correct: false },
 		]
 	},
 	{
