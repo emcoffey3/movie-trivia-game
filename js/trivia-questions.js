@@ -1468,28 +1468,46 @@ export default [
 		]
 	},
 	{
+		question: `The <em>Predator</em> franchise has crossed over with what other sci-fi movie franchise in films and video games?`,
+		answers: [
+			{ text: `Alien`, correct: true },
+			{ text: `The Terminator`, correct: false },
+			{ text: `RoboCop`, correct: false },
+			{ text: `Blade Runner`, correct: false },
+		]
+	},
+	{
+		question: `In the 1979 movie <em>Alien</em>, what is the name of the crew's ship?`,
+		answers: [
+			{ text: `Nostromo`, correct: true },
+			{ text: `Nebuchadnezzar`, correct: false },
+			{ text: `Eagle 5`, correct: false },
+			{ text: `Event Horizon`, correct: false },
+		]
+	},
+	{
 		question: `Which of these movies did actor Bill Paxton <em>not</em> appear in?`,
 		answers: [
+			{ text: `RoboCop (1987)`, correct: true },
 			{ text: `The Terminator (1984)`, correct: false },
 			{ text: `Aliens (1986)`, correct: false },
-			{ text: `RoboCop (1987)`, correct: true },
 			{ text: `Predator 2 (1990)`, correct: false },
 		]
 	},
 	{
 		question: `Which of these movies did actor Michael Biehn <em>not</em> appear in?`,
 		answers: [
+			{ text: `Predator (1987)`, correct: true },
 			{ text: `The Terminator (1984)`, correct: false },
 			{ text: `Aliens (1986)`, correct: false },
-			{ text: `Predator (1987)`, correct: true },
 			{ text: `Tombstone (1993)`, correct: false },
 		]
 	},
 	{
 		question: `In the 1982 movie John Carpenter's <em>The Thing</em>, where are the characters located?`,
 		answers: [
-			{ text: `Greenland`, correct: false },
 			{ text: `Antarctica`, correct: true },
+			{ text: `Greenland`, correct: false },
 			{ text: `Hoth`, correct: false },
 			{ text: `a computer simulation`, correct: false },
 		]
@@ -2323,6 +2341,15 @@ export default [
 		]
 	},
 	{
+		question: `Which one of these films did actor Heath Ledger <em>not</em> appear in?`,
+		answers: [
+			{ text: `She's All That`, correct: true },
+			{ text: `The Dark Knight`, correct: false },
+			{ text: `10 Things I Hate About You`, correct: false },
+			{ text: `Brokeback Mountain`, correct: false },
+		]
+	},
+	{
 		question: `Who portrays King Arthur (and the voice of God) in the film <em>Monty Python and the Holy Grail</em>?`,
 		answers: [
 			{ text: `Graham Chapman`, correct: true },
@@ -2941,6 +2968,15 @@ export default [
 			{ text: `a human`, correct: false },
 			{ text: `an android`, correct: false },
 			{ text: `a xenomorph`, correct: false },
+		]
+	},
+	{
+		question: `In the 1979 movie <em>Alien</em>, what is the name of the ship's computer?`,
+		answers: [
+			{ text: `Mother`, correct: true },
+			{ text: `HAL 9000`, correct: false },
+			{ text: `GLaDOS`, correct: false },
+			{ text: `JARVIS`, correct: false },
 		]
 	},
 	{

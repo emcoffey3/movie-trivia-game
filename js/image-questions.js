@@ -117,6 +117,15 @@ const imageQuestions = [
 		]
 	},
 	{
+		question: `<img src="../img/alien-02.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Alien`, correct: true },
+			{ text: `Dune`, correct: false },
+			{ text: `Event Horizon`, correct: false },
+			{ text: `Ad Astra`, correct: false },
+		]
+	},
+	{
 		question: `<img src="../img/aliens-01.jpg">The image shown above is from what movie?`,
 		answers: [
 			{ text: `Aliens`, correct: true },
@@ -251,6 +260,42 @@ const imageQuestions = [
 			{ text: `Frank Serpico`, correct: false },
 		]
 	},
+	{
+		question: `<img src="../img/robocop-01.webp">The image shown above is from what movie?`,
+		answers: [
+			{ text: `RoboCop`, correct: true },
+			{ text: `The Terminator`, correct: false },
+			{ text: `Blade Runner`, correct: false },
+			{ text: `Total Recall`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/robocop-01.webp">What is the name of the character shown above?`,
+		answers: [
+			{ text: `RoboCop`, correct: true },
+			{ text: `T-800`, correct: false },
+			{ text: `ED-209`, correct: false },
+			{ text: `Ultron`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/robocop-02.webp">The robot shown above is from what movie?`,
+		answers: [
+			{ text: `RoboCop`, correct: true },
+			{ text: `Aliens`, correct: false },
+			{ text: `Blade Runner`, correct: false },
+			{ text: `Total Recall`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/robocop-02.webp">What is the name of the robotic character shown above?`,
+		answers: [
+			{ text: `ED-209`, correct: true },
+			{ text: `Metal Gear`, correct: false },
+			{ text: `AT-ST`, correct: false },
+			{ text: `Goliath`, correct: false },
+		]
+	},
 	// {
 	// 	question: `<img src="../img/the-big-lebowski-01.jpg">The image shown above is from what movie?`,
 	// 	answers: [
@@ -260,15 +305,15 @@ const imageQuestions = [
 	// 		{ text: `Argo`, correct: false },
 	// 	]
 	// },
-	// {
-	// 	question: `<img src="../img/the-big-lebowski-01.jpg">What is the name of the character on the left?`,
-	// 	answers: [
-	// 		{ text: `The Dude`, correct: true },
-	// 		{ text: `Walter Sobchak`, correct: false },
-	// 		{ text: `Donny`, correct: false },
-	// 		{ text: `The Stranger`, correct: false },
-	// 	]
-	// },
+	{
+		question: `<img src="../img/the-big-lebowski-01.jpg">What is the name of the character on the left?`,
+		answers: [
+			{ text: `The Dude`, correct: true },
+			{ text: `Walter Sobchak`, correct: false },
+			{ text: `Donny`, correct: false },
+			{ text: `The Stranger`, correct: false },
+		]
+	},
 	{
 		question: `<img src="../img/the-big-lebowski-01.jpg">What is the name of the character on the right?`,
 		answers: [
@@ -846,6 +891,51 @@ const imageQuestions = [
 		]
 	},
 	{
+		question: `<img src="../img/star-trek-the-motion-picture-01.jpg">The above image is from what movie?`,
+		answers: [
+			{ text: `Star Trek: The Motion Picture`, correct: true },
+			{ text: `2001: A Space Odyssey`, correct: false },
+			{ text: `Gravity`, correct: false },
+			{ text: `Solaris`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/star-trek-the-motion-picture-02.jpg">The above image is from what movie?`,
+		answers: [
+			{ text: `Star Trek: The Motion Picture`, correct: true },
+			{ text: `Star Trek: Generations`, correct: false },
+			{ text: `Star Trek Into Darkness`, correct: false },
+			{ text: `Star Trek III: The Search for Spock`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/star-trek-the-motion-picture-02.jpg">What is the name of the character pictured above?`,
+		answers: [
+			{ text: `Spock`, correct: true },
+			{ text: `Picard`, correct: false },
+			{ text: `Khan`, correct: false },
+			{ text: `Data`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/star-trek-the-motion-picture-02.jpg">What is the name of the actor pictured above?`,
+		answers: [
+			{ text: `Leonard Nimoy`, correct: true },
+			{ text: `William Shatner`, correct: false },
+			{ text: `Patrick Stewart`, correct: false },
+			{ text: `Brent Spiner`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/star-trek-iv-the-voyage-home-01.jpg">The above image is from what movie?`,
+		answers: [
+			{ text: `Star Trek IV: The Voyage Home`, correct: true },
+			{ text: `Bill & Ted's Excellent Adventure`, correct: false },
+			{ text: `SLC Punk!`, correct: false },
+			{ text: `Repo Man`, correct: false },
+		]
+	},
+	{
 		question: `<img src="../img/a-few-good-men-01.jpg">The above image is from what movie?`,
 		answers: [
 			{ text: `A Few Good Men`, correct: true },
@@ -1061,15 +1151,15 @@ const imageQuestions = [
 			{ text: `Les Grossman`, correct: false },
 		]
 	},
-	// {
-	// 	question: `<img src="../img/tropic-thunder-01.jpg">What is the name of the actor on the right?`,
-	// 	answers: [
-	// 		{ text: `Robert Downey Jr.`, correct: true },
-	// 		{ text: `Cuba Gooding Jr.`, correct: false },
-	// 		{ text: `Richard Roundtree`, correct: false },
-	// 		{ text: `Jeffrey Dean Morgan`, correct: false },
-	// 	]
-	// },
+	{
+		question: `<img src="../img/tropic-thunder-01.jpg">What is the name of the actor on the right?`,
+		answers: [
+			{ text: `Robert Downey Jr.`, correct: true },
+			{ text: `Cuba Gooding Jr.`, correct: false },
+			{ text: `Richard Roundtree`, correct: false },
+			{ text: `Jeffrey Dean Morgan`, correct: false },
+		]
+	},
 	{
 		question: `<img src="../img/tropic-thunder-02.jpg">The image shown above is from what movie?`,
 		answers: [
@@ -1122,6 +1212,33 @@ const imageQuestions = [
 			{ text: `The Fifth Element`, correct: false },
 			{ text: `The Matrix`, correct: false },
 			{ text: `Back to the Future`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-matrix-01.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `The Matrix`, correct: true },
+			{ text: `Constantine`, correct: false },
+			{ text: `John Wick`, correct: false },
+			{ text: `Johnny Mnemonic`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-matrix-01.jpg">What is the name of the character shown above?`,
+		answers: [
+			{ text: `Neo`, correct: true },
+			{ text: `Morpheus`, correct: false },
+			{ text: `John Wick`, correct: false },
+			{ text: `Johnny Mnemonic`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/the-matrix-01.jpg">What is the name of the actor shown above?`,
+		answers: [
+			{ text: `Keanu Reeves`, correct: true },
+			{ text: `Joseph Gordon-Levitt`, correct: false },
+			{ text: `Johnny Depp`, correct: false },
+			{ text: `Christian Slater`, correct: false },
 		]
 	},
 	{
@@ -1430,15 +1547,15 @@ const imageQuestions = [
 			{ text: `Red`, correct: false },
 		]
 	},
-	// {
-	// 	question: `<img src="../img/con-air-04.jpg">What is the name of the actor shown above?`,
-	// 	answers: [
-	// 		{ text: `John Malkovich`, correct: true },
-	// 		{ text: `Steve Buscemi`, correct: false },
-	// 		{ text: `Ron Perlman`, correct: false },
-	// 		{ text: `Jackie Earle Haley`, correct: false },
-	// 	]
-	// },
+	{
+		question: `<img src="../img/con-air-04.jpg">What is the name of the actor shown above?`,
+		answers: [
+			{ text: `John Malkovich`, correct: true },
+			{ text: `Steve Buscemi`, correct: false },
+			{ text: `Ron Perlman`, correct: false },
+			{ text: `Jackie Earle Haley`, correct: false },
+		]
+	},
 	{
 		question: `<img src="../img/con-air-04.jpg">What is the name of the character shown above?`,
 		answers: [
@@ -1448,15 +1565,15 @@ const imageQuestions = [
 			{ text: `Earl "Swamp Thing" Williams`, correct: false },
 		]
 	},
-	// {
-	// 	question: `<img src="../img/con-air-05.jpg">The image shown above is from what movie?`,
-	// 	answers: [
-	// 		{ text: `Con Air`, correct: true },
-	// 		{ text: `The Rock`, correct: false },
-	// 		{ text: `Face/Off`, correct: false },
-	// 		{ text: `Ghost Rider`, correct: false },
-	// 	]
-	// },
+	{
+		question: `<img src="../img/con-air-05.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Con Air`, correct: true },
+			{ text: `The Rock`, correct: false },
+			{ text: `Face/Off`, correct: false },
+			{ text: `Ghost Rider`, correct: false },
+		]
+	},
 	{
 		question: `<img src="../img/con-air-05.jpg">What is the name of the actor shown above?`,
 		answers: [
@@ -1925,15 +2042,15 @@ const imageQuestions = [
 			{ text: `Orphan`, correct: false },
 		]
 	},
-	// {
-	// 	question: `<img src="../img/hereditary-03.jpg">The image shown above is from what movie?`,
-	// 	answers: [
-	// 		{ text: `Hereditary`, correct: true },
-	// 		{ text: `Knives Out`, correct: false },
-	// 		{ text: `The Sixth Sense`, correct: false },
-	// 		{ text: `Little Miss Sunshine`, correct: false },
-	// 	]
-	// },
+	{
+		question: `<img src="../img/hereditary-03.jpg">The image shown above is from what movie?`,
+		answers: [
+			{ text: `Hereditary`, correct: true },
+			{ text: `Knives Out`, correct: false },
+			{ text: `The Sixth Sense`, correct: false },
+			{ text: `Little Miss Sunshine`, correct: false },
+		]
+	},
 	{
 		question: `<img src="../img/hereditary-03.jpg">What is the name of the actress pictured above?`,
 		answers: [
@@ -2157,6 +2274,96 @@ const imageQuestions = [
 			{ text: `Scarlett Johansson`, correct: false },
 			{ text: `Anne Hathaway`, correct: false },
 			{ text: `Anna Kendrick`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/star-wars-01.jpg">The image above is from what movie?`,
+		answers: [
+			{ text: `Star Wars`, correct: true },
+			{ text: `Star Trek`, correct: false },
+			{ text: `Battlestar Galactica`, correct: false },
+			{ text: `Dune`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/star-wars-01.jpg">What is the name of the human character in the above picture?`,
+		answers: [
+			{ text: `Luke Skywalker`, correct: true },
+			{ text: `Han Solo`, correct: false },
+			{ text: `Anakin Skywalker`, correct: false },
+			{ text: `Paul Atreides`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/star-wars-01.jpg">What is the name of the droid in the above picture?`,
+		answers: [
+			{ text: `R2-D2`, correct: true },
+			{ text: `C-3PO`, correct: false },
+			{ text: `BB-8`, correct: false },
+			{ text: `HK-47`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/star-wars-01.jpg">What is the name of the actor shown above?`,
+		answers: [
+			{ text: `Mark Hamill`, correct: true },
+			{ text: `Harrison Ford`, correct: false },
+			{ text: `Kyle MacLachlan`, correct: false },
+			{ text: `Michael J. Fox`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/star-wars-01.webp">What is the name of the character shown above?`,
+		answers: [
+			{ text: `Han Solo`, correct: true },
+			{ text: `Luke Skywalker`, correct: false },
+			{ text: `Kyle Katarn`, correct: false },
+			{ text: `Paul Atreides`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/star-wars-01.webp">What is the name of the actor shown above?`,
+		answers: [
+			{ text: `Harrison Ford`, correct: true },
+			{ text: `Mark Hamill`, correct: false },
+			{ text: `Kevin Costner`, correct: false },
+			{ text: `Willem Dafoe`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/kiss-kiss-bang-bang-01.jpg">What is the name of the movie shown above?`,
+		answers: [
+			{ text: `Kiss Kiss Bang Bang`, correct: true },
+			{ text: `The Nice Guys`, correct: false },
+			{ text: `Lock, Stock and Two Smoking Barrels`, correct: false },
+			{ text: `Snatch`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/kiss-kiss-bang-bang-01.jpg">What is the name of the actor on the left?`,
+		answers: [
+			{ text: `Val Kilmer`, correct: true },
+			{ text: `Brad Pitt`, correct: false },
+			{ text: `Michael Keaton`, correct: false },
+			{ text: `Patrick Swayze`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/kiss-kiss-bang-bang-01.jpg">What is the name of the character on the left?`,
+		answers: [
+			{ text: `"Gay" Perry`, correct: true },
+			{ text: `"Dirty" Mike`, correct: false },
+			{ text: `"Brick Top"`, correct: false },
+			{ text: `"Ringo"`, correct: false },
+		]
+	},
+	{
+		question: `<img src="../img/kiss-kiss-bang-bang-01.jpg">What is the name of the actor on the right?`,
+		answers: [
+			{ text: `Robert Downey Jr.`, correct: true },
+			{ text: `Tom Cruise`, correct: false },
+			{ text: `Jeffrey Dean Morgan`, correct: false },
+			{ text: `Javier Bardem`, correct: false },
 		]
 	},
 ];
